@@ -22,3 +22,6 @@ pip install python-dotenv
   * WAV_Transcribe.py (Main file containing the code)
   * Folder containing input audio files in .wav format
   * Output folder wherin all the .txt files will be saved
+ 
+
+ **Recognizes Dictionary Words only**
