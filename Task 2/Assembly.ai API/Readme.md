@@ -19,6 +19,6 @@ pip install python-dotenv
 * Structure
   * .env file
     * Used to store the API key. For the API key [visit](https://www.assemblyai.com/)
-  * app.py (Main file containing the code)
+  * WAV_Transcribe.py (Main file containing the code)
   * Folder containing input audio files in .wav format
   * Output folder wherin all the .txt files will be saved
