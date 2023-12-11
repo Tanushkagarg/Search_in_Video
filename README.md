@@ -9,13 +9,13 @@ pip install flask pafy pytube youtube-dl
 
 > Using pytube
 ```
-python app.py
+python pytube.py
 ```
 > Using pafy
 ```
-python test.py
+python pafy.py
 ```
 > Using youtube-dl
 ```
-python test1.py
+python ytdl.py
 ```
