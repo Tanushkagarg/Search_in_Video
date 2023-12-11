@@ -12,6 +12,9 @@ pip install openai-whisper
 **Getting Started with the project**
 
 * Structure
-  * app.py (Main file containing the code)
+  * Whisper_Transcribe.py (Main file containing the code)
   * Folder containing input audio files in .wav format
   * Output folder wherin all the .txt files will be saved
+ 
+
+ **Recognizes Dictionary Words only**
