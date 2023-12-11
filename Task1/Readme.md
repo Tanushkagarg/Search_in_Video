@@ -13,3 +13,10 @@
 pip install pytube 
 ```
 
+* Structure
+  * MP4_to_WAV.py (Main file containing the code)
+  * Output folder wherin all the .wav (Converted) files will be saved
+  * Input will be a link of the youtube video
+ 
+  **This module cannot access age restricted youtube videos**
+
