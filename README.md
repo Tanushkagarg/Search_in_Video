@@ -7,7 +7,7 @@ Use this command to install this library
 pip install youtube_dl
 ```
 ### using pytube
-to install pytube
+Run this command to install pytube
 ```
 pip install pytube
 ```
