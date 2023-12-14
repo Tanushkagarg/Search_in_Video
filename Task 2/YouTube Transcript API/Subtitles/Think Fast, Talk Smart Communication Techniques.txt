@@ -1,0 +1,1140 @@
+{'text': '[MUSIC]', 'start': 0.091, 'duration': 5.26}
+{'text': 'Welcome.', 'start': 5.351, 'duration': 1.023}
+{'text': "I'm very excited today to talk about\neffective speaking in", 'start': 6.374, 'duration': 4.034}
+{'text': 'spontaneous situations.', 'start': 10.408, 'duration': 2.042}
+{'text': 'I thank you all for', 'start': 12.45, 'duration': 0.74}
+{'text': 'joining us, even though the title of my\ntalk is grammatically incorrect.', 'start': 13.19, 'duration': 3.64}
+{'text': 'I thought that might scare a few of you\naway.', 'start': 16.83, 'duration': 2.02}
+{'text': 'But I learned teaching here at the\nbusiness school,', 'start': 18.85, 'duration': 1.58}
+{'text': "catching people's attention is hard.", 'start': 20.43, 'duration': 1.9}
+{'text': 'So, something as simple as that, I\nthought, might draw a few of you here, so', 'start': 22.33, 'duration': 4.04}
+{'text': 'this is going to be a highly interactive\nand participative workshop today.', 'start': 26.37, 'duration': 5.57}
+{'text': "If you don't feel comfortable\nparticipating that's completely fine, but", 'start': 31.94, 'duration': 2.98}
+{'text': "do know I'm gonna ask you to talk to\npeople next to you.", 'start': 34.92, 'duration': 2.47}
+{'text': "They'll be opportunities to stand up and", 'start': 37.39, 'duration': 2.18}
+{'text': 'practice some things because I believe the\nway we become effective communicators is', 'start': 39.57, 'duration': 4.27}
+{'text': "by actually communicating, so let's get\nstarted right away.", 'start': 43.84, 'duration': 3.65}
+{'text': "I'd like to ask you all to read this\nsentence, and as you read this sentence,", 'start': 47.49, 'duration': 5.19}
+{'text': "what's most important to me is that you\ncount the number of fs", 'start': 52.68, 'duration': 3.55}
+{'text': 'that you find in this sentence, please.', 'start': 56.23, 'duration': 2.8}
+{'text': 'Count the number of fs.', 'start': 59.03, 'duration': 1.19}
+{'text': 'Keep it quiet to yourself.', 'start': 60.22, 'duration': 1.093}
+{'text': '[BLANK_AUDIO]', 'start': 61.313, 'duration': 5.839}
+{'text': 'Give you just another couple seconds here.', 'start': 67.152, 'duration': 2.158}
+{'text': '[BLANK_AUDIO]', 'start': 69.31, 'duration': 3.517}
+{'text': 'Three, two, one.', 'start': 72.827, 'duration': 1.303}
+{'text': "Raise your hand please if you found three\nand only three f's.", 'start': 75.88, 'duration': 2.73}
+{'text': 'Excellent, great.\nDid anybody find four?', 'start': 79.8, 'duration': 1.64}
+{'text': 'Anybody find only five fs?', 'start': 82.76, 'duration': 1.226}
+{'text': 'Anybody find six?', 'start': 83.986, 'duration': 4.204}
+{'text': "There's six fs.", 'start': 88.19, 'duration': 2.147}
+{'text': 'What two letter word ending in f did many\nof us miss?', 'start': 90.337, 'duration': 3.543}
+{'text': "Oh.\nWe'll make sure to get this to you so", 'start': 94.92, 'duration': 3.44}
+{'text': 'you can torment your friends and family at\na later date.', 'start': 98.36, 'duration': 2.45}
+{'text': 'When I first was exposed to this over 12\nyears ago I only found three, and', 'start': 102.24, 'duration': 4.45}
+{'text': 'I felt really stupid.', 'start': 106.69, 'duration': 1.11}
+{'text': 'So, I like to start every workshop,', 'start': 107.8, 'duration': 1.66}
+{'text': 'every class I teach with to pass that\nfeeling along.', 'start': 109.46, 'duration': 2.39}
+{'text': "No, no.\n[LAUGH] That's not,", 'start': 111.85, 'duration': 1.93}
+{'text': "that's not why I do this.", 'start': 113.78, 'duration': 1.88}
+{'text': 'I do this because this is a perfect\nanalogy for', 'start': 115.66, 'duration': 2.7}
+{'text': "what we're going to be talking about\ntoday.", 'start': 118.36, 'duration': 2.11}
+{'text': 'The vast majority of us in this room, very\nsmart people in this room,', 'start': 120.47, 'duration': 3.56}
+{'text': 'were not as effective as we could have\nbeen in this activity.', 'start': 124.03, 'duration': 3.28}
+{'text': "We didn't get it right.", 'start': 127.31, 'duration': 1.0}
+{'text': 'And the same is true when it comes to\nspeaking in public,', 'start': 129.33, 'duration': 3.75}
+{'text': 'particularly when spontaneous speaking.', 'start': 133.08, 'duration': 2.44}
+{'text': "It's little things that make a big\ndifference in being affective.", 'start': 135.52, 'duration': 4.22}
+{'text': "So today we're going to talk about little\nthings in terms of your approach, your", 'start': 139.74, 'duration': 3.79}
+{'text': 'attitude, your practice, that can change\nhow you feel when you speak in public.', 'start': 143.53, 'duration': 4.84}
+{'text': "And we're gonna be talking primarily about\none type of public speaking.", 'start': 149.89, 'duration': 2.18}
+{'text': 'Not the type that you plan for in advance,\nthe type', 'start': 154.1, 'duration': 2.69}
+{'text': 'that you actually spend time thinking\nabout, you might even create slides for.', 'start': 156.79, 'duration': 4.86}
+{'text': 'These are the key notes, the conference\npresentation, the formal toasts.', 'start': 161.65, 'duration': 4.59}
+{'text': "That's not what we are talking about\ntoday,", 'start': 167.52, 'duration': 1.45}
+{'text': 'we are talking about spontaneous speaking.', 'start': 168.97, 'duration': 2.89}
+{'text': 'When you are in a situation that you are\nasked to speak off the cuff and', 'start': 172.9, 'duration': 3.9}
+{'text': 'in the moment.', 'start': 176.8, 'duration': 0.56}
+{'text': "What we're going through today is actually\nthe result of a workshop I", 'start': 178.672, 'duration': 3.268}
+{'text': 'created here for the business school.', 'start': 181.94, 'duration': 2.68}
+{'text': "Several years ago, a survey was taken\namong the students, and they said, what's", 'start': 184.62, 'duration': 3.2}
+{'text': 'one of the, what are things we could do to\nhelp make you more successful here?', 'start': 187.82, 'duration': 3.81}
+{'text': 'And at the top of that list was this\nnotion of responding to cold calls.', 'start': 191.63, 'duration': 4.29}
+{'text': 'Does everybody know what a cold call is?', 'start': 195.92, 'duration': 1.8}
+{'text': "It's where the mean professor like me\nlooks at some student and", 'start': 197.72, 'duration': 3.26}
+{'text': 'says, what do you think?', 'start': 200.98, 'duration': 0.87}
+{'text': 'And there was a lot of panic, and a lot of\nsilence.', 'start': 202.93, 'duration': 1.99}
+{'text': 'So as a result of that, this workshop was\ncreated, and', 'start': 206.01, 'duration': 2.35}
+{'text': 'a vast majority of first year students\nhere at the GSB go through this workshop.', 'start': 208.36, 'duration': 4.36}
+{'text': "So I'm gonna walk you through sort of a\nhybrid version of what they do.", 'start': 212.72, 'duration': 3.59}
+{'text': 'The reality is that spontaneous speaking\nis actually more', 'start': 217.64, 'duration': 3.85}
+{'text': 'prevalent than planned speaking.', 'start': 221.49, 'duration': 2.21}
+{'text': "Perhaps it's giving introductions.", 'start': 223.7, 'duration': 1.39}
+{'text': "You're at a dinner and", 'start': 225.09, 'duration': 0.67}
+{'text': 'somebody says, you know so and so, would\nyou mind introducing them?', 'start': 225.76, 'duration': 3.56}
+{'text': "Maybe it's giving feedback.", 'start': 229.32, 'duration': 1.43}
+{'text': 'In the moment, your boss turns to you and\nsays, would you tell me what you think?', 'start': 230.75, 'duration': 2.67}
+{'text': 'It could be a surprise toast.', 'start': 234.66, 'duration': 2.09}
+{'text': 'Or finally, it could be during the Q and A\nsession.', 'start': 236.75, 'duration': 3.04}
+{'text': 'And by the way,', 'start': 239.79, 'duration': 0.72}
+{'text': 'we will leave plenty of time at the end of\nour day today for Q and A.', 'start': 240.51, 'duration': 3.57}
+{'text': "I'd love to hear the questions you have\nabout this topic or", 'start': 244.08, 'duration': 2.91}
+{'text': 'other topics related to communicating.', 'start': 246.99, 'duration': 1.6}
+{'text': 'So our agenda is simple, in order to be an\neffective communicator, regardless of if', 'start': 250.49, 'duration': 4.85}
+{'text': "it's planned or spontaneous, you need to\nhave your anxiety under control.", 'start': 255.34, 'duration': 3.92}
+{'text': "So we'll start there.", 'start': 260.68, 'duration': 1.83}
+{'text': "Second, what we're going to talk about is\nsome ground rules for", 'start': 262.51, 'duration': 3.62}
+{'text': "the interactivity we'll have today and", 'start': 266.13, 'duration': 1.98}
+{'text': "then finally we're going to get into the\nheart of what we will be covering and", 'start': 268.11, 'duration': 3.64}
+{'text': 'again, as I said, lots of activity and I\ninvite you to participate.', 'start': 271.75, 'duration': 3.28}
+{'text': 'So lets get started with anxiety\nmanagement.', 'start': 277.08, 'duration': 1.945}
+{'text': "85% of people tell us that they're nervous\nwhen speaking in public.", 'start': 279.025, 'duration': 5.855}
+{'text': 'And I think the other 15% are lying.', 'start': 284.88, 'duration': 2.55}
+{'text': 'Okay?\nWe could create a situation where we', 'start': 287.43, 'duration': 1.85}
+{'text': 'could make them nervous too.', 'start': 289.28, 'duration': 1.76}
+{'text': "In fact, just this past week a study from\nChapman University asked American's,", 'start': 291.04, 'duration': 5.74}
+{'text': 'what are the things you fear most?', 'start': 296.78, 'duration': 2.09}
+{'text': 'And among being caught in a surprise\nterrorist attack,', 'start': 298.87, 'duration': 3.56}
+{'text': 'having identity, your identity stolen, was\npublic speaking.', 'start': 302.43, 'duration': 3.52}
+{'text': 'Among the top five was speaking in front\nof others.', 'start': 305.95, 'duration': 2.54}
+{'text': 'This is a ubiquitous fear, and one that I\nbelieve we can learn to manage.', 'start': 309.71, 'duration': 4.02}
+{'text': 'And I use that word manage very carefully\nbecause I', 'start': 313.73, 'duration': 4.23}
+{'text': "don't think we ever want to overcome it.", 'start': 317.96, 'duration': 2.16}
+{'text': 'Anxiety actually helps us.', 'start': 320.12, 'duration': 1.93}
+{'text': "It gives us energy, helps us focus, tells\nus what we're doing is important.", 'start': 322.05, 'duration': 3.97}
+{'text': 'But we want to learn to manage it.', 'start': 326.02, 'duration': 2.07}
+{'text': "So I'd like to introduce you to a few\ntechniques that can work and", 'start': 328.09, 'duration': 3.0}
+{'text': 'all of these techniques are based on\nacademic research.', 'start': 331.09, 'duration': 3.25}
+{'text': "But before we get there, I'd love to ask\nyou what does it feel like", 'start': 334.34, 'duration': 5.16}
+{'text': "when you're sitting in the audience\nwatching a nervous speaker present,", 'start': 339.5, 'duration': 3.13}
+{'text': 'how do you feel, just shout out a few\nthings, how to do you feel?', 'start': 342.63, 'duration': 2.249}
+{'text': '>> Uncomfortable.', 'start': 346.11, 'duration': 0.58}
+{'text': '>> Uncomfortable.', 'start': 346.69, 'duration': 1.48}
+{'text': 'I heard many of you going, yes,\nuncomfortable.', 'start': 348.17, 'duration': 1.8}
+{'text': "It feels very awkward, doesn't it?", 'start': 349.97, 'duration': 2.18}
+{'text': 'So what do we do?', 'start': 352.15, 'duration': 0.72}
+{'text': 'Now a couple of you probably like watching\nsomebody suffer.', 'start': 352.87, 'duration': 2.915}
+{'text': "[LAUGH] 'Kay, but most of us don't.", 'start': 355.785, 'duration': 2.225}
+{'text': 'So what do we do?', 'start': 358.01, 'duration': 0.78}
+{'text': 'We sit there and we nod and we smile or we\ndisengage.', 'start': 358.79, 'duration': 4.04}
+{'text': 'And to the nervous speaker looking out at\nhis or', 'start': 364.14, 'duration': 1.88}
+{'text': 'her audience seeing a bunch of people\nnodding or disengaged, that does not help.', 'start': 366.02, 'duration': 4.8}
+{'text': 'Okay.\nSo we need to manage our anxiety.', 'start': 370.82, 'duration': 1.43}
+{'text': 'Cuz, fundamentally, your job as a\ncommunicator rather, regardless of', 'start': 372.25, 'duration': 3.5}
+{'text': "if it's planned or spontaneous, is to make\nyour audience comfortable.", 'start': 375.75, 'duration': 4.42}
+{'text': "Because if they're comfortable they can\nreceive your message.", 'start': 380.17, 'duration': 3.01}
+{'text': 'And when I say comfortable I am not\nreferring to the fact that', 'start': 383.18, 'duration': 3.19}
+{'text': 'your message has to be sugar coated and\nnice for them to hear.', 'start': 386.37, 'duration': 4.15}
+{'text': 'It can be a harsh message.', 'start': 390.52, 'duration': 1.55}
+{'text': 'But they have to be in a place where they\ncan receive it.', 'start': 392.07, 'duration': 3.1}
+{'text': "So it's incumbent on you as a communicator\nto help your audience feel comfortable and", 'start': 395.17, 'duration': 5.08}
+{'text': 'we do that by managing our anxiety.', 'start': 400.25, 'duration': 2.78}
+{'text': 'So let me introduce you to a few\ntechniques that I think you can', 'start': 403.03, 'duration': 2.85}
+{'text': 'use right away to help you feel more\ncomfortable.', 'start': 405.88, 'duration': 2.79}
+{'text': 'The first has to do with when you begin to\nfeel those anxiety symptoms.', 'start': 410.31, 'duration': 3.81}
+{'text': 'For most people this happens the, in the\ninitial minutes prior to speaking.', 'start': 414.12, 'duration': 3.63}
+{'text': 'In this situation what happens is many of\nus begin to feel whatever it', 'start': 419.26, 'duration': 3.43}
+{'text': 'is that happens to you.', 'start': 422.69, 'duration': 0.98}
+{'text': 'Maybe your stomach gets a little gurgly.', 'start': 423.67, 'duration': 2.29}
+{'text': 'Maybe your legs begin to shake.', 'start': 425.96, 'duration': 1.49}
+{'text': 'Maybe you begin to perspire.', 'start': 427.45, 'duration': 2.13}
+{'text': "And then we start to say to ourselves, oh,\nmy goodness, I'm nervous.", 'start': 429.58, 'duration': 4.05}
+{'text': "oh.\nThey're gonna tell I'm nervous.", 'start': 433.63, 'duration': 1.73}
+{'text': 'This is not gonna go well.', 'start': 435.36, 'duration': 1.03}
+{'text': 'And we start spiraling out of control.', 'start': 436.39, 'duration': 1.66}
+{'text': 'So, research on mindful attention tells us\nthat if,', 'start': 439.41, 'duration': 3.6}
+{'text': 'when we begin to feel those anxiety\nsymptoms,', 'start': 443.01, 'duration': 2.9}
+{'text': 'we simply greet our anxiety and say hey,\nthis is me feeling nervous.', 'start': 445.91, 'duration': 5.22}
+{'text': "I'm about to do something of consequence.", 'start': 451.13, 'duration': 2.04}
+{'text': 'And simply by greeting your anxiety and\nacknowledging it,', 'start': 454.34, 'duration': 3.08}
+{'text': "that it's normal and natural.", 'start': 457.42, 'duration': 2.06}
+{'text': 'Heck, 85% of people tell us they have it.', 'start': 459.48, 'duration': 1.98}
+{'text': 'You actually can stem the tide of that\nanxiety spiraling out of control.', 'start': 462.95, 'duration': 4.08}
+{'text': "It's not necessarily going to reduce the\nanxiety but", 'start': 467.03, 'duration': 2.71}
+{'text': 'it will stop it from spinning out.', 'start': 469.74, 'duration': 2.22}
+{'text': 'So the next time you begin to feel those\nanxiety signs,', 'start': 471.96, 'duration': 3.06}
+{'text': 'take a deep breath and say, this is me\nfeeling anxious.', 'start': 475.02, 'duration': 3.87}
+{'text': 'I notice a few of you taking some notes.', 'start': 480.88, 'duration': 1.68}
+{'text': "There's a handout that will come at the\nend.", 'start': 482.56, 'duration': 2.11}
+{'text': "It has everything that I'm supposed to\nsay, okay?", 'start': 484.67, 'duration': 4.16}
+{'text': "Can't guarantee I'm gonna say it, but\nyou'll have it there.", 'start': 488.83, 'duration': 2.39}
+{'text': 'In addition to this approach, a technique\nthat works very well, and', 'start': 492.56, 'duration': 3.09}
+{'text': 'this is a technique that I helped do some\nresearch on way back when I was in', 'start': 495.65, 'duration': 3.11}
+{'text': 'graduate school, has to do with re-framing\nhow you see the speaking situation.', 'start': 498.76, 'duration': 5.23}
+{'text': 'Most of us, when we are up presenting,\nplanned or', 'start': 505.01, 'duration': 3.11}
+{'text': 'spontaneous, we feel that we have to do it\nright and we feel like we are performing.', 'start': 508.12, 'duration': 6.5}
+{'text': 'How many of you have ever acted, done\nsinging or', 'start': 514.62, 'duration': 2.61}
+{'text': 'dancing, I am not going to ask for\nperformances now, okay.', 'start': 517.23, 'duration': 2.67}
+{'text': 'Many of you have.', 'start': 519.9, 'duration': 1.05}
+{'text': 'We should note that we could do next year,\nmaybe, a talent show of alums.', 'start': 520.95, 'duration': 3.52}
+{'text': 'It looks like we got the talent there.', 'start': 524.47, 'duration': 1.38}
+{'text': "That's great.", 'start': 525.85, 'duration': 0.5}
+{'text': "So when you perform, you know that there's\na right way and a wrong way to do it.", 'start': 527.91, 'duration': 3.08}
+{'text': "If you don't hit your, the right note or\nyou right line at the right time,", 'start': 530.99, 'duration': 4.74}
+{'text': "at the right place, you've made a mistake.", 'start': 535.73, 'duration': 2.94}
+{'text': 'It messes up the audience.', 'start': 538.67, 'duration': 2.13}
+{'text': 'It messes up the people on stage.', 'start': 540.8, 'duration': 2.38}
+{'text': 'But when you present, there is no right\nway.', 'start': 543.18, 'duration': 3.36}
+{'text': "There's certainly better and worse ways.", 'start': 546.54, 'duration': 1.37}
+{'text': 'But there is no one right way.', 'start': 547.91, 'duration': 1.77}
+{'text': 'So we need to look at presenting as\nsomething other than performance.', 'start': 549.68, 'duration': 3.73}
+{'text': "And what I'd like to suggest is what we\nneed to see this is as is a conversation.", 'start': 553.41, 'duration': 4.33}
+{'text': "Right now, I'm having a conversation with\n100 plus people.", 'start': 558.78, 'duration': 2.45}
+{'text': "Rather than saying I'm performing for you.", 'start': 563.08, 'duration': 3.0}
+{'text': "But it's not enough just to say, this is a\nconversation.", 'start': 566.08, 'duration': 3.37}
+{'text': 'I want to give you some concrete things\nyou can do.', 'start': 569.45, 'duration': 3.42}
+{'text': 'First, start with questions.', 'start': 572.87, 'duration': 3.26}
+{'text': "Questions by their very nature are\ndialogic, they're two way.", 'start': 576.13, 'duration': 3.14}
+{'text': 'What was one of the very first things I\ndid here for you?', 'start': 579.27, 'duration': 4.14}
+{'text': 'I had you count the number of fs and raise\nyour hands.', 'start': 583.41, 'duration': 2.43}
+{'text': 'I asked you a question.', 'start': 585.84, 'duration': 1.7}
+{'text': 'That gets your audience involved,', 'start': 587.54, 'duration': 1.64}
+{'text': "it makes it feel to me as the presenter as\nif we're in conversation.", 'start': 589.18, 'duration': 4.18}
+{'text': 'So, use questions.', 'start': 593.36, 'duration': 1.0}
+{'text': 'They can be rhetorical.', 'start': 594.36, 'duration': 1.45}
+{'text': 'They can be polling, perhaps I actually\nwant to hear information from you.', 'start': 595.81, 'duration': 3.13}
+{'text': 'In fact, I use questions when I create an\noutline for my presentations.', 'start': 600.2, 'duration': 4.72}
+{'text': "Rather than writing bullet points, I list\nquestions that I'm going to answer.", 'start': 604.92, 'duration': 3.54}
+{'text': 'And that puts me in that conversational\nmode.', 'start': 608.46, 'duration': 3.27}
+{'text': 'If you were to look at my notes for', 'start': 611.73, 'duration': 1.4}
+{'text': "today's talk, you'll see it's just a\nseries of questions.", 'start': 613.13, 'duration': 3.44}
+{'text': "Right now I'm answering the question, how\ndo we manage our anxiety?", 'start': 616.57, 'duration': 3.49}
+{'text': 'Beyond questions, another very useful\ntechnique for', 'start': 621.86, 'duration': 2.59}
+{'text': 'making us conversational is to use\nconversational language.', 'start': 624.45, 'duration': 4.5}
+{'text': 'Many nervous speakers distance themselves\nphysically.', 'start': 630.24, 'duration': 3.38}
+{'text': 'If you’ve ever seen a nervous speaker\npresent, he or', 'start': 633.62, 'duration': 2.46}
+{'text': 'she will say something like this.', 'start': 636.08, 'duration': 1.57}
+{'text': 'Welcome, I am really excited to be here\nwith you.', 'start': 637.65, 'duration': 2.41}
+{'text': 'They pull as far away from you as\npossible,', 'start': 641.7, 'duration': 1.93}
+{'text': 'because you threaten us, speakers.', 'start': 643.63, 'duration': 2.71}
+{'text': 'You make us nervous so we want to get away\nfrom you.', 'start': 646.34, 'duration': 2.32}
+{'text': 'We do the same thing linguistically.', 'start': 648.66, 'duration': 2.3}
+{'text': 'We use language that distances ourselves.', 'start': 650.96, 'duration': 2.75}
+{'text': "It's not unusual to hear a nervous speaker\nsay something like,", 'start': 653.71, 'duration': 3.174}
+{'text': 'one must consider the ramifications.', 'start': 656.884, 'duration': 1.956}
+{'text': "Or, today we're going to cover step one,\nstep two, step three.", 'start': 660.18, 'duration': 3.65}
+{'text': "That's very distancing language.", 'start': 663.83, 'duration': 1.28}
+{'text': 'To be more conversational, use\nconversational language.', 'start': 666.39, 'duration': 2.3}
+{'text': 'Instead of one must consider say,', 'start': 668.69, 'duration': 1.32}
+{'text': 'this is important to you, we all need to\nbe concerned with.', 'start': 670.01, 'duration': 3.23}
+{'text': 'Do you hear that inclusive conversational\nlanguage?', 'start': 673.24, 'duration': 3.52}
+{'text': 'Has to do with the pronouns.', 'start': 676.76, 'duration': 1.03}
+{'text': 'Instead of step 1, step, 2, step 3.', 'start': 679.02, 'duration': 2.05}
+{'text': 'First what we need to do is this, the\nsecond thing you should consider is here.', 'start': 681.07, 'duration': 5.3}
+{'text': 'Use conversational language, so', 'start': 686.37, 'duration': 2.11}
+{'text': 'being conversational can also help you\nmanage your anxiety.', 'start': 688.48, 'duration': 3.1}
+{'text': 'The third technique I would like to share\nis research that I actually started when I', 'start': 693.28, 'duration': 3.65}
+{'text': 'was an undergraduate here, I was very\nfortunate to study with', 'start': 696.93, 'duration': 2.7}
+{'text': 'Phil Zimbardo of the Stanford Prison\nexperiment fame.', 'start': 699.63, 'duration': 2.93}
+{'text': "Many people don't know that Zim actually\nwas instrumental in starting one of", 'start': 703.59, 'duration': 5.49}
+{'text': 'the very first shyness institutes in the,\nthe world and especially in the country.', 'start': 709.08, 'duration': 4.64}
+{'text': 'And I did some research with him that\nlooked at how your orientation to time', 'start': 713.72, 'duration': 5.05}
+{'text': 'influences how you react.', 'start': 718.77, 'duration': 1.71}
+{'text': 'And what we learned is if you can bring\nyourself into the present moment,', 'start': 721.8, 'duration': 3.97}
+{'text': 'rather than being worried about the future\nconsequences,', 'start': 725.77, 'duration': 2.38}
+{'text': 'you can actually be less nervous.', 'start': 729.15, 'duration': 1.9}
+{'text': 'Most of us, when we present, are worried\nabout the future consequences.', 'start': 731.05, 'duration': 3.85}
+{'text': "My students are worried they're not going\nto get the right grade.", 'start': 734.9, 'duration': 2.41}
+{'text': 'Some of you are worried you might not get\nthe funding.', 'start': 737.31, 'duration': 1.99}
+{'text': 'You might not get the support.', 'start': 739.3, 'duration': 1.3}
+{'text': 'You might not get the laughs that you\nwant.', 'start': 740.6, 'duration': 2.53}
+{'text': 'All of those are future states.', 'start': 743.13, 'duration': 1.85}
+{'text': "So if we can bring ourselves into the\npresent moment, we're not going to be", 'start': 744.98, 'duration': 4.27}
+{'text': 'as concerned about those future states and\ntherefore we will be less nervous.', 'start': 749.25, 'duration': 3.37}
+{'text': 'There are lots of ways to become present\noriented.', 'start': 753.84, 'duration': 1.7}
+{'text': "I know a professional speaker, he's paid\n$10,000 an hour to speak.", 'start': 756.98, 'duration': 4.32}
+{'text': "It's a good gig.", 'start': 761.3, 'duration': 2.53}
+{'text': 'He gets very nervous.', 'start': 763.83, 'duration': 0.81}
+{'text': "He's up in front of crowds of thousands.", 'start': 764.64, 'duration': 2.4}
+{'text': 'Behind the stage what he does is 100\npush-ups right before he comes out.', 'start': 767.04, 'duration': 3.495}
+{'text': "[LAUGH] You can't be that physically\nactive and not be in the present moment.", 'start': 770.535, 'duration': 4.495}
+{'text': "Now, I'm not recommending all of us go to\nthat level of exertion cuz he", 'start': 775.03, 'duration': 3.17}
+{'text': 'starts out out of breath and sweaty, okay?', 'start': 778.2, 'duration': 2.025}
+{'text': '[LAUGH] But a walk around the building\nbefore you speak.', 'start': 780.225, 'duration': 3.845}
+{'text': 'That can do it.\nThere are other ways.', 'start': 784.07, 'duration': 1.82}
+{'text': "If you've ever watched athletes perform\nand", 'start': 785.89, 'duration': 2.24}
+{'text': 'get ready to do their event, they listen\nto music.', 'start': 788.13, 'duration': 2.53}
+{'text': 'They focus on a song or a playlist that\nhelps get them in the moment.', 'start': 790.66, 'duration': 3.41}
+{'text': 'You can do things as simple as counting\nbackwards from 100', 'start': 795.22, 'duration': 2.35}
+{'text': 'by tough number like 17.', 'start': 797.57, 'duration': 0.86}
+{'text': "I'm gonna pause 'cuz I know people in the\nroom are trying.", 'start': 798.43, 'duration': 5.07}
+{'text': 'Yeah.', 'start': 803.5, 'duration': 0.96}
+{'text': "Get's hard after that third or fourth one,\nI know.", 'start': 804.46, 'duration': 2.62}
+{'text': 'My favorite way to get present-oriented is\nto say tongue twisters.', 'start': 807.08, 'duration': 3.38}
+{'text': 'Saying a tongue twister forces you to be\nin the moment.', 'start': 811.9, 'duration': 2.26}
+{'text': "Otherwise you'll say it wrong.", 'start': 814.16, 'duration': 1.62}
+{'text': 'And it has the added benefit of warming up\nyour voice.', 'start': 815.78, 'duration': 2.67}
+{'text': "Most nervous speakers don't warm up their\nvoice.", 'start': 818.45, 'duration': 3.48}
+{'text': 'They retreat inside themselves and start\nsaying all these bad things to themselves.', 'start': 821.93, 'duration': 3.47}
+{'text': 'So, saying a tongue twister can help you\nbe both present-oriented and', 'start': 825.4, 'duration': 3.42}
+{'text': 'warm up your voice.', 'start': 828.82, 'duration': 0.59}
+{'text': "Remember, I said today we're gonna have a\nlot of participation?", 'start': 830.93, 'duration': 2.75}
+{'text': "I'm gonna ask you to repeat after me my\nfavorite tongue twister, and", 'start': 833.68, 'duration': 3.53}
+{'text': 'I like this tongue twister because if you\nsay it wrong you say a naughty word, and', 'start': 837.21, 'duration': 4.5}
+{'text': "I'm gonna be listening to see if I hear\nany naughty words this morning.", 'start': 841.71, 'duration': 3.27}
+{'text': 'Okay?', 'start': 844.98, 'duration': 0.86}
+{'text': 'Repeat after me.', 'start': 845.84, 'duration': 0.6}
+{'text': "It's only three phrases.", 'start': 846.44, 'duration': 1.39}
+{'text': 'I slit a sheet.', 'start': 847.83, 'duration': 1.32}
+{'text': 'A sheet I slit.', 'start': 851.81, 'duration': 1.1}
+{'text': 'And on that slitted sheet I sit.', 'start': 854.77, 'duration': 3.05}
+{'text': 'Very good, no shits.', 'start': 861.78, 'duration': 1.33}
+{'text': 'Excellent.', 'start': 863.11, 'duration': 0.5}
+{'text': 'Very good.', 'start': 864.64, 'duration': 0.5}
+{'text': "Now in that moment, in that moment, you\nweren't worried about,", 'start': 866.39, 'duration': 5.05}
+{'text': "I'm in front of all these people, this is\nweird, this guy's having me do this.", 'start': 871.44, 'duration': 3.63}
+{'text': 'You were so focused on saying it right and', 'start': 875.07, 'duration': 2.66}
+{'text': 'trying to figure out what the naughty word\nwas that you were in the present moment.', 'start': 877.73, 'duration': 3.49}
+{'text': "That's how easy it is.", 'start': 881.22, 'duration': 0.77}
+{'text': "So it's very possible for us to manage our\nanxiety.", 'start': 883.45, 'duration': 3.63}
+{'text': 'We can do it initially by greeting the\nanxiety when we begin to feel those signs.', 'start': 888.12, 'duration': 4.695}
+{'text': 'We can do it when we re-frame the\nsituation as a conversation.', 'start': 892.815, 'duration': 4.704}
+{'text': 'And we do it when we become present\noriented.', 'start': 897.519, 'duration': 3.064}
+{'text': 'Those are three of many tools that exist\nto help you manage your anxiety.', 'start': 900.583, 'duration': 3.927}
+{'text': "If you have questions about other ways,\nI'm happy to chat with you.", 'start': 905.87, 'duration': 3.33}
+{'text': "And at the end, I'm gonna point you to\nsome resources that you can", 'start': 909.2, 'duration': 2.94}
+{'text': 'refer to to help you find additional\nsources for you.', 'start': 912.14, 'duration': 2.98}
+{'text': "So let's get started on the core part of\nwhat we're doing today,", 'start': 917.26, 'duration': 3.47}
+{'text': 'which is how to feel more comfortable\nspeaking in spontaneous situations.', 'start': 920.73, 'duration': 4.69}
+{'text': 'Some very simple ground rules for you.', 'start': 925.42, 'duration': 1.62}
+{'text': "First, I'm going to identify four steps\nthat I believe are critical to", 'start': 928.69, 'duration': 4.14}
+{'text': 'becoming effective at speaking in, in a\nspontaneous situation.', 'start': 932.83, 'duration': 4.14}
+{'text': "With each of those steps, I'm going to ask\nyou to participate in an activity.", 'start': 936.97, 'duration': 3.56}
+{'text': 'None of them are more painful than saying\nthe tongue twister out loud.', 'start': 940.53, 'duration': 3.6}
+{'text': 'They may require you to stand up, they\nmight require you to talk to', 'start': 944.13, 'duration': 2.68}
+{'text': 'the person next to you, but none of them\nare painful.', 'start': 946.81, 'duration': 3.09}
+{'text': "And then finally, I'm going to conclude\nwith a phrase or", 'start': 949.9, 'duration': 2.96}
+{'text': 'saying that comes from the wonderful world\nof improvisation.', 'start': 952.86, 'duration': 3.16}
+{'text': 'Through the continuing studies program\nhere at Stanford, for', 'start': 957.77, 'duration': 2.72}
+{'text': 'the past five years, I have co-taught a\nclass with Adam Tobin.', 'start': 960.49, 'duration': 3.44}
+{'text': 'He is a lecturer in the Creative Arts\nDepartment.', 'start': 963.93, 'duration': 4.37}
+{'text': 'He teaches film and new media.', 'start': 968.3, 'duration': 2.21}
+{'text': "And he's an expert at improv.", 'start': 970.51, 'duration': 1.12}
+{'text': "And we've partnered together to help\npeople learn how to", 'start': 971.63, 'duration': 2.76}
+{'text': 'speak more spontaneously.', 'start': 974.39, 'duration': 1.84}
+{'text': 'We call it improvisationally speaking.', 'start': 976.23, 'duration': 2.53}
+{'text': 'And Adam has taught me wonderful phrases\nand', 'start': 978.76, 'duration': 2.6}
+{'text': 'ideas from improv that I want to impart to\nyou, that really stick.', 'start': 981.36, 'duration': 3.66}
+{'text': "That's why I'm sharing them with you, to\nhelp you remember these techniques.", 'start': 985.02, 'duration': 3.26}
+{'text': "And again at the end of all this, you'll\nget a handout that has this listed.", 'start': 988.28, 'duration': 3.59}
+{'text': "So let's get started.", 'start': 991.87, 'duration': 1.655}
+{'text': "The very first thing that gets in people's\nway when it comes to spontaneous speaking,", 'start': 993.525, 'duration': 6.441}
+{'text': 'is themselves.', 'start': 999.966, 'duration': 1.245}
+{'text': 'We get in our own way.', 'start': 1001.211, 'duration': 2.647}
+{'text': 'We want to be perfect.', 'start': 1003.858, 'duration': 1.95}
+{'text': 'We want to give the right answer.', 'start': 1005.808, 'duration': 2.229}
+{'text': 'We want out toast to be incredibly\nmemorable.', 'start': 1008.037, 'duration': 3.563}
+{'text': 'These things are burdened by our effort,\nby our trying.', 'start': 1011.6, 'duration': 4.82}
+{'text': 'The best thing we can do,', 'start': 1016.42, 'duration': 1.66}
+{'text': 'the first step in our process, is to get\nourselves out of the way.', 'start': 1018.08, 'duration': 4.65}
+{'text': 'Easier said than done.', 'start': 1024.15, 'duration': 1.82}
+{'text': 'Most of us in this room are in this room\nbecause we are type A personalities.', 'start': 1025.97, 'duration': 3.707}
+{'text': 'We work hard, we think fast, we make sure\nthat we get things right.', 'start': 1029.677, 'duration': 4.25}
+{'text': 'But that can actually serve as a\ndisservice as we try to', 'start': 1033.927, 'duration': 4.603}
+{'text': 'speak in the moment.', 'start': 1038.53, 'duration': 1.851}
+{'text': "I'd like to demonstrate a little of this\nfor you, and I need your help to do that.", 'start': 1040.381, 'duration': 3.46}
+{'text': "So we're going to do our first activity.", 'start': 1043.841, 'duration': 2.763}
+{'text': "We are going to do an activity that's\ncalled shout the wrong name.", 'start': 1046.604, 'duration': 4.412}
+{'text': "In a moment, if you are able and willing,\nI'm going to ask you to stand.", 'start': 1051.016, 'duration': 5.024}
+{'text': 'And I am going to ask you, for about 30\nseconds, to look all around you in', 'start': 1056.04, 'duration': 4.34}
+{'text': 'this environment, and you are going to\npoint at different things.', 'start': 1060.38, 'duration': 2.72}
+{'text': "And I know it's rude to point, but for\nthis exercise, please point.", 'start': 1063.1, 'duration': 3.11}
+{'text': 'I want you to point to things, and you are\ngoing to call the things you', 'start': 1066.21, 'duration': 2.97}
+{'text': 'are pointing to, out loud, anything but\nwhat they really are.', 'start': 1069.18, 'duration': 3.29}
+{'text': 'So I might point to this and say,\nrefrigerator.', 'start': 1074.09, 'duration': 2.24}
+{'text': 'I might point to this and say, cat.', 'start': 1077.62, 'duration': 2.23}
+{'text': 'I am pointing to anything in your\nenvironment around you.', 'start': 1081.07, 'duration': 2.65}
+{'text': 'It can be the person sitting next to you,\nstanding next to you.', 'start': 1083.72, 'duration': 2.65}
+{'text': 'You will just shout, and shouting is\nimportant, the wrong name.', 'start': 1086.37, 'duration': 4.38}
+{'text': "So in a moment I'm gonna ask you to stand\nand do that.", 'start': 1093.57, 'duration': 3.157}
+{'text': 'Please raise your hand if you already have\nthe first five or', 'start': 1096.727, 'duration': 2.597}
+{'text': "six things you're going to call out.", 'start': 1099.324, 'duration': 1.699}
+{'text': '>> [LAUGH].', 'start': 1101.023, 'duration': 1.927}
+{'text': ">> Yeah, that's what I'm talking about.", 'start': 1102.95, 'duration': 3.228}
+{'text': 'We stockpile.', 'start': 1106.178, 'duration': 1.88}
+{'text': 'You all are excellent gameplayers.', 'start': 1108.058, 'duration': 2.502}
+{'text': 'I told you the game, shout the wrong name.', 'start': 1110.56, 'duration': 3.18}
+{'text': "And you have already begun figuring out\nhow you're going to master the game.", 'start': 1113.74, 'duration': 3.7}
+{'text': "That's your brain trying to help you get\nit right.", 'start': 1117.44, 'duration': 4.542}
+{'text': "I'd like to suggest,", 'start': 1121.982, 'duration': 1.362}
+{'text': "the only way you can get this activity\nwrong is by doing what you've just done.", 'start': 1123.344, 'duration': 4.745}
+{'text': '>> [LAUGH].', 'start': 1128.089, 'duration': 1.137}
+{'text': '>> There is no way to get this wrong.', 'start': 1129.226, 'duration': 2.009}
+{'text': 'Okay.', 'start': 1131.235, 'duration': 1.845}
+{'text': 'Even if I call this a chair, no penalty\nwill be bestowed upon you.', 'start': 1133.08, 'duration': 5.385}
+{'text': '>> [LAUGH].', 'start': 1138.465, 'duration': 0.925}
+{'text': '>> Okay?', 'start': 1139.39, 'duration': 0.765}
+{'text': "Because I won't know what you were\npointing at.", 'start': 1140.155, 'duration': 1.405}
+{'text': 'You could have been pointing at the floor\nunder the chair, and', 'start': 1141.56, 'duration': 3.07}
+{'text': 'you called the floor the chair and you\nwere fine.', 'start': 1144.63, 'duration': 1.52}
+{'text': 'The point is, we are planning and working\nto get it right.', 'start': 1147.24, 'duration': 3.92}
+{'text': 'And there is no way to get it right.', 'start': 1151.16, 'duration': 2.15}
+{'text': 'Just doing it gets it right.', 'start': 1153.31, 'duration': 1.93}
+{'text': "Okay, so let's try this now.", 'start': 1155.24, 'duration': 1.65}
+{'text': "We're gonna play this game twice.", 'start': 1156.89, 'duration': 1.36}
+{'text': "Again, it's for 30 seconds.", 'start': 1158.25, 'duration': 1.26}
+{'text': 'If you are willing and able, will you\nplease stand up?', 'start': 1159.51, 'duration': 2.51}
+{'text': 'You can do this seated, by the way.', 'start': 1162.02, 'duration': 1.058}
+{'text': "But if you're willing and able, let's\nstand up.", 'start': 1163.078, 'duration': 1.928}
+{'text': 'Okay, in a moment I am about to say, go.', 'start': 1165.006, 'duration': 3.204}
+{'text': 'And I would like for you to point at\nanything around here, including me.', 'start': 1168.21, 'duration': 4.209}
+{'text': "It's okay to point at me.", 'start': 1172.419, 'duration': 1.138}
+{'text': "I hope it's not a bad thing you say when\nyou point at me.", 'start': 1173.557, 'duration': 2.484}
+{'text': 'But point at different things, and loudly\nand', 'start': 1176.041, 'duration': 3.345}
+{'text': 'proudly call them different than what they\nare.', 'start': 1179.386, 'duration': 3.528}
+{'text': 'Ready?', 'start': 1182.914, 'duration': 1.045}
+{'text': 'Begin.', 'start': 1183.959, 'duration': 0.998}
+{'text': '>> [CROSSTALK].', 'start': 1184.957, 'duration': 1.347}
+{'text': '>> Porcupine.', 'start': 1186.304, 'duration': 0.975}
+{'text': '>> [CROSSTALK].', 'start': 1187.279, 'duration': 1.161}
+{'text': '>> California, salt shaker, car, library,', 'start': 1188.44, 'duration': 7.983}
+{'text': 'tennis racket, purple, orange, putrid.', 'start': 1196.423, 'duration': 7.992}
+{'text': 'Hello.', 'start': 1204.415, 'duration': 1.509}
+{'text': '[NOISE]\nTime, time.', 'start': 1205.924, 'duration': 6.826}
+{'text': "[NOISE] Let's,", 'start': 1212.75, 'duration': 1.001}
+{'text': "you can stay standing, cuz in mere\nmoments, we're going to do it again.", 'start': 1213.751, 'duration': 4.781}
+{'text': "So if you're comfortable standing, we're\nabout to do it again.", 'start': 1218.532, 'duration': 1.927}
+{'text': 'First, thank you.', 'start': 1220.459, 'duration': 1.207}
+{'text': 'That was wonderful.', 'start': 1221.666, 'duration': 0.976}
+{'text': 'I heard great words being called out.', 'start': 1222.642, 'duration': 2.268}
+{'text': 'It was, it was fun.', 'start': 1224.91, 'duration': 1.02}
+{'text': 'And some of you in the back were doing it\nin sync.', 'start': 1225.93, 'duration': 1.89}
+{'text': 'So it looked like you were doing some 70s\ndisco dance.', 'start': 1227.82, 'duration': 1.983}
+{'text': 'It was awesome.', 'start': 1229.803, 'duration': 0.813}
+{'text': 'Okay.', 'start': 1230.616, 'duration': 0.813}
+{'text': 'This, this was great.', 'start': 1231.429, 'duration': 1.718}
+{'text': 'Now, let me ask you just a few questions.', 'start': 1233.147, 'duration': 3.093}
+{'text': 'Did you notice anything about the words\nthat you were saying?', 'start': 1236.24, 'duration': 3.14}
+{'text': 'Did we find patterns, perhaps?', 'start': 1240.98, 'duration': 2.67}
+{'text': 'Maybe some of you were going through\nfruits and vegetables.', 'start': 1243.65, 'duration': 3.03}
+{'text': 'A few of you were going through things\nthat started with the letter A, right?', 'start': 1246.68, 'duration': 5.36}
+{'text': "That's your brain saying, okay you told me\nnot to stockpile, so", 'start': 1252.04, 'duration': 3.189}
+{'text': "I'm gonna try to be a little more devious\nand I'm gonna give you patterns, okay?", 'start': 1255.229, 'duration': 5.5}
+{'text': 'Same problem.', 'start': 1260.729, 'duration': 2.941}
+{'text': 'When we teach that class I told you about,\nthat improvisationally speaking class,', 'start': 1263.67, 'duration': 3.43}
+{'text': 'we like to say, your brain is there to\nhelp you.', 'start': 1267.1, 'duration': 2.19}
+{'text': "These things it's doing have helped you be\nsuccessful, but like a windshield wiper,", 'start': 1270.39, 'duration': 3.67}
+{'text': 'we just wanna wipe those suggestions away\nand see what happens.', 'start': 1274.06, 'duration': 3.64}
+{'text': 'Okay.', 'start': 1277.7, 'duration': 1.38}
+{'text': "So we're going to do this activity again.", 'start': 1279.08, 'duration': 1.68}
+{'text': 'This time, try the best you can to thank\nyour brain if it provides you', 'start': 1282.0, 'duration': 4.21}
+{'text': 'with patterns or stockpiles and just say\nthank you brain.', 'start': 1286.21, 'duration': 3.24}
+{'text': 'And disregard them.', 'start': 1289.45, 'duration': 1.36}
+{'text': "Okay, so lets see what happens when we're\nnot stockpiling and", 'start': 1290.81, 'duration': 2.95}
+{'text': "we're not playing off patterns.", 'start': 1293.76, 'duration': 1.17}
+{'text': "We'll do this for only 15 seconds, see how\nthis feels.", 'start': 1294.93, 'duration': 4.2}
+{'text': 'Baby steps.', 'start': 1300.13, 'duration': 1.13}
+{'text': 'Ready begin.\n[NOISE] Kodak, [NOISE] Bicycle chain.', 'start': 1301.26, 'duration': 6.076}
+{'text': 'Skate board.', 'start': 1307.336, 'duration': 1.857}
+{'text': 'Bananas.', 'start': 1309.193, 'duration': 4.337}
+{'text': 'Purple.', 'start': 1313.53, 'duration': 4.041}
+{'text': 'Putrid.', 'start': 1317.571, 'duration': 1.433}
+{'text': '[NOISE]\nTime.', 'start': 1319.004, 'duration': 5.085}
+{'text': 'Please have a seat.', 'start': 1324.089, 'duration': 1.486}
+{'text': 'Thank you again.', 'start': 1325.575, 'duration': 2.345}
+{'text': 'Did you notice a difference between the\nsecond time and the first time.', 'start': 1327.92, 'duration': 6.04}
+{'text': 'Yes, was it a little easier that second\ntime?', 'start': 1335.06, 'duration': 3.17}
+{'text': 'No.', 'start': 1338.23, 'duration': 0.5}
+{'text': "That's okay.", 'start': 1340.08, 'duration': 1.16}
+{'text': "We're just starting.", 'start': 1341.24, 'duration': 1.66}
+{'text': 'These skills are not like a light switch.', 'start': 1342.9, 'duration': 2.155}
+{'text': "It's not like you learn these [UNKNOWN]\nskills and", 'start': 1345.055, 'duration': 1.865}
+{'text': 'then all of a sudden you can execute on\nthem.', 'start': 1346.92, 'duration': 2.6}
+{'text': 'This is a wonderful game.', 'start': 1349.52, 'duration': 1.02}
+{'text': 'This is a wonderful game to train your\nbrain to get out of its own way.', 'start': 1350.54, 'duration': 5.98}
+{'text': 'You can play this game anywhere, anytime.', 'start': 1356.52, 'duration': 2.52}
+{'text': "I like to play this game when I'm sitting\nin traffic.", 'start': 1359.04, 'duration': 2.015}
+{'text': '>> [LAUGH].', 'start': 1361.055, 'duration': 1.285}
+{'text': '>> Makes me feel better than the, I shout\nthings out.', 'start': 1362.34, 'duration': 2.96}
+{'text': "They're not the naughty things that I\nwanna be shouting out.", 'start': 1365.3, 'duration': 2.11}
+{'text': 'But I shout out things, and it helps.', 'start': 1367.41, 'duration': 2.43}
+{'text': "You're training yourself to get out of\nyour own way.", 'start': 1369.84, 'duration': 1.71}
+{'text': "You're working against the muscle memory\nthat you've developed over the course of", 'start': 1371.55, 'duration': 4.28}
+{'text': 'your life with a vain, a brain that acts\nvery fast to help you solve problems.', 'start': 1375.83, 'duration': 3.32}
+{'text': 'But in essence, in spontaneous speaking\nsituations,', 'start': 1379.15, 'duration': 2.56}
+{'text': 'you put too much pressure on yourself\ntrying to figure out how to get it right.', 'start': 1381.71, 'duration': 4.63}
+{'text': 'So a game like this teaches us to get out\nof our own way.', 'start': 1388.17, 'duration': 2.74}
+{'text': 'It teaches us to see the things that we do\nthat prevent us from acting spontaneously.', 'start': 1390.91, 'duration': 6.56}
+{'text': 'In essence we are reacting rather than\nresponding.', 'start': 1399.35, 'duration': 4.18}
+{'text': 'To react means to act again.', 'start': 1403.53, 'duration': 1.21}
+{'text': "You've thought it and now you're acting on\nit.", 'start': 1406.75, 'duration': 1.41}
+{'text': "That takes too long and it's too\nthoughtful.", 'start': 1408.16, 'duration': 1.92}
+{'text': "We want to respond in a way that's genuine\nand authentic.", 'start': 1410.08, 'duration': 4.3}
+{'text': 'So the maxims I would like for you to take\nfrom this, and', 'start': 1416.158, 'duration': 2.762}
+{'text': 'again these maxims come from\nimprovisation, is one of my favorite.', 'start': 1418.92, 'duration': 3.75}
+{'text': 'Dare to be dull.', 'start': 1422.67, 'duration': 1.2}
+{'text': 'And in a room like this, telling you dare\nto be dull is offensive, and I apologize.', 'start': 1425.12, 'duration': 4.07}
+{'text': 'But this will help.', 'start': 1429.19, 'duration': 2.23}
+{'text': 'Rather than stre, striving for greatness,\ndare to be dull.', 'start': 1431.42, 'duration': 5.23}
+{'text': 'And if you dare to be dull and allow\nyourself that,', 'start': 1437.66, 'duration': 2.41}
+{'text': 'you will reach that greatness.', 'start': 1440.07, 'duration': 2.57}
+{'text': "It's when you set greatness as your\ntarget,", 'start': 1442.64, 'duration': 3.22}
+{'text': 'that it gets in the way of you ever\ngetting there.', 'start': 1445.86, 'duration': 2.97}
+{'text': 'Because you over evaluate, you over\nanalyze, you freeze up.', 'start': 1448.83, 'duration': 2.06}
+{'text': 'So the first step in our process today, is\nto get out of our own way.', 'start': 1452.14, 'duration': 5.44}
+{'text': 'Dare to be dull.', 'start': 1457.58, 'duration': 1.52}
+{'text': 'Easier said than done.', 'start': 1459.1, 'duration': 0.98}
+{'text': 'But once you practice,', 'start': 1460.08, 'duration': 1.62}
+{'text': 'and a game just as simple as the one we\npracticed, is a great way to do it.', 'start': 1461.7, 'duration': 3.689}
+{'text': "But that's not enough.", 'start': 1467.06, 'duration': 1.71}
+{'text': 'Getting out of our own way is important.', 'start': 1468.77, 'duration': 1.95}
+{'text': 'But the second step of our process has us\nchange how we', 'start': 1470.72, 'duration': 3.97}
+{'text': 'see the situation we find ourselves in.', 'start': 1474.69, 'duration': 2.05}
+{'text': 'We need to see the speaking opportunity\nthat we are a part of as an opportunity,', 'start': 1477.91, 'duration': 5.69}
+{'text': 'rather than a challenge and a threat.', 'start': 1483.6, 'duration': 1.43}
+{'text': 'When I coach executives on Q and', 'start': 1486.58, 'duration': 2.37}
+{'text': 'A skills, when they go in front of the\nmedia or whatever, investors.', 'start': 1488.95, 'duration': 6.92}
+{'text': 'They see it as an adversarial experience,\nme versus them.', 'start': 1495.87, 'duration': 2.48}
+{'text': 'And one of the first things I work on is\nchange the way you approach it.', 'start': 1498.35, 'duration': 6.05}
+{'text': 'A Q and A session, for example, is an\nopportunity for you.', 'start': 1506.19, 'duration': 3.06}
+{'text': "It's an opportunity to clarify,", 'start': 1509.25, 'duration': 1.28}
+{'text': "it's an opportunity to understand what\npeople are thinking.", 'start': 1510.53, 'duration': 2.73}
+{'text': 'So if we look at it as an opportunity, it\nfeels very different.', 'start': 1513.26, 'duration': 3.66}
+{'text': 'We see it differently, and therefore we\nhave more freedom to respond.', 'start': 1518.03, 'duration': 4.16}
+{'text': 'When I feel that you are challenging me,', 'start': 1522.19, 'duration': 1.96}
+{'text': 'I am going to do the bare minimum to\nrespond and protect myself.', 'start': 1524.15, 'duration': 4.21}
+{'text': 'If I see this as an opportunity where I\nhave a chance to explain and', 'start': 1529.49, 'duration': 3.23}
+{'text': "expand, I'm going to interact differently\nwith you.", 'start': 1532.72, 'duration': 4.48}
+{'text': 'So, spontaneous speaking situations are\nones that afford you opportunities.', 'start': 1537.2, 'duration': 3.14}
+{'text': "So when you're at a corporate dinner, and\nyour boss turns to you and", 'start': 1542.46, 'duration': 2.25}
+{'text': 'says, oh, you know him better than the\nrest.', 'start': 1544.71, 'duration': 1.91}
+{'text': 'Would you mind introducing him?', 'start': 1546.62, 'duration': 1.55}
+{'text': 'You say, great, thank you for the\nopportunity, rather than, [UNKNOWN] right?', 'start': 1548.17, 'duration': 5.17}
+{'text': 'I better get this right.', 'start': 1553.34, 'duration': 1.04}
+{'text': 'So see things as an opportunity.', 'start': 1555.85, 'duration': 2.68}
+{'text': 'I have a game to play to help us with\nthis.', 'start': 1558.53, 'duration': 3.72}
+{'text': 'This is a fun one, the holidays are\napproaching, we all, in this room,', 'start': 1563.25, 'duration': 4.01}
+{'text': 'are going to give and receive gifts.', 'start': 1567.26, 'duration': 1.56}
+{'text': 'Here is how this game will work.', 'start': 1569.98, 'duration': 1.93}
+{'text': 'It works best if you have a partner.', 'start': 1571.91, 'duration': 2.27}
+{'text': 'So I am hoping you can work with somebody\nsitting next to you.', 'start': 1574.18, 'duration': 2.82}
+{'text': 'If there is nobody sitting next to you,', 'start': 1577.0, 'duration': 1.33}
+{'text': 'turn around, introduce yourself, great way\nto connect.', 'start': 1578.33, 'duration': 2.98}
+{'text': 'If not, you can play this game by\nyourself.', 'start': 1581.31, 'duration': 1.64}
+{'text': "It's just a little harder, and you can't\ndo the second part of the game.", 'start': 1582.95, 'duration': 2.49}
+{'text': 'So, after I explain the game, give, this\ngives you a chance to,', 'start': 1585.44, 'duration': 3.6}
+{'text': 'to get to know somebody.', 'start': 1589.04, 'duration': 1.36}
+{'text': "Here's how it works.", 'start': 1590.4, 'duration': 0.86}
+{'text': 'If you have a partner, you and', 'start': 1591.26, 'duration': 2.08}
+{'text': 'your partner are going to exchange\nimaginary gifts, okay?', 'start': 1593.34, 'duration': 3.94}
+{'text': 'Pretend you have a gift.', 'start': 1597.28, 'duration': 1.26}
+{'text': 'It can be a big gift, can be a small gift.', 'start': 1598.54, 'duration': 2.9}
+{'text': 'And you will give your gift to your\npartner.', 'start': 1601.44, 'duration': 1.5}
+{'text': 'Your partner will take the gift and open\nit up and', 'start': 1604.78, 'duration': 3.13}
+{'text': 'will tell you what you gave them, because\nyou have no, you just gave them a gift.', 'start': 1607.91, 'duration': 3.96}
+{'text': "So you are going to open up the box, and\nyou're going to look inside.", 'start': 1611.87, 'duration': 3.13}
+{'text': 'And you are going to say the first thing\nthat comes to your mind in the moment,', 'start': 1615.0, 'duration': 3.26}
+{'text': 'not the thing you have all just thought\nof.', 'start': 1618.26, 'duration': 3.454}
+{'text': '>> [LAUGH]\n>> Or the thing after that.', 'start': 1621.714, 'duration': 2.066}
+{'text': 'Remember what we talked about before?', 'start': 1623.78, 'duration': 1.53}
+{'text': "That still plays, that's still in play.", 'start': 1625.31, 'duration': 2.44}
+{'text': "Okay, you're stock piling.", 'start': 1627.75, 'duration': 1.78}
+{'text': 'Look in there.', 'start': 1629.53, 'duration': 1.33}
+{'text': 'My favorite that I said, somebody gave me\nthis, a gift during playing this game,', 'start': 1630.86, 'duration': 3.47}
+{'text': 'I looked inside and I saw a frog leg.', 'start': 1634.33, 'duration': 2.91}
+{'text': "I don't know why I saw a frog leg, but\nthat's what I said.", 'start': 1637.24, 'duration': 2.82}
+{'text': "That's the first part of the activity.", 'start': 1640.06, 'duration': 1.66}
+{'text': 'Now, the opportunity is twofold in this\ngame.', 'start': 1642.75, 'duration': 4.2}
+{'text': 'The opportunity is for you, the gift\nreceiver, to name a gift.', 'start': 1646.95, 'duration': 2.96}
+{'text': "That's kind of fun.", 'start': 1649.91, 'duration': 0.64}
+{'text': "That's an opportunity.", 'start': 1650.55, 'duration': 0.82}
+{'text': "It's not a threat.", 'start': 1651.37, 'duration': 0.65}
+{'text': 'But the real opportunity is for', 'start': 1653.31, 'duration': 1.37}
+{'text': 'the gift giver, because the gift giver\nthen has to say.', 'start': 1654.68, 'duration': 3.34}
+{'text': "So you look and you say thank you for\ngiving me a frog's leg, and", 'start': 1659.49, 'duration': 2.22}
+{'text': "the person will, will look at you and say\nI knew you wanted a frog's leg, because So", 'start': 1661.71, 'duration': 5.74}
+{'text': 'whatever you find the person who has\nreceived it is going to say absolutely,', 'start': 1667.45, 'duration': 5.13}
+{'text': "I'm so glad you're happy, I got it for you\nbecause.", 'start': 1672.58, 'duration': 2.41}
+{'text': 'So you have to respond to whatever they\nsay.', 'start': 1674.99, 'duration': 2.52}
+{'text': 'Right?', 'start': 1678.63, 'duration': 1.26}
+{'text': 'What a great opportunity.', 'start': 1679.89, 'duration': 1.04}
+{'text': "Now some of you are sitting there going,\noh, that's hard.", 'start': 1680.93, 'duration': 1.73}
+{'text': "I don't wanna do it, I might make a fool\nout of myself.", 'start': 1682.66, 'duration': 1.34}
+{'text': "Others of you are, if you're following\nthis advice,", 'start': 1684.0, 'duration': 1.97}
+{'text': 'are saying, what a great opportunity.', 'start': 1685.97, 'duration': 2.83}
+{'text': 'Right?', 'start': 1688.8, 'duration': 0.58}
+{'text': 'So, the game again is played like this.', 'start': 1689.38, 'duration': 1.67}
+{'text': 'You and your partner will exchange, each\nwill exchange a gift.', 'start': 1691.05, 'duration': 3.03}
+{'text': 'One will start, then the other will\nfollow.', 'start': 1694.08, 'duration': 2.2}
+{'text': 'The first person will give a gift to the\nsecond person.', 'start': 1696.28, 'duration': 2.06}
+{'text': 'Second person opens the box, however big\nthe box is, and if the box is big, and', 'start': 1698.34, 'duration': 3.59}
+{'text': "you find a penny in it, perfect, doesn't\nmatter.", 'start': 1701.93, 'duration': 2.81}
+{'text': 'The box is heavy and you find a feather in\nit, fine.', 'start': 1704.74, 'duration': 2.23}
+{'text': "It doesn't, there's no way to get it\nwrong.", 'start': 1706.97, 'duration': 1.8}
+{'text': 'Okay?', 'start': 1708.77, 'duration': 0.54}
+{'text': "Whatever's in the box is in the box.", 'start': 1709.31, 'duration': 1.32}
+{'text': 'You can return it and get what you wanted\nlater.', 'start': 1710.63, 'duration': 2.12}
+{'text': 'Okay?\n>> [LAUGH]', 'start': 1712.75, 'duration': 0.913}
+{'text': '>> The person, then, you will name it.', 'start': 1713.663, 'duration': 3.977}
+{'text': 'You will say thank you for the, whatever\nyou saw in the box.', 'start': 1717.64, 'duration': 3.11}
+{'text': "The person who gave it to you will say,\nI'm so glad you're excited.", 'start': 1720.75, 'duration': 4.13}
+{'text': 'I got it for you because.', 'start': 1724.88, 'duration': 1.41}
+{'text': 'And you will give a reason that you got\nthem whatever they decided you gave them.', 'start': 1726.29, 'duration': 5.79}
+{'text': 'Make sense?', 'start': 1732.08, 'duration': 1.15}
+{'text': 'All right.', 'start': 1733.23, 'duration': 0.72}
+{'text': 'So, very quickly just,', 'start': 1733.95, 'duration': 1.12}
+{'text': "in five seconds, find a partner if you're\nwilling to do this with a partner.", 'start': 1735.07, 'duration': 2.81}
+{'text': 'Everybody have a partner?', 'start': 1737.88, 'duration': 0.885}
+{'text': '>> [LAUGH].', 'start': 1738.765, 'duration': 0.908}
+{'text': '>> Okay.', 'start': 1739.673, 'duration': 0.859}
+{'text': '[BLANK_AUDIO]', 'start': 1740.532, 'duration': 4.563}
+{'text': 'All right.\nIn your partnerships,', 'start': 1745.095, 'duration': 2.562}
+{'text': 'in your partnerships, pick an a person and\na b person.', 'start': 1747.657, 'duration': 4.883}
+{'text': "You may stand or sit, it's totally up to\nyou.", 'start': 1752.54, 'duration': 2.33}
+{'text': 'Pick an a and pick a b.', 'start': 1756.94, 'duration': 0.74}
+{'text': 'Okay?', 'start': 1757.68, 'duration': 0.5}
+{'text': 'B goes first, [LAUGH].', 'start': 1760.48, 'duration': 3.004}
+{'text': 'All right.', 'start': 1763.484, 'duration': 2.915}
+{'text': 'B, give a a gift.', 'start': 1766.399, 'duration': 2.671}
+{'text': 'A thank them, and then b will name and\ngive the reason they gave it to them.', 'start': 1769.07, 'duration': 5.46}
+{'text': '[NOISE]\nIf', 'start': 1774.53, 'duration': 5.873}
+{'text': 'you have not', 'start': 1780.403, 'duration': 8.39}
+{'text': 'switched,', 'start': 1788.793, 'duration': 8.39}
+{'text': 'switch', 'start': 1797.183, 'duration': 5.034}
+{'text': 'please.', 'start': 1802.217, 'duration': 6.713}
+{'text': 'If you have not switched, switch please.', 'start': 1808.93, 'duration': 2.403}
+{'text': "[NOISE]\nLet's", 'start': 1811.333, 'duration': 8.102}
+{'text': 'wrap it up', 'start': 1819.435, 'duration': 5.892}
+{'text': 'in 30 seconds', 'start': 1825.327, 'duration': 9.575}
+{'text': 'please.', 'start': 1834.902, 'duration': 5.895}
+{'text': "Let's wrap it up.", 'start': 1840.797, 'duration': 0.758}
+{'text': '[NOISE]', 'start': 1841.555, 'duration': 3.551}
+{'text': 'All right.', 'start': 1845.106, 'duration': 7.102}
+{'text': 'If we can all have our seats.', 'start': 1852.208, 'duration': 3.635}
+{'text': '[NOISE] If we can all [NOISE] take our\nseats please.', 'start': 1855.843, 'duration': 8.744}
+{'text': "[NOISE] I know I'm telling a room of many\nMBA alums to stop talking and that's hard.", 'start': 1864.587, 'duration': 9.41}
+{'text': '[NOISE] All right, ladies and gentlemen.', 'start': 1873.997, 'duration': 8.108}
+{'text': 'Did you get what you wanted?', 'start': 1882.105, 'duration': 1.79}
+{'text': '>> Yes.', 'start': 1883.895, 'duration': 1.425}
+{'text': '>> Pretty neat, huh?', 'start': 1885.32, 'duration': 0.87}
+{'text': 'You always get what you want.', 'start': 1886.19, 'duration': 2.36}
+{'text': "Now for some of you this was really hard\nbecause you, you're really taking", 'start': 1888.55, 'duration': 4.1}
+{'text': 'the challenge and, and not seeing what was\nin the box until you looked in there.', 'start': 1892.65, 'duration': 3.76}
+{'text': 'Okay.\nWas anybody surprised by what you', 'start': 1896.41, 'duration': 2.35}
+{'text': 'found in the box?', 'start': 1898.76, 'duration': 0.56}
+{'text': 'What did you find sir, what was in the\nbox?', 'start': 1900.84, 'duration': 1.43}
+{'text': 'What?', 'start': 1906.17, 'duration': 0.57}
+{'text': 'Oh, wow!', 'start': 1906.74, 'duration': 1.15}
+{'text': 'Nice!', 'start': 1907.89, 'duration': 1.49}
+{'text': "Nice, if you've got a Ferrari you need a\ntransmission.", 'start': 1909.38, 'duration': 2.3}
+{'text': 'I like it.', 'start': 1911.68, 'duration': 0.93}
+{'text': 'Who else found something that was\nsurprising?', 'start': 1912.61, 'duration': 2.26}
+{'text': 'What did you find?', 'start': 1916.46, 'duration': 0.66}
+{'text': 'A live unicorn!', 'start': 1917.12, 'duration': 0.63}
+{'text': "That's a great gift.", 'start': 1917.75, 'duration': 1.7}
+{'text': 'Right?', 'start': 1919.45, 'duration': 1.35}
+{'text': 'How was it as the gift giver?', 'start': 1920.8, 'duration': 1.97}
+{'text': 'Were you surprised at what your partner\nfound in the box?', 'start': 1922.77, 'duration': 3.34}
+{'text': "Isn't it interesting that when we give an\nimaginary gift knowing that", 'start': 1926.11, 'duration': 3.15}
+{'text': "the person's gonna name it we already have\nin mind what they're gonna find?", 'start': 1929.26, 'duration': 3.72}
+{'text': "And when they say live unicorn, we go well\nthat's interesting.", 'start': 1932.98, 'duration': 3.15}
+{'text': 'Right?', 'start': 1936.13, 'duration': 1.13}
+{'text': 'So the point of this game is, to one,', 'start': 1937.26, 'duration': 5.17}
+{'text': 'remind ourselves we have to get out of our\nown way,', 'start': 1942.43, 'duration': 1.87}
+{'text': 'like we talked about before, but to see\nthis as an opportunity and to have fun.', 'start': 1944.3, 'duration': 4.32}
+{'text': 'I love watching people play this game.', 'start': 1948.62, 'duration': 2.84}
+{'text': 'The number of smiles that I saw amongst\nyou and, and I have to admit when I', 'start': 1951.46, 'duration': 4.36}
+{'text': 'first started some of you looked a little\ndour, a little doubting, okay?', 'start': 1955.82, 'duration': 3.305}
+{'text': '>> [LAUGH].\n>> But in that last game you all', 'start': 1959.125, 'duration': 1.475}
+{'text': 'were smiling and looked like you were\nhaving fun, so', 'start': 1960.6, 'duration': 2.14}
+{'text': 'when you reframe the spontaneous speaking\nopportunity as, as an opportunity,', 'start': 1962.74, 'duration': 5.56}
+{'text': 'as something that you co-create and share.', 'start': 1968.3, 'duration': 3.55}
+{'text': 'All the sudden, you are less nervous, less\ndefensive,', 'start': 1971.85, 'duration': 4.08}
+{'text': 'and you can accomplish something pretty\ndarn good.', 'start': 1975.93, 'duration': 2.64}
+{'text': 'In this case, a fun outcome.', 'start': 1978.57, 'duration': 1.84}
+{'text': 'This reminds us of perhaps the most famous\nof all improvisation sayings,.', 'start': 1981.84, 'duration': 4.83}
+{'text': 'Yes and.', 'start': 1986.67, 'duration': 1.49}
+{'text': 'A lot of us live our communication lives\nsaying no but.', 'start': 1988.16, 'duration': 3.65}
+{'text': 'Yes and opens up a tremendous amount of\nopportunities.', 'start': 1993.35, 'duration': 3.24}
+{'text': "And this doesn't mean you have to say yes\nand to a question somebody asks.", 'start': 1996.59, 'duration': 3.71}
+{'text': 'This just means the approach you take to\nthe situation.', 'start': 2000.3, 'duration': 2.31}
+{'text': "So you're going to ask me questions,\nthat's an opportunity.", 'start': 2002.61, 'duration': 4.44}
+{'text': 'Yes, and I will follow through, versus no\nand being defensive.', 'start': 2007.05, 'duration': 5.33}
+{'text': "So, we've accomplished the first two steps\nof our process.", 'start': 2012.38, 'duration': 3.8}
+{'text': 'First we get out of our own way,', 'start': 2016.18, 'duration': 1.388}
+{'text': '[UNKNOWN] we can reframe the situation as\nan opportunity.', 'start': 2017.568, 'duration': 3.412}
+{'text': 'The next phase is also hard, but', 'start': 2022.75, 'duration': 3.24}
+{'text': 'very rewarding, and that is to slow down,\nand listen.', 'start': 2025.99, 'duration': 4.52}
+{'text': 'You need to understand the demands of the\nrequirement you find yourself in,', 'start': 2031.99, 'duration': 3.46}
+{'text': 'in order to respond appropriately.', 'start': 2036.48, 'duration': 2.71}
+{'text': 'But often, we jump ahead.', 'start': 2039.19, 'duration': 2.29}
+{'text': 'We listen just enough to think we got it,', 'start': 2041.48, 'duration': 2.74}
+{'text': 'and then we go ahead, starting [UNKNOWN]\nto think about.', 'start': 2044.22, 'duration': 3.03}
+{'text': "What we're gonna respond and then we\nrespond.", 'start': 2047.25, 'duration': 2.3}
+{'text': 'We really need to listen.', 'start': 2049.55, 'duration': 1.48}
+{'text': 'Because fundamentally, as a communicator,', 'start': 2051.03, 'duration': 2.16}
+{'text': 'your job is to be in service of your\naudience.', 'start': 2053.19, 'duration': 2.4}
+{'text': "And if you don't understand what your\naudience is asking or", 'start': 2055.59, 'duration': 2.15}
+{'text': "needs, you can't fulfill that obligation.", 'start': 2057.74, 'duration': 2.87}
+{'text': 'So we need to slow down and listen.', 'start': 2060.61, 'duration': 2.4}
+{'text': 'I have a fun game to play.', 'start': 2063.01, 'duration': 2.725}
+{'text': '[SOUND] In this game you are going to\nS-P-E-L-L E-V-E-R-Y-T-H-I-N-G', 'start': 2065.735, 'duration': 9.316}
+{'text': 'Y-O-U S-A-Y T-O Y-O-U-R P-A-R-T-N-E-R.', 'start': 2075.051, 'duration': 6.62}
+{'text': '[BLANK_AUDIO]', 'start': 2081.671, 'duration': 2.135}
+{'text': "I will translate.\nYou're going to get with the same partner", 'start': 2083.806, 'duration': 3.157}
+{'text': 'you just worked with.', 'start': 2086.963, 'duration': 2.437}
+{'text': 'And you are going to have a very brief\nconversation about something fun that you', 'start': 2089.4, 'duration': 3.61}
+{'text': 'plan to do today.', 'start': 2093.01, 'duration': 1.74}
+{'text': 'I know this is the most fun you are going\nto have all day.', 'start': 2094.75, 'duration': 1.89}
+{'text': 'But the next fun thing you are going to do\ntoday.', 'start': 2096.64, 'duration': 1.69}
+{'text': 'You are going to tell your partner what\nyou are going to do that will', 'start': 2098.33, 'duration': 2.68}
+{'text': 'be fun today.', 'start': 2101.01, 'duration': 0.61}
+{'text': 'But you are going to do so by\nS-P-E-L-L-I-N-G I-T.', 'start': 2101.62, 'duration': 5.211}
+{'text': '[BLANK_AUDIO]', 'start': 2106.831, 'duration': 1.9}
+{'text': 'Okay?', 'start': 2108.731, 'duration': 1.419}
+{'text': "So you're going to spell it.", 'start': 2110.15, 'duration': 1.08}
+{'text': "It's okay if you are not a good speller.", 'start': 2112.87, 'duration': 1.665}
+{'text': ">> [LAUGH]\n>> 'Kay?", 'start': 2114.535, 'duration': 3.515}
+{'text': "Look I, you'll see the benefit of doing\nthis.", 'start': 2118.05, 'duration': 1.93}
+{'text': 'So, with the partner you just worked with,\nperson a is going to go first this time.', 'start': 2119.98, 'duration': 4.97}
+{'text': 'You are simply going to tell your partner.', 'start': 2124.95, 'duration': 1.88}
+{'text': "Actually you're going to spell to your\npartner, what it is of fun,", 'start': 2126.83, 'duration': 4.96}
+{'text': "something of fun, that you're going to do\ntoday.", 'start': 2131.79, 'duration': 2.56}
+{'text': 'Okay?', 'start': 2134.35, 'duration': 0.9}
+{'text': 'Do what you were really going to do for', 'start': 2135.25, 'duration': 1.19}
+{'text': 'fun and not do things like F-E-E-D T-H-E\nC-A-T, right,', 'start': 2136.44, 'duration': 4.042}
+{'text': "just cuz you don't wanna spell, right?", 'start': 2140.482, 'duration': 1.838}
+{'text': 'So, you can use big words.', 'start': 2142.32, 'duration': 2.51}
+{'text': 'Alright, 30 seconds each.', 'start': 2144.83, 'duration': 2.09}
+{'text': "Spell to your partner something fun that\nyou're going to do today.", 'start': 2146.92, 'duration': 2.719}
+{'text': '[BLANK_AUDIO]', 'start': 2149.639, 'duration': 5.305}
+{'text': 'Would you like to play?', 'start': 2154.944, 'duration': 0.884}
+{'text': '[NOISE] Go ahead.', 'start': 2155.828, 'duration': 3.054}
+{'text': '>> G-O-T A-T G-A-M-E.\n>> Oh my goodness say it again.', 'start': 2158.882, 'duration': 1.408}
+{'text': 'Spell it again.', 'start': 2160.29, 'duration': 1.28}
+{'text': '>> Yeah.\n>> Yeah.', 'start': 2161.57, 'duration': 0.799}
+{'text': '>> G-O-T A-T G-A-M-E.', 'start': 2162.369, 'duration': 4.029}
+{'text': '>> E-X-C-E-L-L-E-N-T.', 'start': 2166.398, 'duration': 4.529}
+{'text': 'I H-O-P-E T-H-A-T T-H-E-Y W-I-N.', 'start': 2170.927, 'duration': 5.238}
+{'text': '>> E-X-C-E-L-L-E-N-T.', 'start': 2176.165, 'duration': 4.003}
+{'text': '>> Thank you.', 'start': 2180.168, 'duration': 0.702}
+{'text': 'That was very good.', 'start': 2180.87, 'duration': 1.335}
+{'text': 'Thank you.', 'start': 2182.205, 'duration': 1.368}
+{'text': '[BLANK_AUDIO]', 'start': 2183.573, 'duration': 10.0}
+{'text': '[NOISE] If you have not switched, switch.', 'start': 2203.826, 'duration': 3.304}
+{'text': 'Take 30 more seconds with the new partner\nspelling.', 'start': 2207.13, 'duration': 2.826}
+{'text': '[NOISE]', 'start': 2209.956, 'duration': 3.236}
+{'text': 'G-R-E-A-T', 'start': 2213.192, 'duration': 8.414}
+{'text': 'exclamation', 'start': 2221.606, 'duration': 7.119}
+{'text': 'point.', 'start': 2228.725, 'duration': 4.532}
+{'text': 'T-H-A-N-K-Y-O-U.', 'start': 2233.257, 'duration': 3.923}
+{'text': 'P-L-E-A-S-E.', 'start': 2237.18, 'duration': 3.516}
+{'text': 'T-A-K-E Y-O-U-R S-E-A-T.', 'start': 2240.696, 'duration': 6.616}
+{'text': '[NOISE] So what did we learn?', 'start': 2247.312, 'duration': 6.231}
+{'text': 'What did we learn?', 'start': 2253.543, 'duration': 1.337}
+{'text': "Besides that we're not so good at\nspelling.", 'start': 2254.88, 'duration': 1.855}
+{'text': '>> [INAUDIBLE]\n>> You have to pause between the words.', 'start': 2256.735, 'duration': 4.875}
+{'text': 'How did this change your interaction with\nthe person you were interacting with?', 'start': 2263.49, 'duration': 4.98}
+{'text': 'What did you have to do?', 'start': 2268.47, 'duration': 1.64}
+{'text': '>> Focus.\n>> Focus, and listen.', 'start': 2270.11, 'duration': 2.13}
+{'text': "And you can't be thinking ahead.", 'start': 2273.38, 'duration': 1.91}
+{'text': 'You have to be in the moment.', 'start': 2275.29, 'duration': 1.97}
+{'text': 'When you listen and truly understand what\nthe person is trying to say,', 'start': 2277.26, 'duration': 4.77}
+{'text': 'then you can respond in a better way, a\nmore targeted response.', 'start': 2282.03, 'duration': 3.3}
+{'text': "We often don't listen.", 'start': 2286.65, 'duration': 1.17}
+{'text': 'So we start by getting out of our own way.', 'start': 2289.53, 'duration': 2.96}
+{'text': 'We then reframe the situation as an\nopportunity.', 'start': 2293.78, 'duration': 3.38}
+{'text': 'Those are things we do inside our head.', 'start': 2297.16, 'duration': 2.06}
+{'text': 'But in the moment of interacting, we have\nto listen first,', 'start': 2299.22, 'duration': 2.63}
+{'text': 'before we can respond to the spontaneous\nrequest.', 'start': 2301.85, 'duration': 2.3}
+{'text': 'Perhaps my most favorite maxim comes from\nthis activity.', 'start': 2305.74, 'duration': 4.61}
+{'text': "Don't just do something, stand there.", 'start': 2311.45, 'duration': 1.819}
+{'text': '[BLANK_AUDIO]', 'start': 2313.269, 'duration': 2.236}
+{'text': 'Listen.', 'start': 2315.505, 'duration': 0.675}
+{'text': 'Listen, and then respond.', 'start': 2317.86, 'duration': 2.19}
+{'text': 'Now, how do we respond?', 'start': 2322.37, 'duration': 1.3}
+{'text': 'That brings us to the fourth part of our\nprocess.', 'start': 2323.67, 'duration': 2.2}
+{'text': 'And that is, we have to tell a story.', 'start': 2327.19, 'duration': 3.21}
+{'text': 'We respond in a way that has a structure.', 'start': 2330.4, 'duration': 2.33}
+{'text': 'All stories have structure.', 'start': 2332.73, 'duration': 1.35}
+{'text': 'We have to respond in a structured way.', 'start': 2334.08, 'duration': 2.3}
+{'text': 'The key to successful spontaneous speaking\nand', 'start': 2337.43, 'duration': 2.98}
+{'text': 'by the way planned speaking is having a\nstructure.', 'start': 2340.41, 'duration': 2.25}
+{'text': 'I would like to introduce you to two of\nthe most prevalent and popular and useful', 'start': 2344.11, 'duration': 4.93}
+{'text': 'structures you can use to communicate a\nmessage in a spontaneous situation.', 'start': 2349.04, 'duration': 5.07}
+{'text': 'But before we get there, we have to talk\nabout the value of structure.', 'start': 2354.11, 'duration': 3.54}
+{'text': 'It increases what is called processing\nfluency, the effectiveness of which, or', 'start': 2357.65, 'duration': 3.6}
+{'text': 'through which we process information.', 'start': 2361.25, 'duration': 2.85}
+{'text': 'We actually process structured\ninformation, roughly 40% more', 'start': 2365.46, 'duration': 3.46}
+{'text': "effectively and efficiently than\ninformation that's not structured.", 'start': 2368.92, 'duration': 3.77}
+{'text': 'I love looking out in this audience,\nbecause you will remember as I remember.', 'start': 2373.78, 'duration': 4.02}
+{'text': 'Phone numbers.', 'start': 2377.8, 'duration': 0.87}
+{'text': 'When you had to remember them if you\nwanted to call somebody.', 'start': 2378.67, 'duration': 3.15}
+{'text': 'Okay.', 'start': 2381.82, 'duration': 0.96}
+{'text': "Young folks today don't need to remember\nphone numbers.", 'start': 2382.78, 'duration': 2.44}
+{'text': 'They just need to look at a picture, push\na button and', 'start': 2385.22, 'duration': 1.84}
+{'text': 'then the voice starts talking on the other\nend.', 'start': 2387.06, 'duration': 2.65}
+{'text': "Ten digit phone numbers, it's actually\nhard to remember ten digit phone numbers.", 'start': 2389.71, 'duration': 2.93}
+{'text': 'How did you do it?', 'start': 2392.64, 'duration': 1.32}
+{'text': 'You chunked it into a structure.', 'start': 2393.96, 'duration': 1.46}
+{'text': 'Three, three and four.', 'start': 2395.42, 'duration': 1.97}
+{'text': 'Structure helps us remember.', 'start': 2397.39, 'duration': 1.21}
+{'text': 'The same is true when speaking\nspontaneously or in a planned situation.', 'start': 2400.17, 'duration': 4.02}
+{'text': 'So let me introduce you to two useful\nstructures.', 'start': 2404.19, 'duration': 2.59}
+{'text': 'The first useful structure you have\nprobably heard or', 'start': 2406.78, 'duration': 2.2}
+{'text': 'used in some incarnation, it is the\nproblem, solution, benefit, structure.', 'start': 2408.98, 'duration': 5.27}
+{'text': 'You start by talking about what the issue\nis, the problem.', 'start': 2414.25, 'duration': 2.24}
+{'text': 'You then talk about a way of solving it,', 'start': 2418.34, 'duration': 1.55}
+{'text': 'and then you talk about the benefits of\nfollowing through on it.', 'start': 2419.89, 'duration': 2.55}
+{'text': 'Very persuasive, very effective.', 'start': 2422.44, 'duration': 2.48}
+{'text': 'Helps you as the speaker remember it,', 'start': 2424.92, 'duration': 1.49}
+{'text': "helps your audience know where you're\ngoing with it.", 'start': 2426.41, 'duration': 1.56}
+{'text': 'When I was a tour guide on this campus,\nmany, many, many years ago,.', 'start': 2429.51, 'duration': 3.51}
+{'text': 'What do you think the single most\nimportant thing they', 'start': 2434.74, 'duration': 2.11}
+{'text': 'drilled into our head?', 'start': 2436.85, 'duration': 0.86}
+{'text': 'It took a full quarter, by the way, to\ntrain to be a tour guide here.', 'start': 2437.71, 'duration': 3.88}
+{'text': 'They used to line us up at one end of the\nquad, and', 'start': 2441.59, 'duration': 2.26}
+{'text': 'have us walk backward, straight, and if\nyou failed you had to start over.', 'start': 2443.85, 'duration': 3.87}
+{'text': 'To this day, I can walk backwards in a\nstraight like because of that.', 'start': 2447.72, 'duration': 3.77}
+{'text': 'As part of that training,', 'start': 2451.49, 'duration': 0.89}
+{'text': 'what do you think the most important thing\nthey taught us was?', 'start': 2452.38, 'duration': 2.32}
+{'text': 'Never lose your tour group.', 'start': 2456.86, 'duration': 2.065}
+{'text': ">> [LAUGH]\n>> I'm not joking.", 'start': 2458.925, 'duration': 3.435}
+{'text': "Never, that's, never lose your tour group.", 'start': 2462.36, 'duration': 1.8}
+{'text': 'The same is true as a presenter.', 'start': 2465.59, 'duration': 1.84}
+{'text': 'Never lose your audience.', 'start': 2467.43, 'duration': 1.9}
+{'text': 'The way you keep your audience on track is\nby providing structure.', 'start': 2469.33, 'duration': 3.3}
+{'text': "None of you would go on a tour with me if\nI said, hi, my name's Matt.", 'start': 2472.63, 'duration': 2.758}
+{'text': "Let's go.\n[BLANK_AUDIO]", 'start': 2475.388, 'duration': 2.679}
+{'text': "You wanna know where you're going, why\nyou're going there,", 'start': 2478.067, 'duration': 2.079}
+{'text': "how long it's gonna take?", 'start': 2480.146, 'duration': 0.914}
+{'text': 'You need to set expectations and structure\ndoes that.', 'start': 2481.06, 'duration': 3.38}
+{'text': 'Problem, solution, benefit is a wonderful\nstructure to have in your back pocket.', 'start': 2484.44, 'duration': 3.55}
+{'text': "It's something that you can use quickly\nwhen you're in the moment.", 'start': 2489.46, 'duration': 2.87}
+{'text': "It can be reframed so it's not always a\nproblem you're talking about.", 'start': 2494.14, 'duration': 2.64}
+{'text': "Maybe it's an opportunity.", 'start': 2496.78, 'duration': 1.13}
+{'text': "Maybe there's a market opportunity you\nwanna go out and capture.", 'start': 2497.91, 'duration': 2.76}
+{'text': "It's not a problem that we're not doing\nit.", 'start': 2500.67, 'duration': 1.45}
+{'text': "But maybe we'd be better off if we did.", 'start': 2502.12, 'duration': 2.23}
+{'text': 'So it becomes opportunity, solution, which\nare the steps to achieve it.', 'start': 2504.35, 'duration': 4.31}
+{'text': 'And then the benefit.', 'start': 2508.66, 'duration': 0.57}
+{'text': 'Another structure.', 'start': 2511.06, 'duration': 1.91}
+{'text': 'Which works equally, equally well, is the\nwhat?', 'start': 2512.97, 'duration': 3.92}
+{'text': 'So what?', 'start': 2516.89, 'duration': 1.08}
+{'text': 'Now what?', 'start': 2517.97, 'duration': 0.6}
+{'text': 'Structure.', 'start': 2518.57, 'duration': 1.26}
+{'text': "You start by talking about what it is,\nthen you talk about why it's important,", 'start': 2519.83, 'duration': 5.71}
+{'text': 'and then what the next steps are.', 'start': 2525.54, 'duration': 1.34}
+{'text': 'This is a wonderful formula for answering\nquestions.', 'start': 2528.98, 'duration': 3.13}
+{'text': 'For introducing people.', 'start': 2533.13, 'duration': 1.75}
+{'text': 'So if, in the moment somebody asks me to\nintroduce somebody,', 'start': 2534.88, 'duration': 2.41}
+{'text': 'I change the what to who.', 'start': 2537.29, 'duration': 1.65}
+{'text': "I say who they are, why they're important\nand what we're gonna do next.", 'start': 2538.94, 'duration': 2.78}
+{'text': 'Maybe listen to them, maybe drink our\nwine, whatever.', 'start': 2541.72, 'duration': 1.84}
+{'text': 'All right.', 'start': 2543.56, 'duration': 0.5}
+{'text': 'What, so what, now what.', 'start': 2545.41, 'duration': 1.58}
+{'text': 'The reality is this, when you are in\nspontaneously speaking situation,', 'start': 2546.99, 'duration': 2.95}
+{'text': 'you have to do two things simultaneously.', 'start': 2549.94, 'duration': 1.79}
+{'text': 'You have to figure out what to say and how\nto say it.', 'start': 2551.73, 'duration': 3.57}
+{'text': 'These structures help you by telling you\nhow to say it.', 'start': 2555.3, 'duration': 3.59}
+{'text': 'If you can become comfortable with these\nstructures, you can be', 'start': 2561.91, 'duration': 3.1}
+{'text': 'in a situation where you can respond very\nably to spontaneous speaking situations.', 'start': 2565.01, 'duration': 4.79}
+{'text': "We're gonna practice.", 'start': 2569.8, 'duration': 2.58}
+{'text': "Cuz that's what we do.", 'start': 2572.38, 'duration': 0.66}
+{'text': "Here's the situation.", 'start': 2574.2, 'duration': 0.94}
+{'text': "Is everybody familiar with this child's\ntoy?", 'start': 2575.14, 'duration': 1.74}
+{'text': "It's a slinky.", 'start': 2576.88, 'duration': 1.51}
+{'text': 'Okay?', 'start': 2578.39, 'duration': 1.48}
+{'text': 'You are going to sell this slinky to your\npartner using either problem,', 'start': 2579.87, 'duration': 5.11}
+{'text': 'solution, benefit or opportunity,\nsolution, benefit.', 'start': 2584.98, 'duration': 3.66}
+{'text': 'What does the slinky provide you?', 'start': 2588.64, 'duration': 1.54}
+{'text': 'Or you could use what, so what, now what?', 'start': 2592.13, 'duration': 1.85}
+{'text': 'What is it?\nWhy is it important?', 'start': 2593.98, 'duration': 1.35}
+{'text': 'And the next steps might be to buy it,\nokay?', 'start': 2595.33, 'duration': 2.23}
+{'text': 'So by using that structure, see how\nalready it helps you?', 'start': 2597.56, 'duration': 4.14}
+{'text': 'It helps you focus.', 'start': 2601.7, 'duration': 0.831}
+{'text': 'Get with your partner and we,', 'start': 2602.531, 'duration': 2.011}
+{'text': "we're only going to have one partner sell\nto the other partner, okay?", 'start': 2604.542, 'duration': 4.896}
+{'text': 'So get with your partner.', 'start': 2609.438, 'duration': 1.748}
+{'text': 'One of you will volunteer to sell to the\nother, okay?', 'start': 2612.2, 'duration': 2.84}
+{'text': 'Sell a slinky using problem, solution,\nbenefit or what so what, now what?', 'start': 2615.04, 'duration': 4.338}
+{'text': 'Please begin.', 'start': 2619.378, 'duration': 5.052}
+{'text': '[NOISE].', 'start': 2624.43, 'duration': 10.0}
+{'text': ">> So we have the handouts, but I'm also\ngoing to be doing the, the-", 'start': 2637.46, 'duration': 1.48}
+{'text': '>> The microphone?', 'start': 2638.94, 'duration': 0.68}
+{'text': '>> Mic. So. >> When I debrief this, you\ncan go ahead and pass them out.', 'start': 2639.62, 'duration': 4.49}
+{'text': 'Does that make sense?', 'start': 2644.11, 'duration': 1.47}
+{'text': '>> Okay, so after, after.', 'start': 2645.58, 'duration': 1.158}
+{'text': '>> No no, mm-hm, after this activity.', 'start': 2646.738, 'duration': 2.932}
+{'text': '>> Okay. And then. >> And then.', 'start': 2649.67, 'duration': 0.67}
+{'text': '>> After that.', 'start': 2650.34, 'duration': 0.547}
+{'text': '>> [NOISE]', 'start': 2650.887, 'duration': 9.832}
+{'text': '30', 'start': 2660.719, 'duration': 7.866}
+{'text': 'more', 'start': 2668.585, 'duration': 7.866}
+{'text': 'seconds,', 'start': 2676.451, 'duration': 10.0}
+{'text': 'please.', 'start': 2694.149, 'duration': 10.0}
+{'text': '[NOISE]', 'start': 2709.882, 'duration': 4.105}
+{'text': 'Excellent.', 'start': 2713.987, 'duration': 9.034}
+{'text': "Let's all close the deal, seal the deal.", 'start': 2723.021, 'duration': 3.008}
+{'text': '[NOISE] I have never seen.', 'start': 2726.029, 'duration': 7.441}
+{'text': 'More people in one place doing this at the\nsame time.', 'start': 2733.47, 'duration': 2.715}
+{'text': '[LAUGH]\nI love it.', 'start': 2736.185, 'duration': 2.835}
+{'text': "I teach people to gesture and gesture big,\nit's great.", 'start': 2739.02, 'duration': 2.34}
+{'text': 'I love it.', 'start': 2741.36, 'duration': 1.39}
+{'text': 'So if you were the recipient of the sales\npitch, thumbs up.', 'start': 2742.75, 'duration': 4.72}
+{'text': 'Did they do a good job?', 'start': 2747.47, 'duration': 0.76}
+{'text': 'Did they use the structure?', 'start': 2749.59, 'duration': 2.05}
+{'text': 'Awesome.', 'start': 2751.64, 'duration': 0.71}
+{'text': "I'm recruiting you all for my next\nbusiness as my salespeople.", 'start': 2752.35, 'duration': 2.455}
+{'text': '[LAUGH] Please try to ignore this,', 'start': 2754.805, 'duration': 2.585}
+{'text': "but as we're speaking the handout I told\nyou about is coming around.", 'start': 2757.39, 'duration': 4.55}
+{'text': 'On the back of that handout,', 'start': 2761.94, 'duration': 1.295}
+{'text': "you're going to see a list of structures,\nthe two we talked about and", 'start': 2763.235, 'duration': 4.015}
+{'text': 'several others, that can help you in\nspontaneous speaking situations.', 'start': 2767.25, 'duration': 3.4}
+{'text': 'These structures help.', 'start': 2771.67, 'duration': 2.07}
+{'text': "Because they help you understand, how\nyou're going to say what you say.", 'start': 2773.74, 'duration': 3.73}
+{'text': "Structure sets you free and I know that's\nkind of ironic, but it's true, if", 'start': 2777.47, 'duration': 3.75}
+{'text': 'you have that structure then you are free\nto think about what you are going to say.', 'start': 2781.22, 'duration': 3.84}
+{'text': 'It reduces the cognitive load of figuring\nout what you are saying, and', 'start': 2786.33, 'duration': 3.62}
+{'text': 'how you are going to say it.', 'start': 2789.95, 'duration': 1.55}
+{'text': 'All of this is on that handout, okay?', 'start': 2791.5, 'duration': 2.01}
+{'text': 'So what does this all mean?', 'start': 2795.68, 'duration': 2.11}
+{'text': 'It means that we have, within our ability,\nthe tools and', 'start': 2797.79, 'duration': 5.5}
+{'text': 'the approaches, to help us in spontaneous\nspeaking situations.', 'start': 2803.29, 'duration': 3.86}
+{'text': 'The very first thing we have to do is\nmanage our anxiety,', 'start': 2807.15, 'duration': 3.23}
+{'text': "because you can't be an effective speaker.", 'start': 2810.38, 'duration': 2.44}
+{'text': "If you don't have your anxiety under\ncontrol.", 'start': 2812.82, 'duration': 2.79}
+{'text': 'And we talked about how you can do that by\ngreeting your anxiety,', 'start': 2815.61, 'duration': 3.61}
+{'text': 'reframing as a conversation, and being in\nthe present moment.', 'start': 2819.22, 'duration': 4.59}
+{'text': 'Once you do that, you need to practice a\nseries of four steps,', 'start': 2823.81, 'duration': 3.69}
+{'text': 'that will help you speak spontaneously.', 'start': 2827.5, 'duration': 2.84}
+{'text': 'First you get out of your own way.', 'start': 2830.34, 'duration': 2.32}
+{'text': 'I would love it if all of you, on your way\nfrom here to the football game,', 'start': 2832.66, 'duration': 3.25}
+{'text': 'point at things and call them the wrong\nname.', 'start': 2837.0, 'duration': 1.675}
+{'text': "[LAUGH] It'll be fun.", 'start': 2838.675, 'duration': 1.925}
+{'text': "If most of us do it, then it won't be\nweird.", 'start': 2840.6, 'duration': 1.89}
+{'text': "If only one and two of us do it, it'll be\nweird.", 'start': 2842.49, 'duration': 1.86}
+{'text': 'Right.', 'start': 2844.35, 'duration': 0.51}
+{'text': 'Second.', 'start': 2844.86, 'duration': 1.43}
+{'text': 'Give gifts.', 'start': 2846.29, 'duration': 1.66}
+{'text': 'By that I mean see your interactions as\nones of opportunity, not challenges.', 'start': 2847.95, 'duration': 3.99}
+{'text': 'Third, take the time to listen, listen.', 'start': 2853.93, 'duration': 4.14}
+{'text': 'And then finally, use structures.', 'start': 2859.74, 'duration': 2.38}
+{'text': 'And you have to practice these structures.', 'start': 2862.12, 'duration': 1.8}
+{'text': 'I practice these structures on my kids.', 'start': 2863.92, 'duration': 2.18}
+{'text': 'I have two kids.', 'start': 2866.1, 'duration': 0.68}
+{'text': 'When they ask me questions, I usually\nanswer them in what, so what, now what.', 'start': 2866.78, 'duration': 3.08}
+{'text': "They don't know it.", 'start': 2870.91, 'duration': 1.56}
+{'text': "But, when they go over to their friends'\nhouses and", 'start': 2872.47, 'duration': 1.7}
+{'text': "they see their friends ask their dads\nquestions, they don't get what, so", 'start': 2874.17, 'duration': 2.77}
+{'text': 'what, now what.', 'start': 2876.94, 'duration': 0.6}
+{'text': 'So, you know, you have to practice.', 'start': 2877.54, 'duration': 2.54}
+{'text': 'The more you practice, the more\ncomfortable you will become.', 'start': 2880.08, 'duration': 2.06}
+{'text': 'Ultimately you have the opportunity before\nyou to become more compelling,', 'start': 2883.67, 'duration': 4.03}
+{'text': 'more confident, more connected as a\nspeaker, if you leverage these techniques.', 'start': 2887.7, 'duration': 4.63}
+{'text': "If you're interested in learning more,\nthis is where I do a little plug.", 'start': 2894.39, 'duration': 2.975}
+{'text': "'Kay, I've written a book.", 'start': 2897.365, 'duration': 1.215}
+{'text': 'Many of the MBA students who take the\nstrategic communication classes,', 'start': 2898.58, 'duration': 3.03}
+{'text': 'here that I and others teach read it.', 'start': 2901.61, 'duration': 1.78}
+{'text': "It's called SPEAKING UP WITHOUT FREAKING\nOUT.", 'start': 2903.39, 'duration': 1.64}
+{'text': 'More importantly,', 'start': 2906.61, 'duration': 0.58}
+{'text': "there's a website here that I curate\ncalled NOFREAKINGSPEAKING.COM.", 'start': 2907.19, 'duration': 3.335}
+{'text': "And it has lots of information that I've\nwritten, and", 'start': 2911.55, 'duration': 2.33}
+{'text': 'others have written about how to become\nmore effective at speaking.', 'start': 2913.88, 'duration': 2.8}
+{'text': "So that's, that's the end of my plug.", 'start': 2916.68, 'duration': 1.53}
+{'text': "What I'd really like to do is, enter into\na spontaneous speaking situation with you.", 'start': 2918.21, 'duration': 5.94}
+{'text': 'And I would love to entertain any\nquestions that you have.', 'start': 2924.15, 'duration': 2.47}
+{'text': 'There are two people who are running\naround with microphones, so', 'start': 2926.62, 'duration': 2.8}
+{'text': 'some of us re, who remember the Phil\nDonahue show.', 'start': 2929.42, 'duration': 2.68}
+{'text': "We're gonna do a little bit of that.", 'start': 2932.1, 'duration': 1.884}
+{'text': "If you have a question, the microphone\nwill come, and I'm happy to answer it.", 'start': 2933.984, 'duration': 3.607}
+{'text': '>> Yeah.', 'start': 2937.591, 'duration': 0.837}
+{'text': '>> I think if you-', 'start': 2938.428, 'duration': 1.404}
+{'text': '>> Is it on?', 'start': 2939.832, 'duration': 0.639}
+{'text': '>> Yep, yep.', 'start': 2940.471, 'duration': 1.09}
+{'text': '[LAUGH] We can hear you.', 'start': 2941.561, 'duration': 0.848}
+{'text': '>> Great.', 'start': 2942.409, 'duration': 0.516}
+{'text': 'Can you talk about hostile situations?', 'start': 2942.925, 'duration': 2.898}
+{'text': '>> Hostile situations, yes.', 'start': 2945.823, 'duration': 1.021}
+{'text': 'So when you find yourself in a challenging\nsituation.', 'start': 2946.844, 'duration': 3.065}
+{'text': 'First, It should not be a surprise to you.', 'start': 2949.909, 'duration': 3.041}
+{'text': 'It should not be a surprise.', 'start': 2952.95, 'duration': 1.533}
+{'text': 'Before you ever speak,', 'start': 2954.483, 'duration': 1.145}
+{'text': 'you should think about what is the\nenvironment going to be like?', 'start': 2955.628, 'duration': 3.282}
+{'text': "So it shouldn't surprise you that there\nmight be some challenges in the room.", 'start': 2958.91, 'duration': 3.82}
+{'text': 'When there are hostile situations that\narise, you have to acknowledge it.', 'start': 2964.33, 'duration': 4.02}
+{'text': "So if somebody says, that's a ridiculous\nidea, why did you come up with that?", 'start': 2968.35, 'duration': 4.77}
+{'text': 'To simply say, so, the idea I came up with\nwas, right?', 'start': 2973.12, 'duration': 2.7}
+{'text': 'Acknowledge the emotion, I recommend not\nnaming the emotion, right?', 'start': 2975.82, 'duration': 4.92}
+{'text': "So, you sound really angry, the person's,\nI'm not angry, I'm frustrated.", 'start': 2980.74, 'duration': 2.73}
+{'text': "Now we're arguing over their mental state,\nright?", 'start': 2983.47, 'duration': 1.69}
+{'text': 'Emotional state.', 'start': 2985.16, 'duration': 1.08}
+{'text': 'So, so I say something like, I hear you\nhave a lot of passion on this issue, or,', 'start': 2986.24, 'duration': 3.62}
+{'text': "I hear there's great concern from you.", 'start': 2989.86, 'duration': 1.5}
+{'text': 'So you acknowledge the emotion, cuz\notherwise it sits in the room.', 'start': 2991.36, 'duration': 3.5}
+{'text': 'And then reframe and respond the way that\nmakes sense.', 'start': 2994.86, 'duration': 3.05}
+{'text': 'So if somebody raises their hand and says,\nyour product is ridiculously priced.', 'start': 2997.91, 'duration': 4.1}
+{'text': 'Why do you charge so much?', 'start': 3002.01, 'duration': 1.05}
+{'text': "I might say I hear great concern, and what\nyou're really asking about is the value of", 'start': 3004.68, 'duration': 3.97}
+{'text': 'our product, and I would give my value\nproposition, and', 'start': 3008.65, 'duration': 2.49}
+{'text': 'then I would come back and say, and\nbecause of the value we provide.', 'start': 3011.14, 'duration': 3.17}
+{'text': "We believe it's priced fairly.", 'start': 3014.31, 'duration': 1.86}
+{'text': 'So you answer the question about price,', 'start': 3016.17, 'duration': 1.25}
+{'text': "but you've reframe it in a way that you\nfeel more comfortable answering it.", 'start': 3017.42, 'duration': 4.88}
+{'text': 'So, th, the way to do this is to practice\nall the skills we just talked about.', 'start': 3022.3, 'duration': 5.68}
+{'text': "The only skill that I'm adding to this is\nthe awareness in", 'start': 3027.98, 'duration': 3.62}
+{'text': 'advance that you might be in that\nsituation.', 'start': 3031.6, 'duration': 2.61}
+{'text': "First I have to truly listen to what I'm\nhearing, right?", 'start': 3034.21, 'duration': 2.92}
+{'text': "It's very easy for me when I hear a\nchallenging question,", 'start': 3037.13, 'duration': 2.52}
+{'text': "to get all defensive and not hear what the\nperson's asking.", 'start': 3039.65, 'duration': 3.49}
+{'text': 'I see it as an opportunity to reframe and\nexplain.', 'start': 3043.14, 'duration': 2.74}
+{'text': 'Okay so, again, you have to practice.', 'start': 3045.88, 'duration': 3.0}
+{'text': "But, that's how I think you address it.", 'start': 3048.88, 'duration': 1.46}
+{'text': 'Are there other questions?', 'start': 3050.34, 'duration': 1.33}
+{'text': 'I see a question back here, yes, please.', 'start': 3051.67, 'duration': 1.44}
+{'text': '>> Yes, first of all, thank you very much.', 'start': 3053.11, 'duration': 1.06}
+{'text': 'Great, great presentation.', 'start': 3054.17, 'duration': 1.34}
+{'text': '>> Thank you.\n>> For a lot of the the speaking I do,', 'start': 3055.51, 'duration': 3.33}
+{'text': 'I have remote audiences, audiences\ndistributed all over the country,', 'start': 3058.84, 'duration': 3.78}
+{'text': 'with telecom.', 'start': 3062.62, 'duration': 1.41}
+{'text': 'Any tips for those kinds of audiences?', 'start': 3064.03, 'duration': 1.84}
+{'text': '>> So when you are speaking in a situation\nwhere not everybody is co-located, okay?', 'start': 3065.87, 'duration': 5.16}
+{'text': 'In fact, at this very moment,', 'start': 3071.03, 'duration': 1.47}
+{'text': 'there are people watching this\npresentation remotely.', 'start': 3072.5, 'duration': 2.54}
+{'text': 'What you need to do is be mindful of it.', 'start': 3076.69, 'duration': 3.02}
+{'text': 'Second, try to include engagement\ntechniques where the audience actually has', 'start': 3079.71, 'duration': 4.89}
+{'text': 'to do something.', 'start': 3084.6, 'duration': 1.96}
+{'text': 'So, physical participation is what we did\nhere with the games.', 'start': 3086.56, 'duration': 3.78}
+{'text': 'You can ask your audience to imagine\nsomething,', 'start': 3090.34, 'duration': 2.16}
+{'text': 'imagine what it would be like if, when we\ntry to achieve a goal, rather than say', 'start': 3092.5, 'duration': 3.92}
+{'text': 'here is the goal we are trying to achieve,\nsay imagine what it would be like if.', 'start': 3096.42, 'duration': 3.37}
+{'text': 'See what that does to you, it pulls you\nin, I can take polling questions, most of', 'start': 3099.79, 'duration': 3.69}
+{'text': 'the technology that you are referring to\nhas some kind of polling feature.', 'start': 3103.48, 'duration': 3.74}
+{'text': 'You can open up some kind of Wiki or\nGoogle Doc, or some collaborative tool.', 'start': 3107.22, 'duration': 4.69}
+{'text': 'Where people can be doing things and', 'start': 3111.91, 'duration': 1.84}
+{'text': "you can be monitoring that while you're\npresenting.", 'start': 3113.75, 'duration': 3.0}
+{'text': 'So I might take some breaks.', 'start': 3116.75, 'duration': 1.36}
+{'text': "I talk for ten, 15 minutes and say, okay,\nlet's apply this and", 'start': 3118.11, 'duration': 2.98}
+{'text': "let's go into this Google Doc I've\ncreated, and I see what people are doing.", 'start': 3121.09, 'duration': 3.71}
+{'text': "So it's about variety and it's about\nengagement.", 'start': 3124.8, 'duration': 3.16}
+{'text': 'Those are the ways that you really connect\nto people who are remote from you.', 'start': 3127.96, 'duration': 4.07}
+{'text': 'Okay, other questions?', 'start': 3132.03, 'duration': 1.075}
+{'text': "Who, you're pointing oh, [LAUGH], I've got\nto look for where the mic is.", 'start': 3133.105, 'duration': 4.285}
+{'text': '>> This may be similar to', 'start': 3137.39, 'duration': 1.14}
+{'text': 'the first question,\n>> Sure.', 'start': 3138.53, 'duration': 0.91}
+{'text': '>> But I do a lot of expert witness\ntestimony.', 'start': 3139.44, 'duration': 2.76}
+{'text': "What's your recommendation for handling\ncross-examination?", 'start': 3142.2, 'duration': 3.142}
+{'text': '[LAUGH] Specifically, specifically a\nhostile one.', 'start': 3145.342, 'duration': 2.278}
+{'text': ">> I feel like I'm being cross-examined.", 'start': 3147.62, 'duration': 1.633}
+{'text': ">> It's very hostile.", 'start': 3149.253, 'duration': 1.041}
+{'text': '[LAUGH].', 'start': 3150.294, 'duration': 1.426}
+{'text': 'In any speaking situation that you go into\nthat has some planned element to it I', 'start': 3151.72, 'duration': 4.67}
+{'text': 'recommend identifying certain themes, that\nyou think are important or', 'start': 3156.39, 'duration': 3.58}
+{'text': 'believe need to come out.', 'start': 3159.97, 'duration': 0.94}
+{'text': 'And then with each one of those themes\nhave some examples and', 'start': 3160.91, 'duration': 2.75}
+{'text': 'concrete evidence that you can use to\nsupport it.', 'start': 3163.66, 'duration': 1.79}
+{'text': "You don't go in with memorized terms, or\nways of saying it.", 'start': 3166.9, 'duration': 4.01}
+{'text': 'You just have ideas and themes, and then\nyou put them together as necessary.', 'start': 3170.91, 'duration': 3.67}
+{'text': "So, when I'm in a situation where people\nare interrogating me.", 'start': 3174.58, 'duration': 3.53}
+{'text': 'I have certain themes that I wanna get\nacross, and make sure that I,', 'start': 3178.11, 'duration': 2.59}
+{'text': 'I can do that in a way that fits the needs\nin the moment.', 'start': 3180.7, 'duration': 3.99}
+{'text': "If it's hostile, again, you, the, the\nsingle best tool you have to", 'start': 3184.69, 'duration': 5.35}
+{'text': 'buy yourself time and to help you answer a\nquestion efficiently is paraphrasing.', 'start': 3190.04, 'duration': 4.57}
+{'text': 'The paraphrase is like the Swiss Army\nknife of communication.', 'start': 3194.61, 'duration': 3.56}
+{'text': "If you remember the show MacGyver, it's\nyour MacGyver tool, right?", 'start': 3198.17, 'duration': 3.86}
+{'text': 'So when a question comes in.', 'start': 3202.03, 'duration': 2.21}
+{'text': 'The way you paraphrase it allows you the\nopportunity to reframe it,', 'start': 3204.24, 'duration': 4.7}
+{'text': 'to think about your answer and, to pause\nand make sure you got it right.', 'start': 3208.94, 'duration': 4.86}
+{'text': "So when you're under those situations, if\nyou have an opportunity to paraphrase it,", 'start': 3213.8, 'duration': 2.7}
+{'text': "say, so what you're really asking about is\nx, y and z.", 'start': 3216.5, 'duration': 2.83}
+{'text': 'That gives you the opportunity to employ\none of these techniques.', 'start': 3219.33, 'duration': 4.03}
+{'text': "Now I've never been an expert witness, cuz\nI'm not an expert on anything, but.", 'start': 3223.36, 'duration': 4.14}
+{'text': 'Those tools I believe could be helpful.', 'start': 3227.5, 'duration': 5.05}
+{'text': 'The microphone is back there.', 'start': 3232.55, 'duration': 1.52}
+{'text': 'Thank you.\n>> Thank you so much.', 'start': 3234.07, 'duration': 0.9}
+{'text': 'This has been so helpful and enjoyable\nthis morning.', 'start': 3234.97, 'duration': 2.88}
+{'text': 'Would you please show the last screen, so', 'start': 3237.85, 'duration': 3.15}
+{'text': 'we can get down the name of the book you\nhave written and the information?', 'start': 3241.0, 'duration': 2.27}
+{'text': '>> Absolutely.\n>> Thank you.', 'start': 3243.27, 'duration': 0.635}
+{'text': '[LAUGH] I think they actually, you might\neven have an opportunity,', 'start': 3243.905, 'duration': 3.605}
+{'text': "it's on the sheet too, everything I said\nis on the back of that sheet, but", 'start': 3247.51, 'duration': 2.49}
+{'text': 'I am happy to have this behind me while I\ntalk.', 'start': 3250.0, 'duration': 2.515}
+{'text': '[LAUGH] Other questions?', 'start': 3252.515, 'duration': 2.025}
+{'text': 'Yes please?', 'start': 3254.54, 'duration': 1.0}
+{'text': '>> Yes, I work with groups that, from,', 'start': 3255.54, 'duration': 4.32}
+{'text': 'that represent many different cultural\nbackgrounds.', 'start': 3259.86, 'duration': 3.17}
+{'text': '>> Yes.\n>> So', 'start': 3263.03, 'duration': 0.75}
+{'text': 'are there any caveats or is this a\nuniversal strategy.', 'start': 3263.78, 'duration': 4.21}
+{'text': '>> So in terms of,', 'start': 3269.42, 'duration': 1.41}
+{'text': 'from your perspective as the speaker,\n>> Yes.', 'start': 3270.83, 'duration': 2.33}
+{'text': '>> I believe this applies.', 'start': 3273.16, 'duration': 1.43}
+{'text': 'But when you, whenever you communicate,\npart of the listening aspect is', 'start': 3274.59, 'duration': 3.83}
+{'text': 'also thinking about and is who is my\naudience and what are their expectations?', 'start': 3278.42, 'duration': 4.3}
+{'text': "So what are the cultural expectations of\nthe audience that, I'm presenting to?", 'start': 3282.72, 'duration': 4.28}
+{'text': 'So there might be certain norms and rules\nthat are expected.', 'start': 3287.0, 'duration': 3.11}
+{'text': 'So when I travel and', 'start': 3290.11, 'duration': 1.13}
+{'text': "do talks I have to take into account where\nI'm doing the, the presentations.", 'start': 3291.24, 'duration': 4.31}
+{'text': "So I, I'm, I help present in the Ignite\nprogram.", 'start': 3295.55, 'duration': 2.35}
+{'text': "If you have not heard about the Ignite\nprogram here at the GSB it's fantastic.", 'start': 3297.9, 'duration': 5.46}
+{'text': 'And I just did a presentation standing in\none of these awesome classrooms that have', 'start': 3303.36, 'duration': 4.24}
+{'text': 'all these cameras and I just taught 35\npeople in Santiago Chile.', 'start': 3307.6, 'duration': 3.13}
+{'text': 'And I needed to understand the cultural\nexpectations of that area.', 'start': 3312.78, 'duration': 6.0}
+{'text': 'And what they expect and', 'start': 3318.78, 'duration': 1.01}
+{'text': "what they're willing to do, when I ask\nthem to participate.", 'start': 3319.79, 'duration': 2.13}
+{'text': "So, it, it's part of that listening step\nwhere you reflect on what", 'start': 3321.92, 'duration': 3.52}
+{'text': 'are the expectations of the audience.', 'start': 3325.44, 'duration': 2.4}
+{'text': 'I think we have time for two more\nquestions and', 'start': 3327.84, 'duration': 1.68}
+{'text': "then I'm gonna hang around afterwards if\nanybody has individual questions.", 'start': 3329.52, 'duration': 2.67}
+{'text': 'But, some of these folks really want me to\nkeep on schedule.', 'start': 3332.19, 'duration': 2.72}
+{'text': 'Yes, please?\n>> I wanted to ask you a question.', 'start': 3334.91, 'duration': 1.31}
+{'text': "One of the things that you've done\neffectively in your talking.", 'start': 3336.22, 'duration': 2.33}
+{'text': "And I've seen other effective speakers do,\nis interject humor.", 'start': 3338.55, 'duration': 2.455}
+{'text': '>> Mm-hm.', 'start': 3341.005, 'duration': 0.635}
+{'text': '>> In their talk.', 'start': 3341.64, 'duration': 0.57}
+{'text': 'How, what are the risks and rewards of\ntrying to do that.', 'start': 3342.21, 'duration': 3.53}
+{'text': '>> Well first, thank you, and I appreciate\nall of you laughing.', 'start': 3345.74, 'duration': 2.85}
+{'text': "Those are, that's the sum total of all my\njokes, you've heard them,", 'start': 3348.59, 'duration': 2.605}
+{'text': "I'm not funny beyond those jokes.", 'start': 3351.195, 'duration': 1.45}
+{'text': '[LAUGH] So humor is wonderfully\nconnecting.', 'start': 3352.645, 'duration': 4.155}
+{'text': "It's wonderfully connecting, it's a great\ntool for", 'start': 3356.8, 'duration': 1.97}
+{'text': 'connection, it is very, very risky.', 'start': 3358.77, 'duration': 1.8}
+{'text': 'Cultural reasons get in the way,', 'start': 3361.77, 'duration': 1.95}
+{'text': "sometimes what you think is funny isn't\nfunny to other people.", 'start': 3363.72, 'duration': 3.58}
+{'text': "What research tells us is that if you're\ngoing to try to be funny,", 'start': 3367.3, 'duration': 3.185}
+{'text': 'self-deprecating humor is your best bet,\nokay?', 'start': 3370.485, 'duration': 4.245}
+{'text': 'Because it is the least risky, there is\nnothing worse than putting out a joke and', 'start': 3374.73, 'duration': 4.5}
+{'text': 'having no response.', 'start': 3379.23, 'duration': 2.02}
+{'text': 'It actually sets you back farther than if\nyou would have gotten,', 'start': 3381.25, 'duration': 3.67}
+{'text': 'where you would have gotten if the joke\nwould have hit, so', 'start': 3384.92, 'duration': 3.56}
+{'text': 'basic fundamentals you need to think about\nwith humor.', 'start': 3388.48, 'duration': 2.18}
+{'text': 'One, is it funny, how do I know, I ask\nother people first.', 'start': 3390.66, 'duration': 3.71}
+{'text': "Second, what happens if it doesn't work?", 'start': 3394.37, 'duration': 2.73}
+{'text': 'Have a backup plan, right?', 'start': 3397.1, 'duration': 2.75}
+{'text': "And then third, if you're worried about\nthe answers to those first two,", 'start': 3399.85, 'duration': 2.62}
+{'text': "don't do it, right?", 'start': 3402.47, 'duration': 2.24}
+{'text': 'One last question please.', 'start': 3404.71, 'duration': 1.18}
+{'text': 'The microphone is right here.', 'start': 3405.89, 'duration': 1.0}
+{'text': 'And then like I said, I will hang around\nafterwards.', 'start': 3406.89, 'duration': 1.92}
+{'text': 'Yes, please.', 'start': 3408.81, 'duration': 1.07}
+{'text': ">> I I'm sort of on the opposite side of\nthis, since I'm a journalist.", 'start': 3409.88, 'duration': 4.025}
+{'text': '>> Mm-hm.\n>> And I frequently have to ask', 'start': 3413.905, 'duration': 2.085}
+{'text': 'spontaneous questions of people, who have\nbeen through media training.', 'start': 3415.99, 'duration': 7.75}
+{'text': '>> Yes.\n>> So.', 'start': 3423.74, 'duration': 0.525}
+{'text': '[LAUGH] So any tips for', 'start': 3424.265, 'duration': 0.985}
+{'text': 'chinks in the armor, way to ask.', 'start': 3425.25, 'duration': 3.385}
+{'text': '[LAUGH]', 'start': 3428.635, 'duration': 0.855}
+{'text': '>> Ask a question without being\nantagonistic, but', 'start': 3429.49, 'duration': 2.88}
+{'text': 'get a facsimile of a straight answer.', 'start': 3432.37, 'duration': 2.93}
+{'text': '>> Well, so let me give you two answers.', 'start': 3435.3, 'duration': 1.32}
+{'text': 'One is I I have young boys, and the power\nof the why is great.', 'start': 3436.62, 'duration': 4.31}
+{'text': 'Just ask why a couple times, and', 'start': 3440.93, 'duration': 1.9}
+{'text': 'and you can get through that first two\nlayers of training.', 'start': 3442.83, 'duration': 2.675}
+{'text': '[LAUGH] You know, why do you say that?', 'start': 3445.505, 'duration': 1.675}
+{'text': 'How do you feel about that?', 'start': 3447.18, 'duration': 1.73}
+{'text': 'the, the second bit is.', 'start': 3448.91, 'duration': 1.83}
+{'text': 'To.', 'start': 3450.74, 'duration': 0.5}
+{'text': 'What I have found successful in getting\npeople to.', 'start': 3452.6, 'duration': 2.39}
+{'text': 'I do this to get people to answer in a\nmore authentic way.', 'start': 3454.99, 'duration': 3.04}
+{'text': "What I'll do is I'll ask them to give\nadvice.", 'start': 3458.03, 'duration': 2.78}
+{'text': "So what advice would you give somebody\nwho's challenged with this?", 'start': 3460.81, 'duration': 2.61}
+{'text': 'Or what advice would you give to somebody\nin this situation?', 'start': 3463.42, 'duration': 3.06}
+{'text': 'And by asking for', 'start': 3466.48, 'duration': 1.08}
+{'text': 'the advice, it changes the relationship\nthey have to me as the question asker.', 'start': 3467.56, 'duration': 4.79}
+{'text': 'And I often get much more rich detailed\ninformation.', 'start': 3472.35, 'duration': 2.49}
+{'text': 'So the power of the why, and', 'start': 3474.84, 'duration': 1.47}
+{'text': 'then put them in a position of providing\nguidance, and that can really work.', 'start': 3476.31, 'duration': 5.33}
+{'text': "With that, I'm going to thank you very\nmuch.", 'start': 3481.64, 'duration': 2.32}
+{'text': 'I welcome you to ask questions later, and\nenjoy the rest of your reunion weekend.', 'start': 3483.96, 'duration': 4.43}
+{'text': '>> Thank you.\n[APPLAUSE]', 'start': 3488.39, 'duration': 6.179}
+{'text': '[MUSIC]', 'start': 3494.569, 'duration': 2.315}
+{'text': '[BLANK_AUDIO]', 'start': 3496.884, 'duration': 2.676}
