@@ -1,3 +1,8 @@
+# dotenv: Used to load API key from a .env file 
+# assemblyai: The library used for audio transcription
+# pathlib: Provides convenient path manipulation tools
+# tkinter: For displaying the file selection dialog
+
 import os
 from dotenv import load_dotenv
 import assemblyai as aai
