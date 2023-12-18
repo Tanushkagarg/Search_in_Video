@@ -6,14 +6,12 @@ from tkinter import *
 from tkinter import filedialog
 import assemblyai as aai
 from dotenv import load_dotenv
-import pvleopard
 
 
 load_dotenv()
 
 aai.settings.api_key = os.getenv('API_KEY')
 
-# leopard = pvleopard.create(access_key=os.getenv('PICO_KEY'))
 
 def transcribe_audio(file_path):
     output_folder = "Text Output"
@@ -26,9 +24,6 @@ def transcribe_audio(file_path):
         f.write(result.text)
     return result.text
 
-# def transcribe_audio_pico(audio_path):
-#     transcript, words = leopard.process_file(audio_path)
-#     return transcript
 
 app = Flask(__name__)
 
@@ -63,7 +58,6 @@ def option():
         transcriber = aai.Transcriber()
         transcript = transcriber.transcribe(openFile())   
         result = transcript.export_subtitles_vtt()
-        # resultPico = transcribe_audio_pico(openFile())
         window.destroy()
         return result
                 
