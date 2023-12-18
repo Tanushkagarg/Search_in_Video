@@ -11,3 +11,17 @@ Run this command to install pytube
 ```
 pip install pytube
 ```
+###Packages required
+
+assemblyai: To perform audio transcription with AssemblyAI
+```
+pip install assemblyai
+```
+dotenv: To store and access the API key securely from a .env file
+```
+pip install python-dotenv
+```
+pathlib: For convenient path manipulation with file names
+```
+pip install pathlib2
+``````
