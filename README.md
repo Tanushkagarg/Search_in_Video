@@ -2,20 +2,15 @@
 
 ## Run this code for downloading the necassary packages
 ```
-pip install flask pafy pytube youtube-dl
+pip install -r requirements.txt
 ```
 
-### There are 3 python files each using different python modules. To run => python filename.py
+### To get the transcription run this command:
+```
+python text.py
+```
 
-> Using pytube
+### To get the audio of a youtube video run this command:
 ```
-python pytube.py
-```
-> Using pafy
-```
-python pafy.py
-```
-> Using youtube-dl
-```
-python ytdl.py
+python audio.py
 ```
