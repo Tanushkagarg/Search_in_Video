@@ -11,8 +11,8 @@ Run this command to install pytube
 ```
 pip install pytube
 ```
-### Packages required
-
+### Packages required for transcription
+#### for audio files
 assemblyai: To perform audio transcription with AssemblyAI
 ```
 pip install assemblyai
@@ -25,3 +25,9 @@ pathlib: For convenient path manipulation with file names
 ```
 pip install pathlib2
 ``````
+#### for youtube videos
+Uses YouTubeTranscriptApi to get the transcript directly
+```
+pip install youtube-transcript-api
+```
+
