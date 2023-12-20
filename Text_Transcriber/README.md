@@ -1,6 +1,5 @@
 # TEXT CONVERTER
-This script converts a YouTube video into a transcribed text file and it works only for YouTube Videos
-It takes a second to transcribe the audio 
+This script converts a YouTube video into a transcribed text file and it works only for YouTube Videos and this process takes a second to transcribe the audio 
 
 ### Libraries
 
