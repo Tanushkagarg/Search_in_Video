@@ -1,2 +1,10 @@
 # TEXT CONVERTER
-  This Converts the Youtube Video to transcribed text file 
+This script converts a YouTube video into a transcribed text file and it works only for YouTube Videos
+It takes a second to transcribe the audio 
+
+### Libraries
+
+> ```youtube_transcript_api``` This converts video to text file
+```
+pip install youtube_transcript_api
+```
