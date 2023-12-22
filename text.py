@@ -1,4 +1,6 @@
 from pytube import YouTube 
+import nltk
+nltk.download('punkt', quiet=True)
 import os 
 from flask import *
 from youtube_transcript_api import YouTubeTranscriptApi 
@@ -6,16 +8,28 @@ from tkinter import *
 from tkinter import filedialog
 import assemblyai as aai
 from dotenv import load_dotenv
+import spacy
+from nltk import word_tokenize
+import re
+import json
+
+
+regex = r'(?:\d+)\s(\d+:\d+:\d+,\d+) --> (\d+:\d+:\d+,\d+)\s+(.+?)(?:\n\n|$)'
+offset_seconds = lambda ts: sum(howmany * sec for howmany, sec in zip(map(int, ts.replace(',', ':').split(':')), [60 * 60, 60, 1, 1e-3]))
 
 # Load environment variables from a .env file
 load_dotenv()
+
+sp = spacy.load("en_core_web_sm") 
+
+all_stopwords = sp.Defaults.stop_words
 
 aai.settings.api_key = os.getenv('API_KEY')
 
 # Function to transcribe audio using AssemblyAI
 def transcribe_audio(file_path):
     output_folder = "Text Output"
-    output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(file_path))[0] + ".txt")
+    output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(file_path))[0] + ".srt")
    
     # Create the output folder if it doesn't exist
    
@@ -27,6 +41,11 @@ def transcribe_audio(file_path):
     with open(output_file, "w") as f:
         f.write(result.text)
     return result.text
+
+def nChunks(text):
+    text_tokens = word_tokenize(text)
+    tokens_without_sw= [word for word in text_tokens if not word in all_stopwords]
+    return tokens_without_sw
 
 app = Flask(__name__)
 
@@ -72,15 +91,18 @@ def option():
         transcript = transcriber.transcribe(input_file)   
         result = transcript.export_subtitles_srt()
         window.destroy()
+        transcript = [dict(startTime = offset_seconds(startTime), endTime = offset_seconds(endTime), ref = ' '.join(ref.split())) for startTime, endTime, ref in re.findall(regex, result, re.DOTALL)]
+        print(type(transcript))
         # Saving in Text Output folder and the name of .txt (transcripted file) will be the same as input file
         output_folder = "Text Output"
-        output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(input_file))[0] + ".txt")
-
+        output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(input_file))[0] + ".json")
+        for chunk in transcript:
+            chunk['ref'] = nChunks(chunk['ref'])
         # Create the output folder if it doesn't exist
         os.makedirs(output_folder, exist_ok=True)
         with open(output_file, "w") as f:
-            f.write(result)
-        return result
+            json.dump(transcript, f)
+        return transcript
                 
     # Default response if the option is not recognized
     return "<h1>Still working on it<h1>"
@@ -97,6 +119,8 @@ def srt(access_token):
 def youtube():
     id = request.args.get('id')
     srt = YouTubeTranscriptApi.get_transcript(id)
+    for block in srt:
+        block['text'] = nChunks(block['text'])
     #  Saving in Text Output folder and the name of .txt (transcripted file) will be the same as input file
     output_folder = "Text Output"
     output_file = os.path.join(output_folder, id + ".json")
