@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ### To get the transcription run this command:
 
-> using assembly ai as api to transcribe local files and using youtube generated transcription for youtube videos
+> Transcribing the video and using spacy and nltk to remove stop words from the text
 
 ```
 python text.py
