@@ -1,6 +1,5 @@
 from pytube import YouTube 
 import nltk
-nltk.download('punkt', quiet=True)
 import os 
 from flask import *
 from youtube_transcript_api import YouTubeTranscriptApi 
@@ -9,10 +8,19 @@ from tkinter import filedialog
 import assemblyai as aai
 from dotenv import load_dotenv
 import spacy
-from nltk import word_tokenize
 import re
 import json
 
+nltk_data_path = "."  # Set your desired directory path
+
+# Check if the punkt package is already downloaded, if not, download it
+if not os.path.exists(os.path.join(nltk_data_path, 'tokenizers', 'punkt')):
+    nltk.download('punkt', download_dir=nltk_data_path)
+
+# Set the nltk data path to the specified directory
+nltk.data.path.append(nltk_data_path)
+
+from nltk import word_tokenize
 
 regex = r'(?:\d+)\s(\d+:\d+:\d+,\d+) --> (\d+:\d+:\d+,\d+)\s+(.+?)(?:\n\n|$)'
 offset_seconds = lambda ts: sum(howmany * sec for howmany, sec in zip(map(int, ts.replace(',', ':').split(':')), [60 * 60, 60, 1, 1e-3]))
@@ -87,7 +95,7 @@ def option():
 
         
         def openFile():
-            return filedialog.askopenfilename(initialdir="C:\\Programming\\PythonFlask", title="Select a File", filetypes=(("MP3 Files", "*.mp3*"), ("Audio Files", "*.wav*"), ("all files", "*.*")))
+            return filedialog.askopenfilename(initialdir=".", title="Select a File", filetypes=(("MP3 Files", "*.mp3*"), ("Audio Files", "*.wav*"), ("all files", "*.*")))
         # Using tkinter 
         window = Tk()
         transcriber = aai.Transcriber()
