@@ -20,6 +20,8 @@ offset_seconds = lambda ts: sum(howmany * sec for howmany, sec in zip(map(int, t
 # Load environment variables from a .env file
 load_dotenv()
 
+#using spacy and nltk
+
 sp = spacy.load("en_core_web_sm") 
 
 all_stopwords = sp.Defaults.stop_words
@@ -42,7 +44,9 @@ def transcribe_audio(file_path):
         f.write(result.text)
     return result.text
 
-def nChunks(text):
+# function to remove stopwords for a particular chunk of text 
+
+def removeStopWords(text):
     text_tokens = word_tokenize(text)
     tokens_without_sw= [word for word in text_tokens if not word in all_stopwords]
     return tokens_without_sw
@@ -91,13 +95,22 @@ def option():
         transcript = transcriber.transcribe(input_file)   
         result = transcript.export_subtitles_srt()
         window.destroy()
+        
+        # Converting the obtained srt file to a json file
+        
         transcript = [dict(startTime = offset_seconds(startTime), endTime = offset_seconds(endTime), ref = ' '.join(ref.split())) for startTime, endTime, ref in re.findall(regex, result, re.DOTALL)]
-        print(type(transcript))
+        
         # Saving in Text Output folder and the name of .txt (transcripted file) will be the same as input file
         output_folder = "Text Output"
+        
+        # Create the output folder if it doesn't exist
+        
         output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(input_file))[0] + ".json")
+        
+        # Remove stopwords from the transcript
+        
         for chunk in transcript:
-            chunk['ref'] = nChunks(chunk['ref'])
+            chunk['ref'] = removeStopWords(chunk['ref'])
         # Create the output folder if it doesn't exist
         os.makedirs(output_folder, exist_ok=True)
         with open(output_file, "w") as f:
@@ -119,8 +132,13 @@ def srt(access_token):
 def youtube():
     id = request.args.get('id')
     srt = YouTubeTranscriptApi.get_transcript(id)
+    
+    # Remove stopwords from the transcript
+    
     for block in srt:
-        block['text'] = nChunks(block['text'])
+        block['text'] = removeStopWords(block['text'])
+        
+    
     #  Saving in Text Output folder and the name of .txt (transcripted file) will be the same as input file
     output_folder = "Text Output"
     output_file = os.path.join(output_folder, id + ".json")
