@@ -1,0 +1,333 @@
+[4.292 - 3.504] So I've been an AI researcher
+for over a decade.
+[7.796 - 3.503] And a couple of months ago,
+I got the weirdest email of my career.
+[11.925 - 1.668] A random stranger wrote to me
+[13.635 - 3.42] saying that my work in AI
+is going to end humanity.
+[18.598 - 3.754] Now I get it,  AI, it's so hot right now.
+[22.352 - 1.627] (Laughter)
+[24.02 - 2.086] It's in the headlines
+pretty much every day,
+[26.106 - 1.918] sometimes because of really cool things
+[28.066 - 2.169] like discovering new
+molecules for medicine
+[30.235 - 2.252] or that dope Pope
+in the white puffer coat.
+[33.446 - 2.461] But other times the headlines
+have been really dark,
+[35.907 - 3.671] like that chatbot telling that guy
+that he should divorce his wife
+[39.619 - 4.088] or that AI meal planner app
+proposing a crowd pleasing recipe
+[43.707 - 2.002] featuring chlorine gas.
+[46.376 - 1.418] And in the background,
+[47.836 - 2.419] we've heard a lot of talk
+about doomsday scenarios,
+[50.255 - 1.918] existential risk and the singularity,
+[52.215 - 2.503] with letters being written
+and events being organized
+[54.718 - 2.002] to make sure that doesn't happen.
+[57.637 - 4.63] Now I'm a researcher who studies
+AI's impacts on society,
+[62.267 - 2.836] and I don't know what's going
+to happen in 10 or 20 years,
+[65.145 - 2.461] and nobody really does.
+[67.981 - 4.546] But what I do know is that there's some
+pretty nasty things going on right now,
+[72.527 - 2.878] because AI doesn't exist in a vacuum.
+[75.447 - 3.92] It is part of society, and it has impacts
+on people and the planet.
+[80.16 - 2.502] AI models can contribute
+to climate change.
+[82.704 - 3.462] Their training data uses art
+and books created by artists
+[86.207 - 1.71] and authors without their consent.
+[87.959 - 3.837] And its deployment can discriminate
+against entire communities.
+[92.797 - 2.127] But we need to start tracking its impacts.
+[94.966 - 3.587] We need to start being transparent
+and disclosing them and creating tools
+[98.595 - 2.419] so that people understand AI better,
+[101.056 - 2.335] so that hopefully future
+generations of AI models
+[103.433 - 2.836] are going to be more
+trustworthy, sustainable,
+[106.269 - 2.836] maybe less likely to kill us,
+if that's what you're into.
+[110.148 - 1.752] But let's start with sustainability,
+[111.9 - 5.756] because that cloud that AI models live on
+is actually made out of metal, plastic,
+[117.656 - 2.46] and powered by vast amounts of energy.
+[120.116 - 4.463] And each time you query an AI model,
+it comes with a cost to the planet.
+[125.789 - 3.044] Last year, I was part
+of the BigScience initiative,
+[128.833 - 2.127] which brought together
+a thousand researchers
+[130.96 - 2.503] from all over the world to create Bloom,
+[133.505 - 4.337] the first open large language
+model, like ChatGPT,
+[137.842 - 3.546] but with an emphasis on ethics,
+transparency and consent.
+[141.721 - 3.253] And the study I led that looked
+at Bloom's environmental impacts
+[145.016 - 3.253] found that just training it
+used as much energy
+[148.311 - 2.211] as 30 homes in a whole year
+[150.563 - 2.419] and emitted 25 tons of carbon dioxide,
+[153.024 - 3.253] which is like driving your car
+five times around the planet
+[156.319 - 3.17] just so somebody can use this model
+to tell a knock-knock joke.
+[159.489 - 2.169] And this might not seem like a lot,
+[161.7 - 2.46] but other similar large language models,
+[164.202 - 1.126] like GPT-3,
+[165.37 - 2.544] emit 20 times more carbon.
+[167.956 - 2.878] But the thing is, tech companies
+aren't measuring this stuff.
+[170.875 - 1.252] They're not disclosing it.
+[172.168 - 2.461] And so this is probably
+only the tip of the iceberg,
+[174.629 - 1.418] even if it is a melting one.
+[176.798 - 3.629] And in recent years we've seen
+AI models balloon in size
+[180.468 - 3.462] because the current trend in AI
+is "bigger is better."
+[184.305 - 2.795] But please don't get me started
+on why that's the case.
+[187.1 - 3.003] In any case, we've seen large
+language models in particular
+[190.103 - 3.211] grow 2,000 times in size
+over the last five years.
+[193.314 - 3.045] And of course, their environmental
+costs are rising as well.
+[196.401 - 3.795] The most recent work I led,
+found that switching out a smaller,
+[200.238 - 3.337] more efficient model
+for a larger language model
+[203.616 - 3.754] emits 14 times more carbon
+for the same task.
+[207.412 - 1.877] Like telling that knock-knock joke.
+[209.289 - 3.462] And as we're putting in these models
+into cell phones and search engines
+[212.792 - 2.836] and smart fridges and speakers,
+[215.628 - 2.628] the environmental costs
+are really piling up quickly.
+[218.84 - 3.754] So instead of focusing on some
+future existential risks,
+[222.635 - 2.753] let's talk about current tangible impacts
+[225.388 - 3.629] and tools we can create to measure
+and mitigate these impacts.
+[229.893 - 1.668] I helped create CodeCarbon,
+[231.603 - 2.961] a tool that runs in parallel
+to AI training code
+[234.564 - 2.211] that estimates the amount
+of energy it consumes
+[236.775 - 1.668] and the amount of carbon it emits.
+[238.485 - 2.877] And using a tool like this can help us
+make informed choices,
+[241.404 - 3.253] like choosing one model over the other
+because it's more sustainable,
+[244.657 - 2.92] or deploying AI models
+on renewable energy,
+[247.619 - 2.544] which can drastically reduce
+their emissions.
+[250.163 - 2.085] But let's talk about other things
+[252.29 - 2.961] because there's other impacts of AI
+apart from sustainability.
+[255.627 - 3.128] For example, it's been really
+hard for artists and authors
+[258.797 - 4.212] to prove that their life's work
+has been used for training AI models
+[263.051 - 1.209] without their consent.
+[264.302 - 3.17] And if you want to sue someone,
+you tend to need proof, right?
+[267.806 - 3.92] So Spawning.ai, an organization
+that was founded by artists,
+[271.726 - 3.337] created this really cool tool
+called “Have I Been Trained?”
+[275.104 - 2.461] And it lets you search
+these massive data sets
+[277.607 - 2.085] to see what they have on you.
+[279.734 - 1.668] Now, I admit it, I was curious.
+[281.444 - 1.627] I searched LAION-5B,
+[283.112 - 2.461] which is this huge data set
+of images and text,
+[285.615 - 2.711] to see if any images of me were in there.
+[289.285 - 1.585] Now those two first images,
+[290.87 - 2.169] that's me from events I've spoken at.
+[293.081 - 2.753] But the rest of the images,
+none of those are me.
+[295.875 - 2.002] They're probably of other
+women named Sasha
+[297.919 - 2.628] who put photographs of
+themselves up on the internet.
+[301.047 - 1.627] And this can probably explain why,
+[302.715 - 1.836] when I query an image generation model
+[304.551 - 2.294] to generate a photograph
+of a woman named Sasha,
+[306.886 - 2.753] more often than not
+I get images of bikini models.
+[309.681 - 1.626] Sometimes they have two arms,
+[311.349 - 2.294] sometimes they have three arms,
+[313.685 - 2.043] but they rarely have any clothes on.
+[316.563 - 2.794] And while it can be interesting
+for people like you and me
+[319.357 - 2.127] to search these data sets,
+[321.526 - 2.044] for artists like Karla Ortiz,
+[323.57 - 3.753] this provides crucial evidence
+that her life's work, her artwork,
+[327.365 - 2.961] was used for training AI models
+without her consent,
+[330.326 - 2.336] and she and two artists
+used this as evidence
+[332.704 - 2.794] to file a class action lawsuit
+against AI companies
+[335.54 - 1.96] for copyright infringement.
+[337.542 - 1.168] And most recently --
+[338.71 - 3.378] (Applause)
+[342.13 - 3.044] And most recently Spawning.ai
+partnered up with Hugging Face,
+[345.216 - 1.585] the company where I work at,
+[346.801 - 4.922] to create opt-in and opt-out mechanisms
+for creating these data sets.
+[352.098 - 3.587] Because artwork created by humans
+shouldn’t be an all-you-can-eat buffet
+[355.727 - 1.793] for training AI language models.
+[358.313 - 4.254] (Applause)
+[362.567 - 2.336] The very last thing I want
+to talk about is bias.
+[364.944 - 1.919] You probably hear about this a lot.
+[367.196 - 3.713] Formally speaking, it's when AI models
+encode patterns and beliefs
+[370.95 - 3.128] that can represent stereotypes
+or racism and sexism.
+[374.412 - 3.212] One of my heroes, Dr. Joy Buolamwini,
+experienced this firsthand
+[377.665 - 3.045] when she realized that AI systems
+wouldn't even detect her face
+[380.752 - 2.169] unless she was wearing
+a white-colored mask.
+[382.962 - 3.754] Digging deeper, she found
+that common facial recognition systems
+[386.758 - 3.253] were vastly worse for women of color
+compared to white men.
+[390.428 - 5.297] And when biased models like this
+are deployed in law enforcement settings,
+[395.767 - 4.296] this can result in false accusations,
+even wrongful imprisonment,
+[400.063 - 3.92] which we've seen happen
+to multiple people in recent months.
+[404.025 - 3.086] For example, Porcha Woodruff
+was wrongfully accused of carjacking
+[407.111 - 1.252] at eight months pregnant
+[408.363 - 2.961] because an AI system
+wrongfully identified her.
+[412.325 - 2.002] But sadly, these systems are black boxes,
+[414.369 - 5.964] and even their creators can't say exactly
+why they work the way they do.
+[420.917 - 3.462] And for example, for image
+generation systems,
+[424.379 - 4.129] if they're used in contexts
+like generating a forensic sketch
+[428.549 - 2.711] based on a description of a perpetrator,
+[431.26 - 3.587] they take all those biases
+and they spit them back out
+[434.889 - 3.462] for terms like dangerous criminal,
+terrorists or gang member,
+[438.393 - 2.168] which of course is super dangerous
+[440.603 - 4.421] when these tools are deployed in society.
+[445.566 - 2.294] And so in order to understand
+these tools better,
+[447.902 - 3.212] I created this tool called
+the Stable Bias Explorer,
+[451.155 - 3.379] which lets you explore the bias
+of image generation models
+[454.575 - 1.669] through the lens of professions.
+[457.37 - 3.045] So try to picture
+a scientist in your mind.
+[460.456 - 1.168] Don't look at me.
+[461.666 - 1.335] What do you see?
+[463.835 - 1.501] A lot of the same thing, right?
+[465.378 - 2.377] Men in glasses and lab coats.
+[467.797 - 1.71] And none of them look like me.
+[470.174 - 1.46] And the thing is,
+[471.676 - 3.253] is that we looked at all these
+different image generation models
+[474.929 - 1.627] and found a lot of the same thing:
+[476.597 - 2.586] significant representation
+of whiteness and masculinity
+[479.225 - 2.127] across all 150 professions
+that we looked at,
+[481.352 - 1.794] even if compared to the real world,
+[483.187 - 1.836] the US Labor Bureau of Statistics.
+[485.023 - 3.044] These models show lawyers as men,
+[488.109 - 3.462] and CEOs as men,
+almost 100 percent of the time,
+[491.571 - 3.17] even though we all know
+not all of them are white and male.
+[494.782 - 4.38] And sadly, my tool hasn't been used
+to write legislation yet.
+[499.203 - 3.963] But I recently presented it
+at a UN event about gender bias
+[503.166 - 3.879] as an example of how we can make tools
+for people from all walks of life,
+[507.086 - 2.252] even those who don't know how to code,
+[509.38 - 3.253] to engage with and better understand AI
+because we use professions,
+[512.633 - 3.087] but you can use any terms
+that are of interest to you.
+[516.596 - 2.752] And as these models are being deployed,
+[519.39 - 3.128] are being woven into the very
+fabric of our societies,
+[522.518 - 2.044] our cell phones, our social media feeds,
+[524.604 - 3.211] even our justice systems
+and our economies have AI in them.
+[527.815 - 3.879] And it's really important
+that AI stays accessible
+[531.736 - 4.713] so that we know both how it works
+and when it doesn't work.
+[536.908 - 4.296] And there's no single solution
+for really complex things like bias
+[541.245 - 2.419] or copyright or climate change.
+[543.664 - 2.711] But by creating tools
+to measure AI's impact,
+[546.375 - 3.337] we can start getting an idea
+of how bad they are
+[549.754 - 2.502] and start addressing them as we go.
+[552.256 - 3.337] Start creating guardrails
+to protect society and the planet.
+[556.177 - 2.336] And once we have this information,
+[558.513 - 1.835] companies can use it in order to say,
+[560.389 - 3.17] OK, we're going to choose this model
+because it's more sustainable,
+[563.601 - 2.044] this model because it respects copyright.
+[565.686 - 3.087] Legislators who really need
+information to write laws,
+[568.773 - 3.462] can use these tools to develop
+new regulation mechanisms
+[572.276 - 3.796] or governance for AI
+as it gets deployed into society.
+[576.114 - 2.377] And users like you and me
+can use this information
+[578.491 - 3.337] to choose AI models that we can trust,
+[581.869 - 2.92] not to misrepresent us
+and not to misuse our data.
+[585.79 - 1.918] But what did I reply to that email
+[587.75 - 2.961] that said that my work
+is going to destroy humanity?
+[590.711 - 4.046] I said that focusing
+on AI's future existential risks
+[594.799 - 2.044] is a distraction from its current,
+[596.843 - 1.835] very tangible impacts
+[598.719 - 4.004] and the work we should be doing
+right now, or even yesterday,
+[602.723 - 1.919] for reducing these impacts.
+[604.684 - 4.045] Because yes, AI is moving quickly,
+but it's not a done deal.
+[608.771 - 2.503] We're building the road as we walk it,
+[611.274 - 3.795] and we can collectively decide
+what direction we want to go in together.
+[615.069 - 1.21] Thank you.
+[616.279 - 2.002] (Applause)
