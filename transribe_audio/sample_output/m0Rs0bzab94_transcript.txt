@@ -1,0 +1,518 @@
+[0.36 - 1.74] - Hi, my name is Jonathan Richard Schwarz,
+[2.1 - 2.64] I'm a Research Fellow
+at Harvard University,
+[4.74 - 1.44] and have been an AI Research Scientist
+[6.18 - 1.65] for the last five to 10 years.
+[7.83 - 0.833] I'm here today
+[8.663 - 1.537] to answer the general public's questions
+[10.2 - 1.5] about artificial intelligence.
+[11.7 - 2.285] This is "Street Smart Science".
+[13.985 - 3.085] (upbeat music)
+[17.07 - 2.34] - If I could ask an
+expert one thing about AI,
+[19.41 - 1.23] I would ask, um...
+[20.64 - 2.397] - Um...
+- Do, uh...
+[23.037 - 1.293] - Eh.
+- Um...
+[24.33 - 1.216] - Hmm.
+[25.546 - 1.304] - Ooh.
+- Ooh.
+[26.85 - 0.913] - [Asker] Question.
+[27.763 - 1.327] I have one, actually...
+[30.42 - 1.68] - How does someone code AI?
+[32.1 - 2.04] What software does it use?
+[34.14 - 1.69] How do they programme
+it, kind of, I guess.
+[35.83 - 2.18] - Okay, yeah, so how
+does AI actually work?
+[38.01 - 1.397] How do people develop AI?
+[39.407 - 2.503] In my opinion, there's three components.
+[41.91 - 2.25] There's the pure software component,
+[44.16 - 2.22] the big part about AI is also the data
+[46.38 - 1.32] that we collect to train AI,
+[47.7 - 1.89] and the third part is the kind of,
+[49.59 - 1.47] state-of-the-art compute class,
+[51.06 - 2.01] the hardware accelerators
+[53.07 - 1.98] that are extremely
+expensive and that we need
+[55.05 - 2.37] in order to train these
+things very quickly.
+[57.42 - 1.77] In terms of the software,
+[59.19 - 3.06] this can really be done
+even on a small laptop.
+[62.25 - 1.59] This just looks like any other kind
+[63.84 - 1.38] of software development.
+[65.22 - 2.85] A lot of people work
+on Python for the sort
+[68.07 - 2.31] of people that know programming languages,
+[70.38 - 1.74] but the kind of secret
+sauce really comes in
+[72.12 - 2.28] in terms of the algorithms
+that people develop
+[74.4 - 1.533] in the scientific literature,
+[76.77 - 2.16] or in private companies,
+[78.93 - 2.19] and then once the software is developed,
+[81.12 - 1.41] the way AI training works is
+[82.53 - 1.14] that you effectively go
+[83.67 - 2.94] through these huge data
+sets time and time again,
+[86.61 - 2.76] and you make sort of
+small steps of improvement
+[89.37 - 2.19] in order to get just a little bit better
+[91.56 - 2.25] at a task every single
+time you take a step.
+[93.81 - 1.65] And for the most complex systems,
+[95.46 - 1.53] a process like this can take weeks,
+[96.99 - 2.07] if not months, and often can cost hundreds
+[99.06 - 2.22] of millions, if not billions of dollars.
+[101.28 - 2.16] - What safeguards are being put in place
+[103.44 - 1.14] or being talked about
+[104.58 - 2.31] so that AI doesn't get
+into the wrong hands,
+[106.89 - 2.94] or it isn't used for nefarious purposes?
+[109.83 - 1.98] - Yeah, so the legal regulation
+[111.81 - 2.07] and the law side of AI
+is a very active topic
+[113.88 - 0.833] at the moment.
+[114.713 - 2.977] In the UK, we had the "AI Safety Summit",
+[117.69 - 2.94] we have the Biden Harris Administration's
+[120.63 - 1.767] Executive Order on AI,
+[122.397 - 1.833] and the European Union's AI Act
+[124.23 - 1.44] that is currently being negotiated
+[125.67 - 1.8] between the European Union Parliament
+[127.47 - 1.14] and the council,
+[128.61 - 1.68] and that could really be kind of a first
+[130.29 - 1.5] of its kind legal framework.
+[131.79 - 2.43] The difficult questions
+here are often questions
+[134.22 - 3.12] of how do we regulate
+without overregulation?
+[137.34 - 2.34] So that means that if
+you regulate so little,
+[139.68 - 2.34] perhaps you could have
+all these nefarious users
+[142.02 - 3.18] and it would be easy
+for people to misuse AI,
+[145.2 - 1.53] but if you overregulate, it could mean
+[146.73 - 1.71] that really the sort of promise
+[148.44 - 2.34] and the economic potential
+of AI is concentrated
+[150.78 - 1.77] in the hand of only a few players.
+[152.55 - 2.04] And that itself could then mean
+[154.59 - 1.38] that we really don't harness
+[155.97 - 2.52] all the fantastic benefits
+that AI has to offer.
+[158.49 - 2.13] And so this is kind of
+a really complex tension
+[160.62 - 2.04] at the moment that in civil society,
+[162.66 - 0.87] but also on this kind
+[163.53 - 1.86] of governmental stage people are trying
+[165.39 - 1.65] to discuss together.
+[167.04 - 1.512] - So in the future,
+[168.552 - 2.058] how do you think is like gonna
+[170.61 - 3.167] be the legal point of view for like AI
+[174.691 - 1.246] and like in medicine?
+[175.937 - 2.053] - AI and medicine I think is a really,
+[177.99 - 2.37] really interesting, fascinating topic.
+[180.36 - 1.303] We're now on the stage where really
+[181.663 - 2.537] throughout a person's entire life,
+[184.2 - 2.49] there are various kind
+of forms of AI coming
+[186.69 - 1.56] in to help at that stage.
+[188.25 - 2.46] So for instance, in later life,
+[190.71 - 2.52] there's all the work
+being done on figuring
+[193.23 - 2.1] out the kind of adverse effects
+[195.33 - 1.65] that come from taking multiple drugs
+[196.98 - 1.32] at the same time.
+[198.3 - 1.05] There are other things such
+[199.35 - 2.67] as diagnosing chest x-rays.
+[202.02 - 0.833] There are things such
+[202.853 - 1.987] as detecting early planning eye diseases,
+[204.84 - 2.52] and really they have this huge potential
+[207.36 - 2.82] of reducing suffering
+[210.18 - 2.1] but also possibly
+cutting healthcare costs,
+[212.28 - 2.01] which is a big worry
+with ageing populations
+[214.29 - 0.96] at the moment.
+[215.25 - 2.19] A big question though, in healthcare here
+[217.44 - 3.24] is the kind of question
+of bias and fairness.
+[220.68 - 1.41] So often you will find
+[222.09 - 1.92] that your system performs incredibly well
+[224.01 - 1.08] across the board,
+[225.09 - 1.44] but if you then break the data apart
+[226.53 - 2.25] and you look a bit more
+closely, we can see
+[228.78 - 0.87] that there's a certain amount
+[229.65 - 2.04] of bias in subcategories.
+[231.69 - 1.92] So in the chest x-ray example,
+[233.61 - 1.47] actually it turns out that if you look
+[235.08 - 2.07] at the number of people that were told
+[237.15 - 0.833] that they're healthy,
+[237.983 - 1.087] even if they're not healthy,
+[239.07 - 2.22] so this is kind of the worst case outcome,
+[241.29 - 2.1] that proportion was
+higher for young patients,
+[243.39 - 2.37] for black patients, for patients
+[245.76 - 3.36] on public medical insurance and for women.
+[249.12 - 2.13] And so this is kind of
+one of those examples
+[251.25 - 1.8] where the ethics of AI
+really come into play
+[253.05 - 1.92] and we need to be careful to make sure
+[254.97 - 1.68] that we have kind of good standards
+[256.65 - 2.01] before we release these systems.
+[258.66 - 3.78] - How will AI exactly impact teenagers
+[262.44 - 1.8] in the next 30 or 40 years?
+[264.24 - 2.153] - I think that AI will will impact
+[266.393 - 2.047] young people's lives,
+[268.44 - 1.44] not just in the next 30 or 40 years,
+[269.88 - 2.34] but basically immediately from now on.
+[272.22 - 1.8] And one of the first ones that we now have
+[274.02 - 2.37] to think about is the nature of education.
+[276.39 - 2.7] With tools like ChatGPT
+and other chatbots,
+[279.09 - 0.93] of course there's a question
+[280.02 - 2.91] of how do we fairly examine
+the sort of students
+[282.93 - 2.19] that come to university or in school,
+[285.12 - 1.95] but also there's a real positive use
+[287.07 - 1.74] that is that a lot of people are excited
+[288.81 - 3.81] about building personalised
+sort of assistance
+[292.62 - 2.85] that can help you
+understand concepts in a way
+[295.47 - 1.98] that maybe the teacher
+wouldn't have be able to
+[297.45 - 0.833] or doesn't have the time
+[298.283 - 1.357] for each individual student.
+[299.64 - 4.83] My best advice for young
+folks is to really try
+[304.47 - 2.591] and understand what AI can do and think
+[307.061 - 2.749] about leveraging this for
+creative new purposes.
+[309.81 - 1.44] So at the moment there's a huge spark
+[311.25 - 1.92] and a creative explosion in terms
+[313.17 - 2.91] of entrepreneurial ideas, startup scene,
+[316.08 - 3.66] creatives that use AI
+even in social media,
+[319.74 - 3.6] sort of targeted campaigns or advertising.
+[323.34 - 2.201] And I think it's really
+for your generation
+[325.541 - 4.849] to make sure that you
+harness this technology
+[330.39 - 2.67] to its maximum kind of potential.
+[333.06 - 1.59] And then finally, I think one thing
+[334.65 - 1.29] that we all have to get used to
+[335.94 - 0.93] is we will see a lot
+[336.87 - 2.34] more AI generated content out there.
+[339.21 - 2.01] And this is really means
+that all of us need
+[341.22 - 1.98] to get a lot better at critical thinking
+[343.2 - 3.96] and kind of realise
+that every time we look
+[347.16 - 0.93] at something online,
+[348.09 - 1.65] there will be an increasing probability
+[349.74 - 1.98] that this isn't generated by human.
+[351.72 - 0.9] And so we need to think
+[352.62 - 1.59] about what were the intentions
+[354.21 - 1.71] of the people kind of creating this sort
+[355.92 - 2.19] of content and can we trust it?
+[358.11 - 0.833] - We'd like to ask,
+[358.943 - 3.877] have they ever been
+really thinking ethical
+[362.82 - 2.31] and a philosophical point of view,
+[365.13 - 2.337] what they are doing, what are their aims?
+[367.467 - 1.503] Are they sure about that?
+[368.97 - 1.44] - Yeah, I would like to know
+[370.41 - 1.23] when would they know
+[371.64 - 1.26] where to draw the line with it?
+[372.9 - 2.25] Will there be a line at all?
+[375.15 - 1.41] - This is a really interesting question.
+[376.56 - 2.4] I think it's fair to say that ethics
+[378.96 - 1.29] and AI has been something people have
+[380.25 - 2.19] been speaking about for a long time.
+[382.44 - 1.89] So for multiple decades those questions
+[384.33 - 1.26] were perhaps a bit more theoretical
+[385.59 - 1.86] in the sort of philosophical nature.
+[387.45 - 2.28] So questions such as
+when do we know whether
+[389.73 - 2.07] or not we actually have achieved AI?
+[391.8 - 1.41] What does that mean?
+[393.21 - 2.82] Will AI ever have a sentient
+or conscious system?
+[396.03 - 1.32] But over the last couple years,
+[397.35 - 1.68] and especially in the last 12 months
+[399.03 - 2.79] or so, we've really seen
+ethics come into play
+[401.82 - 1.41] in real world problems.
+[403.23 - 2.88] Questions about minorities and bias
+[406.11 - 2.46] that we have in multicultural societies.
+[408.57 - 2.13] There's a big questions around ethics
+[410.7 - 1.71] in a field called AI alignment.
+[412.41 - 2.64] So the idea here is we want the AI to kind
+[415.05 - 2.67] of behave in accordance
+with our kind of moral
+[417.72 - 2.76] and ethical understandings
+of our societies.
+[420.48 - 2.82] But of course that means
+that somebody somewhere,
+[423.3 - 2.82] maybe a developer or a chief executive
+[426.12 - 2.759] have to define what human values are.
+[428.879 - 2.611] So in order to, for the AI to be aligned
+[431.49 - 0.833] in that way.
+[432.323 - 0.847] And of course that means
+[433.17 - 1.41] that there's a question around power
+[434.58 - 2.67] of who should be de
+deciding on these values.
+[437.25 - 2.19] Should it be private corporations,
+[439.44 - 1.65] should it be civil society?
+[441.09 - 2.04] How does that differ
+in a democratic society
+[443.13 - 2.04] versus a non-democratic society?
+[445.17 - 2.13] Those are all really important questions.
+[447.3 - 1.017] This is not a question just
+[448.317 - 2.133] for AI engineers and researchers.
+[450.45 - 1.23] It's a question for all of us
+[451.68 - 1.77] to try and answer together.
+[453.45 - 2.49] - Is it wise to have public access
+[455.94 - 3.21] to lots of forms of AI
+[459.15 - 1.59] and should it just be reserved
+[460.74 - 3.0] for scientists or academics?
+[463.74 - 1.869] - Yeah, the kind of question of access,
+[465.609 - 2.931] maybe one thing that
+people don't quite realise
+[468.54 - 2.22] is that even some of our scientists
+[470.76 - 2.19] and engineers don't actually have access
+[472.95 - 1.32] to all forms of AI.
+[474.27 - 2.4] So we might have access
+to the trained system,
+[476.67 - 1.5] but we might not have access to kind
+[478.17 - 2.07] of the mathematical details required
+[480.24 - 1.02] to reproduce it.
+[481.26 - 1.2] Or even worse,
+[482.46 - 1.68] even if we had the mathematical details,
+[484.14 - 1.95] we don't have access to
+these really expensive,
+[486.09 - 1.74] huge compute clusters that cost hundreds
+[487.83 - 2.07] of millions of dollars to train, right?
+[489.9 - 1.47] So the current status is actually
+[491.37 - 2.22] that the most impactful
+systems are trained
+[493.59 - 1.71] by private corporations
+[495.3 - 2.411] and there it has been a certain trend
+[497.711 - 3.619] for these corporations
+to kinda reveal less
+[501.33 - 2.34] about their secret sauce, if you will.
+[503.67 - 1.86] So I think the question here is somewhere
+[505.53 - 0.833] in the middle,
+[506.363 - 1.417] there clearly are some benefits
+[507.78 - 1.2] to releasing things.
+[508.98 - 3.45] So economic kind of
+opportunity is a big one.
+[512.43 - 1.53] If these things are released more widely,
+[513.96 - 1.53] we can expect more startups
+[515.49 - 2.52] and companies doing interesting things.
+[518.01 - 1.2] You could also argue
+[519.21 - 1.11] that releasing them publicly
+[520.32 - 2.52] is actually a bigger form of scrutiny
+[522.84 - 2.49] than simply trusting an actor
+[525.33 - 1.74] that promises to be safe.
+[527.07 - 1.59] Actually, if we have access to the data
+[528.66 - 1.95] and the model and the implementation,
+[530.61 - 1.47] well then we can check for ourselves
+[532.08 - 1.47] and sort of judge for ourselves
+[533.55 - 1.53] of how safety systems are.
+[535.08 - 2.37] On the other hand, of course that means
+[537.45 - 3.84] that nefarious actors
+then also have access
+[541.29 - 1.29] to these systems and can use them
+[542.58 - 1.32] for these other purposes.
+[543.9 - 1.74] So I think at the moment,
+[545.64 - 1.38] this is really a question
+[547.02 - 2.1] that we don't have a
+good answer for just yet.
+[549.12 - 0.96] And it seems to me
+[550.08 - 2.52] that both extremes have their advantages
+[552.6 - 2.85] and disadvantages, but I would say overall
+[555.45 - 3.03] for the kind of most clearly
+beneficial circumstances
+[558.48 - 1.56] such as health and climate,
+[560.04 - 1.38] we should do the absolute best we can do
+[561.42 - 2.55] to enable those scientists
+to work as proactively
+[563.97 - 1.62] as possible with AI.
+[565.59 - 1.8] - How in the future are we going
+[567.39 - 2.1] to be able to know what training data
+[569.49 - 3.15] is used for algorithms like ChatGPT?
+[572.64 - 1.83] - Yeah, so this is a
+really important question
+[574.47 - 2.403] and it relates very closely to privacy.
+[577.86 - 1.2] The good news is that a lot
+[579.06 - 1.29] of the algorithmic foundations
+[580.35 - 1.05] for this are being developed.
+[581.4 - 0.9] So there's a notion
+[582.3 - 2.13] of a field called differential privacy.
+[584.43 - 2.07] And in layman's terms, that's the property
+[586.5 - 2.46] of not being able to tell much
+[588.96 - 1.903] about an individual kind of user's data
+[590.863 - 1.907] or whether or not that data is included
+[592.77 - 3.09] by merely looking at the
+output of an AI model.
+[595.86 - 1.99] Other forms of privacy could be that
+[599.19 - 2.7] a model has been trained
+perhaps on your data,
+[601.89 - 1.41] but you're no longer comfortable
+[603.3 - 1.56] with it being used and there's a notion
+[604.86 - 1.5] of unlearning in the sense
+[606.36 - 1.23] that we want to change the system
+[607.59 - 1.59] such that it behaves as though your data
+[609.18 - 1.86] was never included in the first place.
+[611.04 - 3.69] - How is AI going to
+impact the climate crisis?
+[614.73 - 2.49] - Yeah, a lot of the work with AI
+[617.22 - 1.77] and for the climate crisis sort
+[618.99 - 1.05] of is still ongoing.
+[620.04 - 1.92] Some of the exciting projects
+[621.96 - 2.22] that already exist is
+one called Nowcasting.
+[624.18 - 1.89] So Nowcasting means that we can
+[626.07 - 2.31] forecast the weather in
+very short time horizons.
+[628.38 - 2.4] So just think two hours or less.
+[630.78 - 1.83] That sort of technology is very important
+[632.61 - 1.68] to react to catastrophic events
+[634.29 - 2.25] or floods or extreme rains.
+[636.54 - 1.5] These systems are
+getting better and better
+[638.04 - 3.24] and that will allow us to kind of react
+[641.28 - 1.41] more appropriately to the kind
+[642.69 - 1.98] of extreme weather
+conditions we can expect.
+[644.67 - 2.67] A project I myself was
+involved in was the sort
+[647.34 - 2.85] of question about
+compression of climate data.
+[650.19 - 1.95] So climate data actually is very rapidly
+[652.14 - 1.74] becoming the largest scientific database
+[653.88 - 0.833] in the world.
+[654.713 - 1.267] And because of its size,
+[655.98 - 1.71] it's incredibly difficult for people
+[657.69 - 1.47] to work with this kind of data.
+[659.16 - 1.615] So one of the systems we developed
+[660.775 - 1.805] allows this data to be compressed
+[662.58 - 1.77] in a much smaller chunks of data
+[664.35 - 1.98] that people can transfer much easier
+[666.33 - 2.97] between institutions, but
+also individual slices
+[669.3 - 2.31] of data can be accessed
+much more effectively.
+[671.61 - 1.65] So that means that the climate scientists
+[673.26 - 1.691] can now kind of do their work
+[674.951 - 1.879] in a much faster pace
+[676.83 - 1.44] than they previously could have done.
+[678.27 - 1.89] And those sort of systems are the ones
+[680.16 - 0.843] that can really help us deal
+[681.003 - 1.973] with the climate crisis.
+[682.976 - 1.864] I think that maybe the most promise
+[684.84 - 2.85] of AI is we figure out
+some ways of doing things
+[687.69 - 1.47] that we are used to more efficiently
+[689.16 - 1.89] with a smaller CO2 footprint.
+[691.05 - 1.95] And these is really
+the most exciting kinds
+[693.0 - 2.37] of technologies 'cause they mean
+[695.37 - 2.25] that we can get closer
+to achieving net zero
+[697.62 - 2.28] without having to
+drastically reduce our kind
+[699.9 - 1.86] of living standards 'cause that itself
+[701.76 - 2.58] might then kind of prompt
+a negative reaction
+[704.34 - 1.41] from the general public preventing us
+[705.75 - 0.833] from doing so.
+[706.583 - 1.597] Another thing that's really important here
+[708.18 - 1.83] is of course that the systems
+[710.01 - 1.68] that are trained at huge expense
+[711.69 - 2.1] for multiple weeks or months burn
+[713.79 - 1.41] through a huge amount of energy.
+[715.2 - 1.83] And so there's also an argument to be made
+[717.03 - 1.89] that while AI might help us
+[718.92 - 1.35] deal the climate crisis,
+[720.27 - 1.62] the training of the bigs, the AI model
+[721.89 - 1.44] actually contributes to them.
+[723.33 - 2.07] And so it's a question
+really for the scientists
+[725.4 - 1.32] and engineers to figure out ways
+[726.72 - 2.52] in which we can train these
+systems more efficiently
+[729.24 - 1.77] such that we can harness the benefit
+[731.01 - 2.4] without these huge CO2 emissions.
+[733.41 - 1.77] - You look at piece of AI art
+[735.18 - 1.47] and then you look at piece of human art
+[736.65 - 2.37] and obviously like the level skill,
+[739.02 - 2.79] the AI art is good, but
+I'm such a big believer
+[741.81 - 1.5] in anything made with hands
+[743.31 - 1.38] like really translates.
+[744.69 - 1.32] And I wonder would AI ever
+[746.01 - 2.34] like be seamless enough here as a human?
+[748.35 - 1.89] - Yeah, I think it's
+fair to say now that some
+[750.24 - 2.01] of the AI generated
+art could actually pass
+[752.25 - 0.93] as human art.
+[753.18 - 1.89] So say for imagery,
+[755.07 - 1.56] I think we've seen tremendous amount
+[756.63 - 1.32] of progress with a certain type
+[757.95 - 2.46] of AI algorithm called a diffusion model
+[760.41 - 1.32] that has really kind of allowed us
+[761.73 - 2.79] to create high resolution, incredibly sort
+[764.52 - 3.06] of artistic forms of imagery.
+[767.58 - 1.95] How should creatives react to this?
+[769.53 - 1.17] Well I think that some
+[770.7 - 1.8] of the most interesting work I've seen
+[772.5 - 1.62] has really been, instead of trying
+[774.12 - 1.53] to fight this kind of innovation,
+[775.65 - 1.17] has been trying to work with it.
+[776.82 - 2.1] So I've seen plays in the theatre
+[778.92 - 2.01] where people work together
+with an AI chatbot
+[780.93 - 1.38] to develop a play.
+[782.31 - 2.07] We've seen composers trying to use AI
+[784.38 - 1.95] to create a new piece of music.
+[786.33 - 1.74] Perhaps graphic designers or architects
+[788.07 - 1.56] can think of ways to do this.
+[789.63 - 1.98] But I also want to kind of draw highlights
+[791.61 - 0.833] of the fact
+[792.443 - 1.147] that this doesn't happen without tension.
+[793.59 - 1.08] So some of you might have heard
+[794.67 - 2.19] about the Hollywood strike that happened
+[796.86 - 2.19] earlier this year in the United States
+[799.05 - 2.55] and there you had a huge amount of actors
+[801.6 - 0.93] and those are not just sort
+[802.53 - 1.23] of the famous movie stars,
+[803.76 - 2.16] but many of them actually have huge amount
+[805.92 - 2.94] of training and years put into their craft
+[808.86 - 2.01] and aren't very well paid at all.
+[810.87 - 2.721] And they obviously feel
+this danger of maybe some
+[813.591 - 1.809] of the nefarious users.
+[815.4 - 0.87] So there have been cases
+[816.27 - 1.73] where people had their face used
+[818.0 - 1.9] in a video game without permission
+[819.9 - 1.89] or people kind of creating audio books,
+[821.79 - 1.71] having their voice replicated
+[823.5 - 1.44] and other forms of this kind
+[824.94 - 2.76] of bad use of AI, right?
+[827.7 - 0.9] So as we're going forward,
+[828.6 - 0.96] not just in creative domain,
+[829.56 - 1.56] but overall we have to figure out some
+[831.12 - 2.13] of these tensions that
+will inevitably happen
+[833.25 - 1.74] when there's some sort of replacement
+[834.99 - 1.233] or displacement of jobs.
+[838.093 - 2.583] (upbeat music)
