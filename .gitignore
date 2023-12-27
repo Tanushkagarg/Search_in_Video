@@ -15,4 +15,4 @@ __pycache__/
 
 .env
 
-__tokenizers__/
+tokenizers/

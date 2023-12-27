@@ -19,3 +19,9 @@ python text.py
 ```
 python audio.py
 ```
+
+### To play the audio at a specific time run this command:
+
+```
+python timestamp.py
+```
