@@ -8,13 +8,13 @@ import json
 nlp = spacy.load("en_core_web_sm")
 
 def filter_important_words(sentence):
-    """Filters out stop words from a sentence and returns a string of important words."""
+    """Filters out stop words from a sentence and returns the filtered text."""
     doc = nlp(sentence)
-    important_words = [token.text for token in doc if not token.is_stop]
+    important_words=[token.text for token in doc if not token.is_stop]
     return ' '.join(important_words) if important_words else None
 
 def process_transcript(input_file_path):
-    """Processes a JSON transcript to remove stop words and saves a tagged version."""
+    """Processes a JSON transcript to segment text and save with timestamps."""
 
     # Create output folder if it doesn't exist
     output_folder = "Output"
@@ -22,7 +22,7 @@ def process_transcript(input_file_path):
 
     # Generate output file name
     input_filename = os.path.splitext(os.path.basename(input_file_path))[0]
-    output_filename = f"Tagged - {input_filename}.json"
+    output_filename = f"Segmented - {input_filename}.json"
     output_path = os.path.join(output_folder, output_filename)
 
     # Load input data
@@ -33,19 +33,17 @@ def process_transcript(input_file_path):
         print(f"Error loading JSON file: {e}")
         return
 
-    # Process transcript entries
+    # Process transcript entries and create segmented output
     output_data = []
     for entry in data:
-        if isinstance(entry["text"], list):  # Handle list of strings
-            for text_item in entry["text"]:
-                filtered_text = filter_important_words(text_item)
-                if filtered_text:
-                    output_data.append({"text": filtered_text, "timestamp": entry["timestamp"]})
-        else:  # Handle string value
-            filtered_text = filter_important_words(entry["text"])
-            if filtered_text:
-                output_data.append({"text": filtered_text, "timestamp": entry["timestamp"]})
+        original_text = entry["text"]
+        filtered_text = filter_important_words(original_text)
 
+        if filtered_text is not None:
+            output_data.append({
+                "text": filtered_text,
+                "timestamp": entry["timestamp"]
+            })
     # Save processed data to output file
     try:
         with open(output_path, 'w', encoding='utf-8') as output_file:
@@ -53,6 +51,9 @@ def process_transcript(input_file_path):
         print(f"Processing completed. Output saved to: {output_path}")
     except OSError as e:
         print(f"Error saving output file: {e}")
+
+
+# To select file
 
 def select_file():
     """Opens a file selection dialog and returns the chosen file path."""
