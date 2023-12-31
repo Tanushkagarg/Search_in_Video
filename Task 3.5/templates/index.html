@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+<!-- A bit of inline CSS for loading  -->
+    <style>
+        #loading {
+            display: none;
+        }
+    </style>
+<!-- Importing the JavaScript file containing all the logic  -->
+     <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+<body>
+    <h1>Media Player</h1>
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp3, .wav, .mp4, .avi, .mkv, .mov" required>
+        <label for="media-type">Select media type:</label>
+        <select id="media-type" name="media-type">
+            <option value="audio">Audio</option>
+            <option value="video">Video</option>
+        </select>
+        <button type="submit">Upload</button>
+    </form>
+<!-- Till the video or Audio Uploads showing Uploading Status -->
+    <div id="loading">Uploading...</div>
+
+<!-- Giving Controls like Play, Pause, Download and Speed Control to User -->
+    <div id="media-controls">
+        <audio id="audio" controls></audio>
+<!-- Setting Up video display width to 1200px -->
+        <video id="video" controls style="display:none" width="1200px"></video>
+<!-- Both the Functions mentioned in main.js file -->
+        <button onclick="changeSpeed()">Change Speed</button>
+        <button onclick="setMediaCursor()">Set Media Cursor</button>
+    </div>
+</body>
+</html>
+
