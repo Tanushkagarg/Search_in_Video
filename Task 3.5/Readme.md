@@ -32,3 +32,13 @@ pip install moviepy
     * Contains index.html file
   * uploads folder
     * Contains all the media files that the user has selected
+
+ **To Run the App**
+ ```
+ cd <root_folder>
+ ```
+ ```
+ python app.py
+ ```
+
+**Running on ```http://127.0.0.1:5000```**
