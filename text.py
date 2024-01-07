@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 import spacy
 import re
 import json
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 nltk_data_path = "."  # Set your desired directory path
 
@@ -59,27 +61,28 @@ def removeStopWords(text):
     tokens_without_sw= [word for word in text_tokens if not word in all_stopwords]
     return tokens_without_sw
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='Audio Output')
 
 # Main Page to get the option
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         option = request.form["option"]
-        return redirect(url_for(('option'), select=option))
+        inputText = request.form["inputText"] 
+        return redirect(url_for(('option'), select=option, inputText=inputText))
     return render_template('select.html')
 
 # Route for handling the option
 @app.route('/option', methods=['GET', 'POST'])
 def option():
     select = request.args.get('select')
-    
+    inputText = request.args.get('inputText')
     if select == "youtube":
         if request.method == "POST":
             url = request.form["url"]
             # Extracting video ID from the URL
             id = url.split(".be/")[1]
-            return redirect(url_for('youtube', id=id))
+            return redirect(url_for('youtube', id=id, input=inputText))
         return render_template("youtube.html")
     
     # Handle Udemy option
@@ -103,7 +106,9 @@ def option():
         transcript = transcriber.transcribe(input_file)   
         result = transcript.export_subtitles_srt()
         window.destroy()
-        
+        static_folder = os.path.join(os.getcwd(), 'Audio Output')
+
+        relative_path = os.path.relpath(input_file.replace('\\', '/'), start=static_folder)
         # Converting the obtained srt file to a json file
         
         transcript = [dict(startTime = offset_seconds(startTime), endTime = offset_seconds(endTime), ref = ' '.join(ref.split())) for startTime, endTime, ref in re.findall(regex, result, re.DOTALL)]
@@ -112,18 +117,30 @@ def option():
         output_folder = "Text Output"
         
         # Create the output folder if it doesn't exist
-        
-        output_file = os.path.join(output_folder, os.path.splitext(os.path.basename(input_file))[0] + ".json")
+        title = os.path.splitext(os.path.basename(input_file))[0]
+        output_file = os.path.join(output_folder, title + ".json")
         
         # Remove stopwords from the transcript
         
         for chunk in transcript:
             chunk['ref'] = removeStopWords(chunk['ref'])
+            
+        inputText = removeStopWords(inputText)
+        
+        processed_srt_data = [' '.join(entry['ref']) for entry in transcript]
+        processed_input = ' '.join(inputText)
+    
+    
+        vectorizer = TfidfVectorizer()
+        tfidf_matrix = vectorizer.fit_transform(processed_srt_data + [processed_input])
+
+        cosine_similarities = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1])
+        most_similar_index = cosine_similarities.argmax()
         # Create the output folder if it doesn't exist
         os.makedirs(output_folder, exist_ok=True)
         with open(output_file, "w") as f:
             json.dump(transcript, f)
-        return transcript
+        return render_template('audio.html', time=transcript[most_similar_index]["startTime"], filePath=relative_path)    
                 
     # Default response if the option is not recognized
     return "<h1>Still working on it<h1>"
@@ -139,14 +156,25 @@ def srt(access_token):
 @app.route('/youtube', methods=['GET', 'POST'])
 def youtube():
     id = request.args.get('id')
+    input = request.args.get('input')
     srt = YouTubeTranscriptApi.get_transcript(id)
+    
+    input = removeStopWords(input)
     
     # Remove stopwords from the transcript
     
     for block in srt:
         block['text'] = removeStopWords(block['text'])
-        
+    processed_srt_data = [' '.join(entry['text']) for entry in srt]
+    processed_input = ' '.join(input)
     
+    
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform(processed_srt_data + [processed_input])
+
+    cosine_similarities = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1])
+    most_similar_index = cosine_similarities.argmax()
+
     #  Saving in Text Output folder and the name of .txt (transcripted file) will be the same as input file
     output_folder = "Text Output"
     output_file = os.path.join(output_folder, id + ".json")
@@ -155,7 +183,21 @@ def youtube():
     os.makedirs(output_folder, exist_ok=True)
     with open(output_file, "w") as f:
         json.dump(srt, f)
-    return srt
+    return (srt[most_similar_index])
+
+@app.route('/input', methods=['GET', 'POST'])
+def input():
+    id = request.args.get('id')    
+    if request.method == "POST":
+        file_path = 'Text Output/' + id + '.json'
+        
+        with open(file_path, 'r') as file:
+            content = file.read()
+        print(content)
+        
+        text = request.form["input"]
+        
+    return render_template("input.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
