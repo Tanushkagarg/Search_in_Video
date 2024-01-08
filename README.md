@@ -11,7 +11,7 @@ pip install -r requirements.txt
 > Transcribing the video and using spacy and nltk to remove stop words from the text
 
 ```
-python text.py
+python finalTimestamp.py
 ```
 
 ### To get the audio of a youtube video run this command:
