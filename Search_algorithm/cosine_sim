@@ -1,0 +1,37 @@
+import json
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+def load_json_file(file_path):
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+    return data
+
+def cosine_similarity_check(query, data):
+    # Combine the query and data into a list
+    all_texts = [query] + list(data.values())
+
+    #CountVectorizer to convert text into a matrix of token counts
+    vectorizer = CountVectorizer().fit_transform(all_texts)
+
+    # cosine similarity
+    cosine_similarities = cosine_similarity(vectorizer)
+
+    # The first row of cosine_similarities corresponds to the query's similarity to other texts
+    query_similarity_scores = cosine_similarities[0][1:]
+
+    # Create a dictionary with text keys and similarity scores
+    result = {text: score for text, score in zip(data.keys(), query_similarity_scores)}
+
+    return result
+
+# Trial:
+json_file_path = 'data.json'
+query_sentence = "input sentence to search'
+
+data_from_json = load_json_file(json_file_path)
+result = cosine_similarity_check(query_sentence, data_from_json)
+
+# Print the result
+for key, value in result.items():
+    print(f"Similarity with '{key}': {value}")
