@@ -14,3 +14,6 @@ Task 3.5 - Audio and Video Pointer Movement
 
 Task 4 - Searching the user's sentences
 **[Visit](https://github.com/Tanushkagarg/Search_in_Video/tree/kaushik/Task%204)**
+
+Updated code for STT and Searching Algorithm
+**[Visit](https://github.com/Tanushkagarg/Search_in_Video/tree/kaushik/Updated)**
