@@ -1,0 +1,1577 @@
+[
+  {
+    "text": "we're going to cover three different vector-based similarity search methods",
+    "timestamp": {
+      "start": "00:00:00,064",
+      "end": "00:00:06,111"
+    }
+  },
+  {
+    "text": "were going to explain how they work and and drawing an intuition for why they work",
+    "timestamp": {
+      "start": "00:00:07,455",
+      "end": "00:00:12,736"
+    }
+  },
+  {
+    "text": "and we're also going to actually go ahead and implement each of these in python",
+    "timestamp": {
+      "start": "00:00:14,303",
+      "end": "00:00:21,152"
+    }
+  },
+  {
+    "text": "now for TF IDF and brm twenty five they're both pretty similar and brm twenty five is actually a",
+    "timestamp": {
+      "start": "00:00:22,176",
+      "end": "00:00:31,552"
+    }
+  },
+  {
+    "text": "improved version of TF IDF",
+    "timestamp": {
+      "start": "00:00:32,895",
+      "end": "00:00:35,167"
+    }
+  },
+  {
+    "text": "and we can classify both of these as being sparse vector methods",
+    "timestamp": {
+      "start": "00:00:37,183",
+      "end": "00:00:43,712"
+    }
+  },
+  {
+    "text": "so these both use sparse factors which essentially means that vectors with a lot of zeros in with the occasional value in there",
+    "timestamp": {
+      "start": "00:00:44,928",
+      "end": "00:00:53,439"
+    }
+  },
+  {
+    "text": "and then our button warm down here which is sentence but that's an example of a dense vector now dense vectors quite interesting as they allow us to",
+    "timestamp": {
+      "start": "00:00:55,104",
+      "end": "00:01:06,463"
+    }
+  },
+  {
+    "text": "consider the semantics or the meaning behind what we are saying rather than",
+    "timestamp": {
+      "start": "00:01:07,648",
+      "end": "00:01:12,832"
+    }
+  },
+  {
+    "text": "just the syntax and the words that were using so that that's pretty interesting but all of these",
+    "timestamp": {
+      "start": "00:01:14,304",
+      "end": "00:01:19,232"
+    }
+  },
+  {
+    "text": "can work better than the others in in different situations I've had a dense representations of language in some cases work worse than sparse representations and of course the other way around as well so well but we'll have a look and we'll cover all of those",
+    "timestamp": {
+      "start": "00:01:20,447",
+      "end": "00:01:36,384"
+    }
+  },
+  {
+    "text": "so let's get started with TF IDF now TF IDF consists of two different components as you can see the name TF IDF",
+    "timestamp": {
+      "start": "00:01:38,080",
+      "end": "00:01:49,632"
+    }
+  },
+  {
+    "text": "now the first of those components is the TF which is the term frequency",
+    "timestamp": {
+      "start": "00:01:50,975",
+      "end": "00:01:56,319"
+    }
+  },
+  {
+    "text": "and term frequency does what it says on the tin it looks at a sentence or a paragraph and given a certain query",
+    "timestamp": {
+      "start": "00:01:58,720",
+      "end": "00:02:08,832"
+    }
+  },
+  {
+    "text": "which is the queue hear it will tell you compared to the length of that document how frequent your query is",
+    "timestamp": {
+      "start": "00:02:09,919",
+      "end": "00:02:17,759"
+    }
+  },
+  {
+    "text": "so what we have here is this tea which is our document so we're saying okay what is the frequency",
+    "timestamp": {
+      "start": "00:02:19,231",
+      "end": "00:02:26,751"
+    }
+  },
+  {
+    "text": "of the query cue in our document the",
+    "timestamp": {
+      "start": "00:02:28,128",
+      "end": "00:02:31,167"
+    }
+  },
+  {
+    "text": "then on bottom down here was saying what is the frequency of all terms",
+    "timestamp": {
+      "start": "00:02:33,055",
+      "end": "00:02:37,856"
+    }
+  },
+  {
+    "text": "in our document de",
+    "timestamp": {
+      "start": "00:02:39,007",
+      "end": "00:02:40,255"
+    }
+  },
+  {
+    "text": "so if we were to calculate this we would get",
+    "timestamp": {
+      "start": "00:02:42,464",
+      "end": "00:02:45,567"
+    }
+  },
+  {
+    "text": "one because we only have one create our query in this case is bananas",
+    "timestamp": {
+      "start": "00:02:48,031",
+      "end": "00:02:52,735"
+    }
+  },
+  {
+    "text": "divided by eighteen which is the total number of terms in that document and that will give us zero point zero five six",
+    "timestamp": {
+      "start": "00:02:54,335",
+      "end": "00:03:05,951"
+    }
+  },
+  {
+    "text": "so that's our term frequency which is half of TF idea if we still have IDF so what what is IDF how do we how do we palpate that",
+    "timestamp": {
+      "start": "00:03:07,296",
+      "end": "00:03:16,768"
+    }
+  },
+  {
+    "text": "so IDF is the inverse document frequency and its calculated for each document so each so when we say document here we mean it can be a sentence or a paragraph essentially what you see here we have ABC later on those are documents",
+    "timestamp": {
+      "start": "00:03:18,143",
+      "end": "00:03:35,231"
+    }
+  },
+  {
+    "text": "in this case each one of them is a sentence could be a paragraph callee a mix of of different things right",
+    "timestamp": {
+      "start": "00:03:36,832",
+      "end": "00:03:42,048"
+    }
+  },
+  {
+    "text": "in this case we have these sentences and what we're saying here is the inverse document frequency is the log of",
+    "timestamp": {
+      "start": "00:03:43,520",
+      "end": "00:03:52,320"
+    }
+  },
+  {
+    "text": "the number of documents so this in this case we would have three",
+    "timestamp": {
+      "start": "00:03:53,440",
+      "end": "00:03:58,912"
+    }
+  },
+  {
+    "text": "over the number of documents that contain the query is all the word is which in this case is all of them so",
+    "timestamp": {
+      "start": "00:04:00,384",
+      "end": "00:04:10,432"
+    }
+  },
+  {
+    "text": "we have all three documents there",
+    "timestamp": {
+      "start": "00:04:11,520",
+      "end": "00:04:14,080"
+    }
+  },
+  {
+    "text": "and so what we get from there is the value one",
+    "timestamp": {
+      "start": "00:04:16,191",
+      "end": "00:04:19,488"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:04:20,575",
+      "end": "00:04:20,704"
+    }
+  },
+  {
+    "text": "don't forget that this is a log here so it's not actually won its",
+    "timestamp": {
+      "start": "00:04:22,208",
+      "end": "00:04:29,152"
+    }
+  },
+  {
+    "text": "if I let myself a little bit spaces log",
+    "timestamp": {
+      "start": "00:04:30,175",
+      "end": "00:04:32,608"
+    }
+  },
+  {
+    "text": "and then and then one blog one which is equal to zero so this is a very common word and because it's so common we literally do not care about it and this IDF is multiplied by our term frequency so would have TF down here so if our term that will research and forwards is",
+    "timestamp": {
+      "start": "00:04:33,984",
+      "end": "00:04:53,536"
+    }
+  },
+  {
+    "text": "then all of these sequences would get a value of zero which",
+    "timestamp": {
+      "start": "00:04:55,007",
+      "end": "00:04:58,144"
+    }
+  },
+  {
+    "text": "might seem counterintuitive but if your if your query is something like",
+    "timestamp": {
+      "start": "00:04:59,679",
+      "end": "00:05:04,735"
+    }
+  },
+  {
+    "text": "is is the",
+    "timestamp": {
+      "start": "00:05:05,791",
+      "end": "00:05:07,488"
+    }
+  },
+  {
+    "text": "best city in the forest right you know from the from the top sentence there",
+    "timestamp": {
+      "start": "00:05:08,735",
+      "end": "00:05:13,503"
+    }
+  },
+  {
+    "text": "you wouldn't want to be prioritizing the word is or the or in because of those words are everywhere so we don't really care about those words we want to care about the more unique words and that's what you would get down here so we have the query for forests the number of documents exactly the same still three",
+    "timestamp": {
+      "start": "00:05:15,104",
+      "end": "00:05:34,559"
+    }
+  },
+  {
+    "text": "in the hamon documents contained a word forest so only one of them we have a at the top so we would have log",
+    "timestamp": {
+      "start": "00:05:35,776",
+      "end": "00:05:44,480"
+    }
+  },
+  {
+    "text": "three",
+    "timestamp": {
+      "start": "00:05:46,144",
+      "end": "00:05:46,335"
+    }
+  },
+  {
+    "text": "and what is like three log three is",
+    "timestamp": {
+      "start": "00:05:47,488",
+      "end": "00:05:49,376"
+    }
+  },
+  {
+    "text": "zero point for eight so then we times that by TF",
+    "timestamp": {
+      "start": "00:05:50,592",
+      "end": "00:05:54,976"
+    }
+  },
+  {
+    "text": "and we get a larger number than we would for is so",
+    "timestamp": {
+      "start": "00:05:56,768",
+      "end": "00:06:00,032"
+    }
+  },
+  {
+    "text": "that is where the IDF or in the second frequency comes in it essentially",
+    "timestamp": {
+      "start": "00:06:01,664",
+      "end": "00:06:06,239"
+    }
+  },
+  {
+    "text": "multiply it gives us the multiplier for less common words because the chances are there more relevant to our query",
+    "timestamp": {
+      "start": "00:06:08,032",
+      "end": "00:06:14,687"
+    }
+  },
+  {
+    "text": "now what we can see here is just a work through of what we just looked at so we calculated the TF for each document in the word is up here",
+    "timestamp": {
+      "start": "00:06:16,384",
+      "end": "00:06:25,600"
+    }
+  },
+  {
+    "text": "we calculate the IDF and then we multiply those two together and because is is everywhere the IDF is equal to zero and therefore the outcome is always zero because just not a relevant word that we care about",
+    "timestamp": {
+      "start": "00:06:27,455",
+      "end": "00:06:39,872"
+    }
+  },
+  {
+    "text": "now on the other hand the word forest",
+    "timestamp": {
+      "start": "00:06:42,976",
+      "end": "00:06:45,791"
+    }
+  },
+  {
+    "text": "when we calculate",
+    "timestamp": {
+      "start": "00:06:47,007",
+      "end": "00:06:48,191"
+    }
+  },
+  {
+    "text": "when we calculate the TF idea for each of these",
+    "timestamp": {
+      "start": "00:06:49,888",
+      "end": "00:06:53,567"
+    }
+  },
+  {
+    "text": "the TF for b and C is zero because the term just doesn't appear in those documents and then the IDF is higher because forest is a row rarer word so it's zero point for eight",
+    "timestamp": {
+      "start": "00:06:55,552",
+      "end": "00:07:08,127"
+    }
+  },
+  {
+    "text": "now the outcome of that is that only this value here so this is the tf-idf for the document",
+    "timestamp": {
+      "start": "00:07:09,376",
+      "end": "00:07:16,832"
+    }
+  },
+  {
+    "text": "is not zero",
+    "timestamp": {
+      "start": "00:07:18,528",
+      "end": "00:07:19,648"
+    }
+  },
+  {
+    "text": "and that that's essentially how TF IDF works",
+    "timestamp": {
+      "start": "00:07:20,671",
+      "end": "00:07:23,936"
+    }
+  },
+  {
+    "text": "now let's jump across the python let's have a quick look at how we'd right that code so we have we have those three sentences again up here so let's run that",
+    "timestamp": {
+      "start": "00:07:25,279",
+      "end": "00:07:36,671"
+    }
+  },
+  {
+    "text": "and then just here we can see okay we import NumPy will use the number here where emerging all the documents here now reason we do this so emerge into a list of lists is just so we can more easily calculate the terms en and also",
+    "timestamp": {
+      "start": "00:07:38,175",
+      "end": "00:07:56,480"
+    }
+  },
+  {
+    "text": "the term enqueue equals out our query which you can see",
+    "timestamp": {
+      "start": "00:07:57,791",
+      "end": "00:08:03,231"
+    }
+  },
+  {
+    "text": "just here in the IDF section",
+    "timestamp": {
+      "start": "00:08:04,895",
+      "end": "00:08:07,328"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:08:10,144",
+      "end": "00:08:10,239"
+    }
+  },
+  {
+    "text": "once we do get to TF idea here so we calculate the IDF which I just explained anyway and then they're also the term frequency which is just the number of matches for are specific word in a given sentence so let's run that and let's have a look TF IDF",
+    "timestamp": {
+      "start": "00:08:11,359",
+      "end": "00:08:31,584"
+    }
+  },
+  {
+    "text": "for the word",
+    "timestamp": {
+      "start": "00:08:32,607",
+      "end": "00:08:33,343"
+    }
+  },
+  {
+    "text": "must love is like we did before in a",
+    "timestamp": {
+      "start": "00:08:34,815",
+      "end": "00:08:37,471"
+    }
+  },
+  {
+    "text": "what do you get we get zero as three as we calculate before and how about forests",
+    "timestamp": {
+      "start": "00:08:38,880",
+      "end": "00:08:43,616"
+    }
+  },
+  {
+    "text": "and here we get the zero point zero sips of says it's more precise here but before we got zero point zero six in our other screen now that's TF IDF recently straightforward",
+    "timestamp": {
+      "start": "00:08:45,664",
+      "end": "00:09:00,512"
+    }
+  },
+  {
+    "text": "however I did say that these are vectors write these are sparse factors obviously this doesn't look much like a vector so how do we turn this into a vector well",
+    "timestamp": {
+      "start": "00:09:01,536",
+      "end": "00:09:13,151"
+    }
+  },
+  {
+    "text": "what we do is we take our woke up so the all of the words that we have in all of our documents so a b and C so if we",
+    "timestamp": {
+      "start": "00:09:14,528",
+      "end": "00:09:25,440"
+    }
+  },
+  {
+    "text": "so we create our vocab and all we want to do is we take a set",
+    "timestamp": {
+      "start": "00:09:27,072",
+      "end": "00:09:31,200"
+    }
+  },
+  {
+    "text": "of have three documents a",
+    "timestamp": {
+      "start": "00:09:32,575",
+      "end": "00:09:35,583"
+    }
+  },
+  {
+    "text": "plus the plus sea and this is just going to create a set containing all of the words across all of our documents so",
+    "timestamp": {
+      "start": "00:09:36,960",
+      "end": "00:09:44,703"
+    }
+  },
+  {
+    "text": "quick look at what we will we get from there",
+    "timestamp": {
+      "start": "00:09:45,984",
+      "end": "00:09:48,096"
+    }
+  },
+  {
+    "text": "so very cabin this is just all of every single word that we have in there",
+    "timestamp": {
+      "start": "00:09:50,080",
+      "end": "00:09:53,664"
+    }
+  },
+  {
+    "text": "now to create our vector what we want to do is take that vocab and mirror it into a vector so for every word here we're going to calculate the TF IDF for each document",
+    "timestamp": {
+      "start": "00:09:55,231",
+      "end": "00:10:08,096"
+    }
+  },
+  {
+    "text": "and saw that in a list which creates are TF IDF vector so let me show you how that works",
+    "timestamp": {
+      "start": "00:10:09,119",
+      "end": "00:10:16,000"
+    }
+  },
+  {
+    "text": "so let's first initialize are vector so",
+    "timestamp": {
+      "start": "00:10:18,976",
+      "end": "00:10:22,528"
+    }
+  },
+  {
+    "text": "like to a and what we're going to do is say forward",
+    "timestamp": {
+      "start": "00:10:23,744",
+      "end": "00:10:26,911"
+    }
+  },
+  {
+    "text": "in the cab",
+    "timestamp": {
+      "start": "00:10:28,000",
+      "end": "00:10:28,831"
+    }
+  },
+  {
+    "text": "vector a",
+    "timestamp": {
+      "start": "00:10:31,552",
+      "end": "00:10:32,192"
+    }
+  },
+  {
+    "text": "dipende",
+    "timestamp": {
+      "start": "00:10:33,280",
+      "end": "00:10:33,952"
+    }
+  },
+  {
+    "text": "and then here we're going to call TF IDF and then we have our word so we define that as word and our sentence in the scales were doing it sends a so right sentence a like that and we can do this for each of our vectors let's just do",
+    "timestamp": {
+      "start": "00:10:34,976",
+      "end": "00:10:52,031"
+    }
+  },
+  {
+    "text": "a and b for now",
+    "timestamp": {
+      "start": "00:10:53,247",
+      "end": "00:10:54,432"
+    }
+  },
+  {
+    "text": "so be here and here",
+    "timestamp": {
+      "start": "00:11:02,559",
+      "end": "00:11:05,280"
+    }
+  },
+  {
+    "text": "and here",
+    "timestamp": {
+      "start": "00:11:06,304",
+      "end": "00:11:06,752"
+    }
+  },
+  {
+    "text": "and let's hold look what we get so we have vector eight and we see that we get essentially a vector now we don't have that many documents or that many words here so we're just getting the same number here which is",
+    "timestamp": {
+      "start": "00:11:12,159",
+      "end": "00:11:24,703"
+    }
+  },
+  {
+    "text": "meaning that it appears in one document and that document is is a now to tell what could be",
+    "timestamp": {
+      "start": "00:11:25,888",
+      "end": "00:11:31,552"
+    }
+  },
+  {
+    "text": "so we get a few different values here and that that's that's our TF IDF vector that's how we build it",
+    "timestamp": {
+      "start": "00:11:32,864",
+      "end": "00:11:38,208"
+    }
+  },
+  {
+    "text": "that's TF IDF let's move on to brm twenty five",
+    "timestamp": {
+      "start": "00:11:40,223",
+      "end": "00:11:43,552"
+    }
+  },
+  {
+    "text": "now brm twenty five is a optimized version of tf-idf so",
+    "timestamp": {
+      "start": "00:11:45,119",
+      "end": "00:11:50,559"
+    }
+  },
+  {
+    "text": "one of the problems of TF IDF is as the frequency of queries found in the document increase the score increase linearly so imagine you have an article and in that one thousand word article it",
+    "timestamp": {
+      "start": "00:11:51,744",
+      "end": "00:12:08,544"
+    }
+  },
+  {
+    "text": "has the word dog maybe ten times now",
+    "timestamp": {
+      "start": "00:12:10,080",
+      "end": "00:12:14,559"
+    }
+  },
+  {
+    "text": "there's a good chance that out that article is talking about dots right",
+    "timestamp": {
+      "start": "00:12:16,223",
+      "end": "00:12:19,583"
+    }
+  },
+  {
+    "text": "now if you double the number of words that mention that our dog to twenty the TF IDF score",
+    "timestamp": {
+      "start": "00:12:20,768",
+      "end": "00:12:27,552"
+    }
+  },
+  {
+    "text": "for that document will double as well and",
+    "timestamp": {
+      "start": "00:12:29,280",
+      "end": "00:12:32,064"
+    }
+  },
+  {
+    "text": "that if you think about logically is a document or an article that has the word dog ten times half as relevant as the same article that has the word dog twenty times",
+    "timestamp": {
+      "start": "00:12:35,072",
+      "end": "00:12:47,872"
+    }
+  },
+  {
+    "text": "probably not maybe it's a look maybe is slightly less relevant but not quite that much and that's why brm twenty five comes in it almost normalizes that value and will will visualize that soon as well but let's explain this because it looks pretty horrific now",
+    "timestamp": {
+      "start": "00:12:48,895",
+      "end": "00:13:04,544"
+    }
+  },
+  {
+    "text": "here at the top we have",
+    "timestamp": {
+      "start": "00:13:08,320",
+      "end": "00:13:09,728"
+    }
+  },
+  {
+    "text": "very similar to tf-idf we have our essentially time frequency here",
+    "timestamp": {
+      "start": "00:13:10,976",
+      "end": "00:13:16,223"
+    }
+  },
+  {
+    "text": "and then we have our IDF here",
+    "timestamp": {
+      "start": "00:13:17,312",
+      "end": "00:13:19,744"
+    }
+  },
+  {
+    "text": "now in our time frequency we can see that we have these two values here and this is if received the query frequency of terms and this is pulled its straight from TF IDF",
+    "timestamp": {
+      "start": "00:13:24,736",
+      "end": "00:13:39,935"
+    }
+  },
+  {
+    "text": "but then we have a few new terms around here so we have que which you can also see here as well now Kay and be here",
+    "timestamp": {
+      "start": "00:13:43,007",
+      "end": "00:13:51,648"
+    }
+  },
+  {
+    "text": "are adjustable special parameters K would typically be in the range of one point to five by default and be",
+    "timestamp": {
+      "start": "00:13:52,960",
+      "end": "00:14:02,656"
+    }
+  },
+  {
+    "text": "around zero point seven five",
+    "timestamp": {
+      "start": "00:14:03,776",
+      "end": "00:14:06,400"
+    }
+  },
+  {
+    "text": "and we can modify these base on our use case to optimize the algorithm",
+    "timestamp": {
+      "start": "00:14:07,840",
+      "end": "00:14:14,015"
+    }
+  },
+  {
+    "text": "now another new one that we have over here is this the average now this be here",
+    "timestamp": {
+      "start": "00:14:15,840",
+      "end": "00:14:20,479"
+    }
+  },
+  {
+    "text": "that is the current document left so",
+    "timestamp": {
+      "start": "00:14:21,536",
+      "end": "00:14:24,223"
+    }
+  },
+  {
+    "text": "Dylan",
+    "timestamp": {
+      "start": "00:14:26,400",
+      "end": "00:14:27,039"
+    }
+  },
+  {
+    "text": "and then over here we have the average document lap so that's all of our documents so it's",
+    "timestamp": {
+      "start": "00:14:30,176",
+      "end": "00:14:36,768"
+    }
+  },
+  {
+    "text": "all of the documents",
+    "timestamp": {
+      "start": "00:14:38,080",
+      "end": "00:14:39,776"
+    }
+  },
+  {
+    "text": "their length",
+    "timestamp": {
+      "start": "00:14:42,239",
+      "end": "00:14:42,783"
+    }
+  },
+  {
+    "text": "divided by the number of documents so that would be in",
+    "timestamp": {
+      "start": "00:14:44,447",
+      "end": "00:14:48,320"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:14:51,135",
+      "end": "00:14:51,231"
+    }
+  },
+  {
+    "text": "that is the TF component and how has been modified and then let her look at the IDF component",
+    "timestamp": {
+      "start": "00:14:52,799",
+      "end": "00:14:59,296"
+    }
+  },
+  {
+    "text": "now the idea of component we see these terms here and here which are exactly the same as the two terms that we have here so it's the number of documents",
+    "timestamp": {
+      "start": "00:15:02,367",
+      "end": "00:15:13,791"
+    }
+  },
+  {
+    "text": "versus the number of documents that contain that query",
+    "timestamp": {
+      "start": "00:15:15,711",
+      "end": "00:15:19,392"
+    }
+  },
+  {
+    "text": "and then over here we just have a few",
+    "timestamp": {
+      "start": "00:15:21,375",
+      "end": "00:15:24,575"
+    }
+  },
+  {
+    "text": "constant values so",
+    "timestamp": {
+      "start": "00:15:25,791",
+      "end": "00:15:27,424"
+    }
+  },
+  {
+    "text": "that although brm the brm twenty flyer algorithm looks pretty complex's not that much different from the ETF IDF algorithm",
+    "timestamp": {
+      "start": "00:15:28,831",
+      "end": "00:15:37,856"
+    }
+  },
+  {
+    "text": "so let's go ahead and implement that in python",
+    "timestamp": {
+      "start": "00:15:39,231",
+      "end": "00:15:43,807"
+    }
+  },
+  {
+    "text": "now over in python",
+    "timestamp": {
+      "start": "00:15:45,375",
+      "end": "00:15:46,848"
+    }
+  },
+  {
+    "text": "we have these sentences or documents here",
+    "timestamp": {
+      "start": "00:15:48,320",
+      "end": "00:15:51,424"
+    }
+  },
+  {
+    "text": "we're going to",
+    "timestamp": {
+      "start": "00:15:52,799",
+      "end": "00:15:53,312"
+    }
+  },
+  {
+    "text": "Adelaide together in dots just makes it a little bit easier for us and we still have this TF IDF function now I want to look at this and compare it to what we would do for brm twenty five",
+    "timestamp": {
+      "start": "00:15:54,624",
+      "end": "00:16:07,328"
+    }
+  },
+  {
+    "text": "so the first thing is let me just make this a little more readable",
+    "timestamp": {
+      "start": "00:16:08,799",
+      "end": "00:16:14,400"
+    }
+  },
+  {
+    "text": "so sentence the count here we turn it into frequency",
+    "timestamp": {
+      "start": "00:16:16,383",
+      "end": "00:16:20,512"
+    }
+  },
+  {
+    "text": "okay so",
+    "timestamp": {
+      "start": "00:16:22,304",
+      "end": "00:16:22,815"
+    }
+  },
+  {
+    "text": "change that to frequency like so",
+    "timestamp": {
+      "start": "00:16:23,935",
+      "end": "00:16:25,791"
+    }
+  },
+  {
+    "text": "now we do the same here we saw on our frequency and then this is our term frequency",
+    "timestamp": {
+      "start": "00:16:27,231",
+      "end": "00:16:32,703"
+    }
+  },
+  {
+    "text": "compared and of TF IDF and brm twenty five now",
+    "timestamp": {
+      "start": "00:16:33,823",
+      "end": "00:16:37,888"
+    }
+  },
+  {
+    "text": "let's look at the so we have Kay",
+    "timestamp": {
+      "start": "00:16:39,104",
+      "end": "00:16:40,831"
+    }
+  },
+  {
+    "text": "and be those are our adjustable parameters",
+    "timestamp": {
+      "start": "00:16:41,984",
+      "end": "00:16:45,247"
+    }
+  },
+  {
+    "text": "the only sort of new thing we have here really is the average DL which is the average length of all documents",
+    "timestamp": {
+      "start": "00:16:46,815",
+      "end": "00:16:54,880"
+    }
+  },
+  {
+    "text": "so how do we calculate that we we just calculated outside the function because this is for all documents it doesn't matter which sentence or which word were looking at you going to be the same but or for each one so",
+    "timestamp": {
+      "start": "00:16:57,151",
+      "end": "00:17:07,776"
+    }
+  },
+  {
+    "text": "we just some the length of each sentence for every sentence in",
+    "timestamp": {
+      "start": "00:17:08,832",
+      "end": "00:17:12,991"
+    }
+  },
+  {
+    "text": "dots in fact this here we can change that to to dog-like",
+    "timestamp": {
+      "start": "00:17:14,368",
+      "end": "00:17:20,511"
+    }
+  },
+  {
+    "text": "so we change that",
+    "timestamp": {
+      "start": "00:17:24,608",
+      "end": "00:17:25,952"
+    }
+  },
+  {
+    "text": "okay now let's let's just run it quickly see what we get so beyond twenty five",
+    "timestamp": {
+      "start": "00:17:27,072",
+      "end": "00:17:33,472"
+    }
+  },
+  {
+    "text": "purple and in sentence be there is no purple so we would expect zero which is is what we get so we know we know this is at least working right",
+    "timestamp": {
+      "start": "00:17:35,968",
+      "end": "00:17:45,791"
+    }
+  },
+  {
+    "text": "so let's do the same for sends a and we should get a score so one point seven six which is what we expect so that that looks good",
+    "timestamp": {
+      "start": "00:17:47,583",
+      "end": "00:17:56,735"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:17:59,904",
+      "end": "00:18:00,000"
+    }
+  },
+  {
+    "text": "the other bit that is slightly different this is really quite simple is this bit here so the IDF component now IDF up here",
+    "timestamp": {
+      "start": "00:18:01,791",
+      "end": "00:18:10,719"
+    }
+  },
+  {
+    "text": "what do we do we are just taking the language documents the vitamins some here",
+    "timestamp": {
+      "start": "00:18:11,968",
+      "end": "00:18:18,592"
+    }
+  },
+  {
+    "text": "and that's exactly what we do here so this here we could rewrite if we want to match to the below",
+    "timestamp": {
+      "start": "00:18:19,680",
+      "end": "00:18:25,696"
+    }
+  },
+  {
+    "text": "as en on the score you like so",
+    "timestamp": {
+      "start": "00:18:27,008",
+      "end": "00:18:29,920"
+    }
+  },
+  {
+    "text": "and that's the only real difference",
+    "timestamp": {
+      "start": "00:18:31,359",
+      "end": "00:18:33,567"
+    }
+  },
+  {
+    "text": "the other part is so here were using logs to the base ten and down here were using the natural logarithm so that there's a small there's also that difference as well",
+    "timestamp": {
+      "start": "00:18:35,264",
+      "end": "00:18:45,631"
+    }
+  },
+  {
+    "text": "but otherwise we're just adding the zero point five and the ones and rearranging the then in the end cue and of course this here would be Ben",
+    "timestamp": {
+      "start": "00:18:48,832",
+      "end": "00:18:58,112"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:18:59,776",
+      "end": "00:18:59,871"
+    }
+  },
+  {
+    "text": "that's brm twenty five and TF IDF",
+    "timestamp": {
+      "start": "00:19:02,336",
+      "end": "00:19:05,472"
+    }
+  },
+  {
+    "text": "but bodies that actually look like so when we compare these two algorithms",
+    "timestamp": {
+      "start": "00:19:07,072",
+      "end": "00:19:11,328"
+    }
+  },
+  {
+    "text": "well TF IDF",
+    "timestamp": {
+      "start": "00:19:12,671",
+      "end": "00:19:14,176"
+    }
+  },
+  {
+    "text": "it's",
+    "timestamp": {
+      "start": "00:19:15,680",
+      "end": "00:19:15,871"
+    }
+  },
+  {
+    "text": "the scarf TF IDF",
+    "timestamp": {
+      "start": "00:19:16,895",
+      "end": "00:19:18,112"
+    }
+  },
+  {
+    "text": "increases lineally with the frequency for a number of words",
+    "timestamp": {
+      "start": "00:19:19,232",
+      "end": "00:19:23,199"
+    }
+  },
+  {
+    "text": "or a number of matching terms so it goes up like this",
+    "timestamp": {
+      "start": "00:19:24,511",
+      "end": "00:19:27,936"
+    }
+  },
+  {
+    "text": "okay so that that's TF IDF",
+    "timestamp": {
+      "start": "00:19:29,791",
+      "end": "00:19:31,871"
+    }
+  },
+  {
+    "text": "now brm twenty five years is slightly different brm twenty five instead of going up like that",
+    "timestamp": {
+      "start": "00:19:32,991",
+      "end": "00:19:38,015"
+    }
+  },
+  {
+    "text": "it does something which looks more like this so it increases block quickly and then it can level is off so if you have you know for words for been twenty five",
+    "timestamp": {
+      "start": "00:19:39,199",
+      "end": "00:19:51,968"
+    }
+  },
+  {
+    "text": "or you have eight",
+    "timestamp": {
+      "start": "00:19:52,991",
+      "end": "00:19:54,176"
+    }
+  },
+  {
+    "text": "I ate will become slightly more relevant the school will show that slightly more relevant but not that much",
+    "timestamp": {
+      "start": "00:19:55,456",
+      "end": "00:20:01,248"
+    }
+  },
+  {
+    "text": "now for TF IDF the difference is the relevance is doubled and you know depending on your use case maybe that is more along the lines of what you want but I do believe in most cases brm twenty five is probably more realistic so that those two let's move on to our final one dense vectors with sentence but",
+    "timestamp": {
+      "start": "00:20:03,328",
+      "end": "00:20:30,943"
+    }
+  },
+  {
+    "text": "now our final algorithm is expert",
+    "timestamp": {
+      "start": "00:20:32,128",
+      "end": "00:20:36,031"
+    }
+  },
+  {
+    "text": "so expert uses something called dense",
+    "timestamp": {
+      "start": "00:20:38,368",
+      "end": "00:20:42,848"
+    }
+  },
+  {
+    "text": "representations of language",
+    "timestamp": {
+      "start": "00:20:44,479",
+      "end": "00:20:46,816"
+    }
+  },
+  {
+    "text": "and what that means is rather than having a vector like we saw with TF IDF and which is the same for brm twenty five where it has a lot of zeros and then the the odd number here and there",
+    "timestamp": {
+      "start": "00:20:47,839",
+      "end": "00:21:00,767"
+    }
+  },
+  {
+    "text": "which is called a sparse vector we have something which has many more values in there so there's as essentially more information crammed into a smaller space",
+    "timestamp": {
+      "start": "00:21:03,839",
+      "end": "00:21:15,936"
+    }
+  },
+  {
+    "text": "and the effect of this is that you can reticent language in a more meaningful manner so the word example high",
+    "timestamp": {
+      "start": "00:21:19,359",
+      "end": "00:21:28,192"
+    }
+  },
+  {
+    "text": "would be in a very similar space to the word hello",
+    "timestamp": {
+      "start": "00:21:30,432",
+      "end": "00:21:33,183"
+    }
+  },
+  {
+    "text": "and so would words like days of the week so Monday",
+    "timestamp": {
+      "start": "00:21:34,880",
+      "end": "00:21:39,391"
+    }
+  },
+  {
+    "text": "Tuesday and so on",
+    "timestamp": {
+      "start": "00:21:41,760",
+      "end": "00:21:43,359"
+    }
+  },
+  {
+    "text": "and the way it's sentence but works is that we have a transform model we have but",
+    "timestamp": {
+      "start": "00:21:44,576",
+      "end": "00:21:50,079"
+    }
+  },
+  {
+    "text": "and",
+    "timestamp": {
+      "start": "00:21:51,264",
+      "end": "00:21:51,488"
+    }
+  },
+  {
+    "text": "our words or our query",
+    "timestamp": {
+      "start": "00:21:52,608",
+      "end": "00:21:54,495"
+    }
+  },
+  {
+    "text": "is process is it comes in through here it's processed by many birds encoding layers",
+    "timestamp": {
+      "start": "00:21:56,063",
+      "end": "00:22:02,911"
+    }
+  },
+  {
+    "text": "and then we get this dense vector now as well as our query",
+    "timestamp": {
+      "start": "00:22:04,128",
+      "end": "00:22:08,767"
+    }
+  },
+  {
+    "text": "so cue",
+    "timestamp": {
+      "start": "00:22:10,176",
+      "end": "00:22:10,527"
+    }
+  },
+  {
+    "text": "so are our documents they are also processed through",
+    "timestamp": {
+      "start": "00:22:11,615",
+      "end": "00:22:15,199"
+    }
+  },
+  {
+    "text": "through the same encoder network and that produces dense vectors now once we have both of those dance vectors so we have",
+    "timestamp": {
+      "start": "00:22:17,183",
+      "end": "00:22:26,144"
+    }
+  },
+  {
+    "text": "this can be cue",
+    "timestamp": {
+      "start": "00:22:28,063",
+      "end": "00:22:29,631"
+    }
+  },
+  {
+    "text": "and then we also have de",
+    "timestamp": {
+      "start": "00:22:31,391",
+      "end": "00:22:32,864"
+    }
+  },
+  {
+    "text": "we use cosine similarity",
+    "timestamp": {
+      "start": "00:22:35,712",
+      "end": "00:22:37,728"
+    }
+  },
+  {
+    "text": "between both of those",
+    "timestamp": {
+      "start": "00:22:41,183",
+      "end": "00:22:42,943"
+    }
+  },
+  {
+    "text": "to calculate how similar they are so how close to each other they are the the angle between them",
+    "timestamp": {
+      "start": "00:22:44,095",
+      "end": "00:22:49,887"
+    }
+  },
+  {
+    "text": "and that works pretty much like this so we have over here we have of alone vector",
+    "timestamp": {
+      "start": "00:22:55,104",
+      "end": "00:23:02,592"
+    }
+  },
+  {
+    "text": "and then over here",
+    "timestamp": {
+      "start": "00:23:05,952",
+      "end": "00:23:07,712"
+    }
+  },
+  {
+    "text": "we have two vectors which are much more similar they or at least a shared the same direction and these to have a much smaller angle between them",
+    "timestamp": {
+      "start": "00:23:09,183",
+      "end": "00:23:19,712"
+    }
+  },
+  {
+    "text": "then either of those to do with this other vector which is all the way over there",
+    "timestamp": {
+      "start": "00:23:20,895",
+      "end": "00:23:25,920"
+    }
+  },
+  {
+    "text": "and that's essentially how coastline similarity works it just finds the anger angle between two vectors and where the angle is smaller they are more similar where the angle is greater there are less similar",
+    "timestamp": {
+      "start": "00:23:27,040",
+      "end": "00:23:40,255"
+    }
+  },
+  {
+    "text": "now",
+    "timestamp": {
+      "start": "00:23:46,368",
+      "end": "00:23:46,463"
+    }
+  },
+  {
+    "text": "when not go and implement that from scratch because that would",
+    "timestamp": {
+      "start": "00:23:48,511",
+      "end": "00:23:50,911"
+    }
+  },
+  {
+    "text": "take a long time and be a pretty hard to do to be honest",
+    "timestamp": {
+      "start": "00:23:52,031",
+      "end": "00:23:56,671"
+    }
+  },
+  {
+    "text": "so what we're going to do is use the sentence transformers library which is a very very good library that uses hugging faces transformers under the hood",
+    "timestamp": {
+      "start": "00:23:59,040",
+      "end": "00:24:09,536"
+    }
+  },
+  {
+    "text": "and has super easy implementations of sentence transformers which is essentially what we just saw but we're using it I was using the example of this specific one called sentence but",
+    "timestamp": {
+      "start": "00:24:10,880",
+      "end": "00:24:22,463"
+    }
+  },
+  {
+    "text": "which is also what we're going to be using here so we run this were using this but base and ally mean tokens",
+    "timestamp": {
+      "start": "00:24:24,895",
+      "end": "00:24:32,384"
+    }
+  },
+  {
+    "text": "model",
+    "timestamp": {
+      "start": "00:24:33,504",
+      "end": "00:24:33,760"
+    }
+  },
+  {
+    "text": "and we have all of our sentences here so first thing we need to do is we initialize our model here",
+    "timestamp": {
+      "start": "00:24:35,647",
+      "end": "00:24:41,952"
+    }
+  },
+  {
+    "text": "and then after that we include all of our sentences with model dark and cold so we do that",
+    "timestamp": {
+      "start": "00:24:43,359",
+      "end": "00:24:49,088"
+    }
+  },
+  {
+    "text": "and we come down here so here we've encoded so what this has produced is the sentence embedding so once the text has been processed by our Burton model it outputs these sentence embeddings",
+    "timestamp": {
+      "start": "00:24:51,167",
+      "end": "00:25:05,823"
+    }
+  },
+  {
+    "text": "and they are vectors that represent the full sentence or the full document",
+    "timestamp": {
+      "start": "00:25:07,167",
+      "end": "00:25:12,255"
+    }
+  },
+  {
+    "text": "that we have input",
+    "timestamp": {
+      "start": "00:25:13,343",
+      "end": "00:25:14,719"
+    }
+  },
+  {
+    "text": "now once we get those out",
+    "timestamp": {
+      "start": "00:25:16,128",
+      "end": "00:25:17,696"
+    }
+  },
+  {
+    "text": "into our sentence and beddings variable there we use the cosine similarity function now here we're just going to use it we're going to use psychic lens implementation",
+    "timestamp": {
+      "start": "00:25:18,751",
+      "end": "00:25:29,728"
+    }
+  },
+  {
+    "text": "and what we're going to do because we have many",
+    "timestamp": {
+      "start": "00:25:31,520",
+      "end": "00:25:34,303"
+    }
+  },
+  {
+    "text": "sentence embeddings here let's let's just have a look",
+    "timestamp": {
+      "start": "00:25:36,000",
+      "end": "00:25:38,784"
+    }
+  },
+  {
+    "text": "so we have sentence embeddings let's have a look at shape and you see that we have seven sets of embeddings hear",
+    "timestamp": {
+      "start": "00:25:40,479",
+      "end": "00:25:48,128"
+    }
+  },
+  {
+    "text": "this here the seven six days is the size of the of a single sentence and bedding vector now we have seven why do we have seven because we have seven sentences up here",
+    "timestamp": {
+      "start": "00:25:49,823",
+      "end": "00:26:00,543"
+    }
+  },
+  {
+    "text": "so let's what we're going to do here is loop through each one and calculate the cosine similarity between that sentence and all of the other sentences so",
+    "timestamp": {
+      "start": "00:26:04,255",
+      "end": "00:26:14,079"
+    }
+  },
+  {
+    "text": "run that",
+    "timestamp": {
+      "start": "00:26:15,871",
+      "end": "00:26:16,319"
+    }
+  },
+  {
+    "text": "and we will get this array which shows us all of our scores between all of our sentences or all possible combinations okay",
+    "timestamp": {
+      "start": "00:26:18,848",
+      "end": "00:26:29,088"
+    }
+  },
+  {
+    "text": "now that's pretty hard to look at so let's visualize it using matplotlib",
+    "timestamp": {
+      "start": "00:26:31,135",
+      "end": "00:26:35,296"
+    }
+  },
+  {
+    "text": "okay and we get this nice visual here so",
+    "timestamp": {
+      "start": "00:26:37,056",
+      "end": "00:26:39,199"
+    }
+  },
+  {
+    "text": "we can see here we have a on the left and it has a very high similarity to",
+    "timestamp": {
+      "start": "00:26:40,576",
+      "end": "00:26:46,816"
+    }
+  },
+  {
+    "text": "the vector a right so I haven't felt with those that are anything we are comparing the same Venice's to the same better and as you would expect they they get a very good score because they are exactly the same they all score one",
+    "timestamp": {
+      "start": "00:26:48,255",
+      "end": "00:27:01,215"
+    }
+  },
+  {
+    "text": "so there's no problem that we would just ignore those ones in the middle now let's go on to the next one so we have we have these here so see and be okay those to seem to have very high similarity zero point seven to super high so let's have a look",
+    "timestamp": {
+      "start": "00:27:03,328",
+      "end": "00:27:21,504"
+    }
+  },
+  {
+    "text": "so b and C now these are the two that both talk about throwing bananas as you don't be talked about three bananas onto the street see talked about finding bananas on the street so yet there they're pretty similar right but they have a lot of the same words so fair enough TF IDF and brm twenty five both identify those as being",
+    "timestamp": {
+      "start": "00:27:23,744",
+      "end": "00:27:46,079"
+    }
+  },
+  {
+    "text": "similar as well so that's it's good",
+    "timestamp": {
+      "start": "00:27:46,176",
+      "end": "00:27:48,479"
+    }
+  },
+  {
+    "text": "but it doesn't blow your way now how about be",
+    "timestamp": {
+      "start": "00:27:49,536",
+      "end": "00:27:52,927"
+    }
+  },
+  {
+    "text": "here Angie so what I've done for gilia is I've just taken the sentence be and",
+    "timestamp": {
+      "start": "00:27:54,079",
+      "end": "00:28:01,504"
+    }
+  },
+  {
+    "text": "swap the words around so that we don't really have the match and words so throwing bananas instead of throwing I'm using the word bombard instead of the word street I'm using road instead of bananas I'm using yellow fruit right so has a similar sort of meaning",
+    "timestamp": {
+      "start": "00:28:03,744",
+      "end": "00:28:20,447"
+    }
+  },
+  {
+    "text": "but they're not using the same words so TF IDF and brm twenty five would would rarely struggle here now let's go down",
+    "timestamp": {
+      "start": "00:28:21,984",
+      "end": "00:28:30,047"
+    }
+  },
+  {
+    "text": "and let her look so be and g so he'll be here g the end and yet they they have already good score zero point six six as the their second highest behind b and C",
+    "timestamp": {
+      "start": "00:28:32,511",
+      "end": "00:28:43,839"
+    }
+  },
+  {
+    "text": "so that just goes to show that",
+    "timestamp": {
+      "start": "00:28:44,959",
+      "end": "00:28:47,008"
+    }
+  },
+  {
+    "text": "sentence but or sentence transformers in general don't require the same words we use they rely more on the semantic meaning of those will lose is",
+    "timestamp": {
+      "start": "00:28:48,128",
+      "end": "00:28:57,952"
+    }
+  },
+  {
+    "text": "I think incredibly cool so",
+    "timestamp": {
+      "start": "00:28:58,975",
+      "end": "00:29:00,703"
+    }
+  },
+  {
+    "text": "that's it for this video we've covered quite a lot",
+    "timestamp": {
+      "start": "00:29:03,712",
+      "end": "00:29:07,807"
+    }
+  },
+  {
+    "text": "the sparse vectors TF IDF and brm twenty five and also dance vector center but or scentless transformers in general so I hope you've enjoyed the video thank you for watching and I'll see you in the next",
+    "timestamp": {
+      "start": "00:29:08,991",
+      "end": "00:29:23,391"
+    }
+  }
+]
