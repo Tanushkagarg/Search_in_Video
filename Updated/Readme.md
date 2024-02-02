@@ -8,7 +8,7 @@
 
 **Pass the JSON file in which the search needs to implement in ```search2.py``` and pass the user query as well**
 
-**Note:- User Query must be ```precise``` Avoid single, double or triple word queries**
+**Note:- User Query must be ```precise``` Avoid single, double or triple word queries and Pass only relative file paths**
 
 **Getting Started with the project**
 
