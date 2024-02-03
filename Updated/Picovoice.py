@@ -32,7 +32,7 @@ def second_to_timecode(x: float) -> str:
 def to_json(
         words: Sequence[pvleopard.Leopard.Word],
         endpoint_sec: float = 1.,
-        length_limit: Union[None, int] = 128) -> str:
+        length_limit: Union[None, int] = 64) -> str:
     result = []
     
     def _helper(start: int, end: int) -> dict:
