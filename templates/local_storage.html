@@ -1,0 +1,64 @@
+<!-- Local Storage page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Video Player</title>
+    <!-- A bit of inline CSS for loading -->
+    <style>
+        #loading {
+            display: none;
+        }
+    </style>
+    <!-- Importing the JavaScript file containing all the logic of Movement of cursor and speed control  -->
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+<body>
+    <h1>Local Video Player</h1>
+    <!-- Display the error message if any -->
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp4, .avi, .mkv, .mov" required>
+        <button type="submit">Upload Video</button>
+    </form>
+    <!-- Till the video uploads showing Uploading Status -->
+    <div id="loading">Uploading...</div>
+
+    <!-- Giving Controls like Play, Pause, Download and Speed Control to User -->
+    <div id="media-controls">
+        <video id="video" controls style="display:none" width="1200px"></video>
+
+        <!-- Both the Functions mentioned in main.js file -->
+        <button id="changeSpeedBtn" onclick="changeSpeed()" style="display:none">Change Speed</button>
+        <button id="setMediaCursorBtn" onclick="setMediaCursor()" style="display:none">Set Media Cursor</button>
+
+        <!-- Form to take the sentence to be searched as input -->
+        <form action="/local_storage" method="post" id="sf" style="display:none">
+            <label for="search-sentence-local">Enter a sentence to search in the video:</label>
+            <input type="text" id="search-sentence-local" name="search-sentence" required>
+            <input type="hidden" name="video_filename" value="{{ video_filename }}">
+            <input type="hidden" name="start_time" value="{{ start_time }}">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Button to go to index.html -->
+    <button onclick="goBackPage()" style="display:block">Back</button>
+
+    <script>
+        function goBackPage() {
+            // Redirect to index page
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

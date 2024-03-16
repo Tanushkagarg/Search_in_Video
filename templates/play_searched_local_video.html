@@ -1,0 +1,43 @@
+<!-- Play The local video file from the start time of the most similar sentence page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Searched Video</title>
+
+<!-- Importing the JavaScript file containing all the logic of Movement of cursor and speed control  -->
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+<body>
+    <h1>Playing Searched Video</h1>
+
+    <!-- Add the video player with controls -->
+    <video controls width="1200px" id="video">
+        <source src="{{ url_for('play', filename=video_filename) }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Both the Functions mentioned in main.js file -->
+    <button onclick="changeSpeed()" style="display:block">Change Speed</button>
+    <button onclick="setMediaCursor()" style="display:block">Set Media Cursor</button>
+    
+    <!-- Button to go to local_storage.html -->
+    <button onclick="goBackPage()" style="display:block">Back</button>
+
+    <script>
+        // Setting the current time
+        const start_time = '{{ start_time }}';
+        var x = document.getElementById('video');
+        x.currentTime = start_time;
+        x.autoplay = true;
+        x.load();
+
+        function goBackPage() {
+            // Redirect to local_storage page
+            window.location.href = "local_storage";
+        }
+    </script>
+</body>
+</html>

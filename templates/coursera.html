@@ -1,0 +1,29 @@
+<!-- Coursera Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera Page</title>
+</head>
+<body>
+    <h1>Coursera Page</h1>
+    
+    <form action="/coursera_upload" method="post">
+        <label for="coursera-link">Enter Coursera Link:</label>
+        <input type="text" id="coursera-link" name="coursera-link" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Button to go to index.html -->
+    <button onclick="goBackPage()" style="display:block">Back</button>
+
+    <script>
+        function goBackPage() {
+            // Redirect to index page
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>

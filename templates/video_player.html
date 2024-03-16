@@ -1,0 +1,62 @@
+<!-- Video Player Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+    <h1>Video Player</h1>
+    
+    <!-- Buttons to navigate through 7 similar sentences -->
+    <button onclick="previousSentence()">Previous</button>
+    <button onclick="nextSentence()">Next</button>
+    
+    <!-- Use the standard YouTube embed iframe -->
+    <iframe id="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}?start={{ start_times[0] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <!-- Button to go to youtube.html -->
+    <button onclick="goToYoutubePage()">Back</button>
+
+    <script>
+        //ignore warning
+        var start_times = {{ start_times }};
+        var pointer = 0; // Initialize the pointer
+
+        // Going till the last sentence and giving error when tried moving further
+        function nextSentence() {
+            if (pointer < 6) {
+                pointer++;
+                updateVideoSource();
+            } else {
+                alert("Cannot go forward. End of list reached.");
+            }
+        }
+
+        // If you are on 1st sentence you cannot move back
+        function previousSentence() {
+            if (pointer > 0) {
+                pointer--;
+                updateVideoSource();
+            } else {
+                alert("Cannot go backward. Beginning of list reached.");
+            }
+        }
+
+        function updateVideoSource() {
+            // Get the start time using the pointer as the index
+            var selectedStartTime = start_times[pointer];
+
+            // Update the video player's source
+            document.getElementById("youtube-player").src = "https://www.youtube.com/embed/{{ video_id }}?start=" + selectedStartTime;
+        }
+
+        function goToYoutubePage() {
+            // Redirect to youtube page
+            window.location.href = "youtube";
+        }
+    </script>
+</body>
+</html>

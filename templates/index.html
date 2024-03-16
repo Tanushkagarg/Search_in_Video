@@ -1,0 +1,29 @@
+<!-- Asking user to select the platform from the dropdown [index page] -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+    <!-- A bit of inline CSS for loading  -->
+    <style>
+        #loading {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Selecting the platform and redirecting accordingly -->
+    <h1>Media Player</h1>
+    <form id="select-form" action="/select" method="post">
+        <label for="media-platform">Select platform:</label>
+        <select id="media-platform" name="media-platform">
+            <option value="youtube">Youtube</option>
+            <option value="coursera">Coursera</option>
+            <option value="local_storage">Local Storage</option>
+        </select>
+        <button type="submit">Select</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!-- Playing the youtube video initially at t = 0 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Page</title>
+</head>
+<body>
+    <h1>Youtube Page</h1>
+    
+    <form action="/youtube" method="post">
+        <label for="youtube-link">Enter Youtube Video Link:</label>
+        <input type="text" id="youtube-link" name="youtube-link" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Displaying the needed properties -->
+    {% if video_title and video_id %}
+        <h2>{{ video_title }}</h2>
+
+        {% if loading %}
+            <p>Loading...</p>
+        {% else %}
+            <!-- Embedding the YouTube video directly using the provided iframe tag -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!-- Ask user to input a sentence and searching that sentence via search_sentence route -->
+            <form action="/search_sentence" method="post">
+                <input type="hidden" name="video_id" value="{{ video_id }}">
+                <label for="search-sentence">Enter a sentence to search in the video:</label>
+                <input type="text" id="search-sentence" name="search-sentence" required>
+                <button type="submit">Search</button>
+            </form>            
+        {% endif %}
+    {% endif %}
+
+    <!-- Button to go to index.html -->
+    <button onclick="goBackPage()" style="display:block">Back</button>
+
+    <script>
+        function goBackPage() {
+            // Redirect to index page
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>
