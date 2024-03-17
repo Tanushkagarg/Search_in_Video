@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Search In any Youtube Video",
+    "version": "1.0",
+    "description": "Search for sentences in any YouTube video transcripts.",
+    "host_permissions": ["http://localhost:5000/*"],
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "webNavigation"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/logo.png",
+        "48": "assets/logo.png",
+        "128": "assets/logo.png"
+      }
+    }
+  }
+  
