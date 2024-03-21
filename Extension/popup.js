@@ -13,11 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchButton = document.getElementById('search-button');
     const searchInput = document.getElementById('search-input');
     const resultsDiv = document.getElementById('results');
+    const loadingScreen = document.getElementById('loading-screen');
   
     searchButton.addEventListener('click', function() {
-    // Extracting search sentence from input field
+      // Extracting search sentence from input field
       const sentence = searchInput.value.trim();
       if (sentence !== '') {
+        loadingScreen.style.display = 'block';
         // Querying active tab to get current YouTube video ID
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
           const currentTab = tabs[0];
@@ -45,6 +47,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+// Function to handle Loading from background.js
+chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+  if (message.action === 'showElement') {
+      document.getElementById('loading-screen').style.display = 'block';
+  } else if (message.action === 'hideElement') {
+      document.getElementById('loading-screen').style.display = 'none';
+  }
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     const prevButton = document.getElementById('prev-button');

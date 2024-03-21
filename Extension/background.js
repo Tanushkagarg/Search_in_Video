@@ -16,6 +16,11 @@ let startTimes = [];
 // Pointer to track current position in startTimes array
 let pointer = 0;  
 
+// Controlling Loading
+function sendMessageToPopup(message) {
+  chrome.runtime.sendMessage(message);
+}
+
 
 // Listener for messages from content script
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
@@ -43,9 +48,13 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
       } else {
         console.error('No start times found');
       }
+      // Hide Loading
+      sendMessageToPopup({ action: 'hideElement' });
     })
     .catch(error => {
       console.error('Error:', error);
+      // Hide Loading 
+      sendMessageToPopup({ action: 'hideElement' });
     });
     return true;
   }

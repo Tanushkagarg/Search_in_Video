@@ -1,29 +1,114 @@
-<!-- Asking user to select the platform from the dropdown [index page] -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Player</title>
-    <!-- A bit of inline CSS for loading  -->
-    <style>
-        #loading {
-            display: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Player</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/free-vector/abstract-yellow-comic-zoom_1409-923.jpg?w=1060&t=st=1710938108~exp=1710938708~hmac=82fed8b19de648bf51f7d28c7b51284a3660af502864749cf1bd1563500f83a8');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .main {
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease-in-out;
+    }
+.h1 {
+  margin: 0;
+}
+
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.platform-selection {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  max-width: 400px;
+  margin: auto; 
+}
+
+.platform-selection:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.platform-selection h2 {
+  margin-bottom: 20px;
+}
+
+.platform-selection label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.platform-selection select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.platform-selection button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.platform-selection button:hover {
+  background-color: #3e8e41; 
+}
+
+.hidden {
+  display: none;
+}
+
+  </style>
 </head>
 <body>
-    <!-- Selecting the platform and redirecting accordingly -->
-    <h1>Media Player</h1>
-    <form id="select-form" action="/select" method="post">
-        <label for="media-platform">Select platform:</label>
+  <header class="header">
+    <h1></h1>
+  </header>
+
+  <main class="main">
+    <section class="platform-selection">
+      <h2>Welcome! Select Your Platform</h2>
+      <form id="select-form" action="/select" method="post">
+        <label for="media-platform">Choose a Platform:</label>
         <select id="media-platform" name="media-platform">
-            <option value="youtube">Youtube</option>
-            <option value="coursera">Coursera</option>
-            <option value="local_storage">Local Storage</option>
+          <option value="youtube">YouTube</option>
+          <option value="coursera">Coursera</option>
+          <option value="local_storage">Local Storage</option>
         </select>
-        <button type="submit">Select</button>
-    </form>
+        <button type="submit">Let's Play!</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="loading" class="hidden"></div>
 </body>
 </html>
