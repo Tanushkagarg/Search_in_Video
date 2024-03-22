@@ -1,53 +1,196 @@
-<!-- Local Storage page -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Video Player</title>
-    <!-- A bit of inline CSS for loading -->
-    <style>
-        #loading {
-            display: none;
-        }
-    </style>
+    <!-- External CSS for enhanced styling -->
+    <link rel="stylesheet" href="styles.css">
     <!-- Importing the JavaScript file containing all the logic of Movement of cursor and speed control  -->
     <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+    <style>
+
+
+        body {
+            background-image: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1711104105~exp=1711104705~hmac=3d4f3aa26ef4f1658a29a5b93b54e69fe1f774817b2e5fc8b4a985fd723d80cc");
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+        }
+        
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #e2e2e2;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        main {
+            text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        /* Form styles */
+        .file-upload-label {
+
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 150px 190px;
+    background-color: #ffffff;
+    box-decoration-break: slice;
+    color: #000000;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(105, 103, 103);
+}
+
+        
+        
+        .file-upload-label span {
+            display: block;
+        }
+        
+        .file-upload-label:hover {
+            background-color: #6c6c6c;
+        }
+        
+        #file-upload {
+            display: none;
+        }
+        
+        .upload-btn {
+            display: inline-block;
+            padding: 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .upload-btn:hover {
+            background-color: #218838;
+        }
+        
+        .loading {
+            display: none;
+            margin-top: 20px;
+        }
+        
+
+        .video-player {
+            margin-top: 20px;
+            width: 100%;
+        }
+        
+        .control-btn {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #6c757d;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .control-btn:hover {
+            background-color: #5a6268;
+        }
+        
+       
+        .search-form {
+            margin-top: 20px;
+        }
+        
+        .search-btn {
+            padding: 20px;
+            background-color: #ffc107;
+            color: #212529;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .search-btn:hover {
+            background-color: #ffcd39;
+        }
+        
+ 
+        .back-btn {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #dc3545;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background-color: #c82333;
+        }
+        </style>
 </head>
 <body>
-    <h1>Local Video Player</h1>
-    <!-- Display the error message if any -->
-    {% if error %}
-        <p>{{ error }}</p>
-    {% endif %}
-    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".mp4, .avi, .mkv, .mov" required>
-        <button type="submit">Upload Video</button>
-    </form>
-    <!-- Till the video uploads showing Uploading Status -->
-    <div id="loading">Uploading...</div>
-
-    <!-- Giving Controls like Play, Pause, Download and Speed Control to User -->
-    <div id="media-controls">
-        <video id="video" controls style="display:none" width="1200px"></video>
-
-        <!-- Both the Functions mentioned in main.js file -->
-        <button id="changeSpeedBtn" onclick="changeSpeed()" style="display:none">Change Speed</button>
-        <button id="setMediaCursorBtn" onclick="setMediaCursor()" style="display:none">Set Media Cursor</button>
-
-        <!-- Form to take the sentence to be searched as input -->
-        <form action="/local_storage" method="post" id="sf" style="display:none">
-            <label for="search-sentence-local">Enter a sentence to search in the video:</label>
-            <input type="text" id="search-sentence-local" name="search-sentence" required>
-            <input type="hidden" name="video_filename" value="{{ video_filename }}">
-            <input type="hidden" name="start_time" value="{{ start_time }}">
-            <button type="submit">Search</button>
-        </form>
+    <div class="container">
+        <header>
+            <h1>Local Video Player</h1>
+        </header>
+        <main>
+            <!-- Display the error message if any -->
+            {% if error %}
+                <p class="error">{{ error }}</p>
+            {% endif %}
+            <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+                <label for="file-upload" class="file-upload-label">
+                    <span>Choose or Drag & Drop Video</span>
+                    <input type="file" id="file-upload" name="file" accept=".mp4, .avi, .mkv, .mov" required>
+                </label>
+                <button type="submit" class="upload-btn">Upload</button>
+            </form>
+            <!-- Till the video uploads showing Uploading Status -->
+            <div id="loading" class="loading">Uploading...</div>
+            <!-- Giving Controls like Play, Pause, Download and Speed Control to User -->
+            <div id="media-controls" class="media-controls">
+                <video id="video" controls class="video-player" style="display:none" width="100%"></video>
+                <button id="changeSpeedBtn" onclick="changeSpeed()" class="control-btn" style="display:none">Change Speed</button>
+                <button id="setMediaCursorBtn" onclick="setMediaCursor()" class="control-btn" style="display:none">Set Media Cursor</button>
+                <!-- Form to take the sentence to be searched as input -->
+                <form action="/local_storage" method="post" id="sf" class="search-form" style="display:none">
+                    <label for="search-sentence-local">Enter a sentence to search in the video:</label>
+                    <input type="text" id="search-sentence-local" name="search-sentence" required>
+                    <input type="hidden" name="video_filename" value="{{ video_filename }}">
+                    <input type="hidden" name="start_time" value="{{ start_time }}">
+                    <button type="submit" class="search-btn">Search</button>
+                </form>
+            </div>
+            <!-- Button to go to index.html -->
+            <button onclick="goBackPage()" class="back-btn">Back</button>
+        </main>
+        <footer>
+            <!-- Add any footer content here -->
+        </footer>
     </div>
-
-    <!-- Button to go to index.html -->
-    <button onclick="goBackPage()" style="display:block">Back</button>
 
     <script>
         function goBackPage() {
@@ -57,8 +200,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
